@@ -795,17 +795,6 @@
           <key key="official_name:en" value="Agrarian Bank of Colombia"/>
           <key key="official_name:es" value="Banco Agrario de Colombia"/>
         </item>
-        <item name="Banco Agrario de Colombia" type="node,closedway,multipolygon">
-          <key key="amenity" value="bank"/>
-          <key key="brand" value="Banco Agrario de Colombia"/>
-          <key key="brand:en" value="Agrarian Bank of Colombia"/>
-          <key key="brand:es" value="Banco Agrario de Colombia"/>
-          <key key="brand:wikidata" value="Q20013358"/>
-          <key key="brand:wikipedia" value="en:Banco Agrario de Colombia"/>
-          <key key="name" value="Banco Agrario de Colombia"/>
-          <key key="name:en" value="Agrarian Bank of Colombia"/>
-          <key key="name:es" value="Banco Agrario de Colombia"/>
-        </item>
         <item name="Banco Azteca" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="Banco Azteca"/>
@@ -1381,13 +1370,6 @@
           <key key="brand:wikipedia" value="en:Bank of Ceylon"/>
           <key key="name" value="Bank of Ceylon"/>
         </item>
-        <item name="Bank of China" type="node,closedway,multipolygon">
-          <key key="amenity" value="bank"/>
-          <key key="brand" value="Bank of China"/>
-          <key key="brand:wikidata" value="Q790068"/>
-          <key key="brand:wikipedia" value="en:Bank of China"/>
-          <key key="name" value="Bank of China"/>
-        </item>
         <item name="Bank of Commerce" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="Bank of Commerce"/>
@@ -1422,13 +1404,6 @@
           <key key="brand:wikidata" value="Q2004304"/>
           <key key="brand:wikipedia" value="en:Bank of Maharashtra"/>
           <key key="name" value="Bank of Maharashtra"/>
-        </item>
-        <item name="Bank of Montreal" type="node,closedway,multipolygon">
-          <key key="amenity" value="bank"/>
-          <key key="brand" value="Bank of Montreal"/>
-          <key key="brand:wikidata" value="Q806693"/>
-          <key key="brand:wikipedia" value="en:Bank of Montreal"/>
-          <key key="name" value="Bank of Montreal"/>
         </item>
         <item name="Bank of New Zealand" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -1822,13 +1797,6 @@
           <key key="brand:wikipedia" value="en:Citibank"/>
           <key key="name" value="Citibank"/>
         </item>
-        <item name="Citizens Bank" type="node,closedway,multipolygon">
-          <key key="amenity" value="bank"/>
-          <key key="brand" value="Citizens Bank"/>
-          <key key="brand:wikidata" value="Q25209674"/>
-          <key key="brand:wikipedia" value="en:Citizens Bank (South Bend, Indiana)"/>
-          <key key="name" value="Citizens Bank"/>
-        </item>
         <item name="City National Bank (California)" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="City National Bank"/>
@@ -2142,7 +2110,7 @@
           <key key="brand:wikipedia" value="sr:Eurobanka"/>
           <key key="name" value="Eurobank"/>
         </item>
-        <item name="FNB" type="node,closedway,multipolygon">
+        <item name="FNB (South Africa)" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="FNB"/>
           <key key="brand:wikidata" value="Q3072956"/>
@@ -2236,7 +2204,7 @@
           <key key="brand:wikipedia" value="en:First Midwest Bank"/>
           <key key="name" value="First Midwest Bank"/>
         </item>
-        <item name="First National Bank" type="node,closedway,multipolygon">
+        <item name="First National Bank (USA)" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="First National Bank"/>
           <key key="brand:wikidata" value="Q5426765"/>
@@ -2469,10 +2437,14 @@
         </item>
         <item name="Janata Bank Limited জনতা ব্যাংক লিমিটেড" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
-          <key key="brand" value="Janata Bank Limited জনতা ব্যাংক লিমিটেড"/>
+          <key key="brand" value="জনতা ব্যাংক লিমিটেড"/>
+          <key key="brand:bn" value="জনতা ব্যাংক লিমিটেড"/>
+          <key key="brand:en" value="Janata Bank Limited"/>
           <key key="brand:wikidata" value="Q3347028"/>
           <key key="brand:wikipedia" value="en:Janata Bank"/>
-          <key key="name" value="Janata Bank Limited জনতা ব্যাংক লিমিটেড"/>
+          <key key="name" value="জনতা ব্যাংক লিমিটেড"/>
+          <key key="name:bn" value="জনতা ব্যাংক লিমিটেড"/>
+          <key key="name:en" value="Janata Bank Limited"/>
         </item>
         <item name="Jyske Bank" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -2981,12 +2953,20 @@
           <key key="brand:wikipedia" value="en:Regions Financial Corporation"/>
           <key key="name" value="Regions Bank"/>
         </item>
-        <item name="Republic Bank" type="node,closedway,multipolygon">
+        <item name="Republic Bank (Eastern Caribbean)" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="Republic Bank"/>
           <key key="brand:wikidata" value="Q7314386"/>
           <key key="brand:wikipedia" value="en:Republic Bank"/>
           <key key="name" value="Republic Bank"/>
+        </item>
+        <item name="Republic Bank (USA)" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="Republic Bank"/>
+          <key key="brand:wikidata" value="Q7314387"/>
+          <key key="brand:wikipedia" value="en:Republic Bank &amp; Trust Company"/>
+          <key key="name" value="Republic Bank"/>
+          <key key="official_name" value="Republic Bank &amp; Trust Company"/>
         </item>
         <item name="S-Pankki" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -3113,6 +3093,13 @@
           <key key="brand:wikidata" value="Q270363"/>
           <key key="brand:wikipedia" value="en:Société Générale"/>
           <key key="name" value="Société Générale"/>
+        </item>
+        <item name="Société Marseillaise de Crédit" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="Société Marseillaise de Crédit"/>
+          <key key="brand:wikidata" value="Q3488479"/>
+          <key key="brand:wikipedia" value="fr:Société marseillaise de crédit"/>
+          <key key="name" value="Société Marseillaise de Crédit"/>
         </item>
         <item name="Sonali Bank" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -3397,20 +3384,12 @@
           <key key="brand:wikipedia" value="en:Vijaya Bank"/>
           <key key="name" value="Vijaya Bank"/>
         </item>
-        <item name="Volksbank" type="node,closedway,multipolygon">
-          <key key="amenity" value="bank"/>
-          <key key="brand" value="Volksbank"/>
-          <key key="brand:wikidata" value="Q695110"/>
-          <key key="brand:wikipedia" value="en:Volksbank"/>
-          <key key="name" value="Volksbank"/>
-        </item>
         <item name="Volksbank Köln Bonn eG" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="Volksbank Köln Bonn eG"/>
           <key key="brand:wikidata" value="Q41680844"/>
           <key key="brand:wikipedia" value="de:Volksbank Köln Bonn"/>
-          <key key="name" value="Volksbank"/>
-          <key key="official_name" value="Volksbank Köln Bonn eG"/>
+          <key key="name" value="Volksbank Köln Bonn eG"/>
         </item>
         <item name="VÚB" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -3496,6 +3475,13 @@
           <key key="brand:wikipedia" value="en:MBank"/>
           <key key="name" value="mBank"/>
         </item>
+        <item name="st.george" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="st.george"/>
+          <key key="brand:wikidata" value="Q1606050"/>
+          <key key="brand:wikipedia" value="en:St.George Bank"/>
+          <key key="name" value="st.george"/>
+        </item>
         <item name="Ålandsbanken" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="Ålandsbanken"/>
@@ -3562,6 +3548,13 @@
           <key key="name" value="Альфа-Банк"/>
           <key key="name:en" value="Alfa-Bank"/>
           <key key="name:ru" value="Альфа-Банк"/>
+        </item>
+        <item name="БПС-Сбербанк" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="БПС-Сбербанк"/>
+          <key key="brand:wikidata" value="Q2074915"/>
+          <key key="brand:wikipedia" value="be:БПС-Сбербанк"/>
+          <key key="name" value="БПС-Сбербанк"/>
         </item>
         <item name="Банк Дабрабыт" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -4241,6 +4234,15 @@
           <key key="name" value="中国建设银行"/>
           <key key="name:en" value="China Construction Bank"/>
         </item>
+        <item name="中国民生银行" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="中国民生银行"/>
+          <key key="brand:en" value="China Minsheng Bank"/>
+          <key key="brand:wikidata" value="Q911543"/>
+          <key key="brand:wikipedia" value="en:China Minsheng Bank"/>
+          <key key="name" value="中国民生银行"/>
+          <key key="name:en" value="China Minsheng Bank"/>
+        </item>
         <item name="中国邮政储蓄银行" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
           <key key="brand" value="中国邮政储蓄银行"/>
@@ -4450,6 +4452,19 @@
           <key key="brand:wikipedia" value="ja:日本銀行"/>
           <key key="name" value="日本銀行"/>
           <key key="name:en" value="Bank of Japan"/>
+        </item>
+        <item name="東亞銀行" type="node,closedway,multipolygon">
+          <key key="amenity" value="bank"/>
+          <key key="brand" value="東亞銀行"/>
+          <key key="brand:en" value="Bank of East Asia"/>
+          <key key="brand:wikidata" value="Q806679"/>
+          <key key="brand:wikipedia" value="zh:東亞銀行"/>
+          <key key="brand:zh-Hans" value="东亚银行"/>
+          <key key="brand:zh-Hant" value="東亞銀行"/>
+          <key key="name" value="東亞銀行 BEA"/>
+          <key key="name:en" value="Bank of East Asia"/>
+          <key key="name:zh-Hans" value="东亚银行"/>
+          <key key="name:zh-Hant" value="東亞銀行"/>
         </item>
         <item name="板信商業銀行" type="node,closedway,multipolygon">
           <key key="amenity" value="bank"/>
@@ -4739,7 +4754,7 @@
           <key key="brand" value="85°C"/>
           <key key="brand:wikidata" value="Q4644852"/>
           <key key="brand:wikipedia" value="en:85C Bakery Cafe"/>
-          <key key="cuisine" value="coffee_shop"/>
+          <key key="cuisine" value="coffee_shop;chinese"/>
           <key key="name" value="85°C"/>
           <key key="takeaway" value="yes"/>
         </item>
@@ -4761,6 +4776,14 @@
           <key key="brand:wikipedia" value="en:Barista (company)"/>
           <key key="cuisine" value="coffee_shop"/>
           <key key="name" value="Barista"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="Black Rock Coffee" type="node,closedway,multipolygon">
+          <key key="amenity" value="cafe"/>
+          <key key="brand" value="Black Rock Coffee"/>
+          <key key="brand:wikidata" value="Q64225934"/>
+          <key key="cuisine" value="coffee_shop"/>
+          <key key="name" value="Black Rock Coffee"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Bonafide" type="node,closedway,multipolygon">
@@ -5051,6 +5074,7 @@
           <key key="brand:wikipedia" value="en:Starbucks"/>
           <key key="cuisine" value="coffee_shop"/>
           <key key="name" value="Starbucks"/>
+          <key key="official_name" value="Starbucks Coffee"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="The Coffee Bean &amp; Tea Leaf" type="node,closedway,multipolygon">
@@ -5368,6 +5392,7 @@
           <key key="brand:wikidata" value="Q1001437"/>
           <key key="brand:wikipedia" value="en:Budget Rent a Car"/>
           <key key="name" value="Budget"/>
+          <key key="official_name" value="Budget Rent a Car"/>
         </item>
         <item name="Dollar" type="node,closedway,multipolygon">
           <key key="amenity" value="car_rental"/>
@@ -5375,6 +5400,7 @@
           <key key="brand:wikidata" value="Q1235661"/>
           <key key="brand:wikipedia" value="en:Dollar Rent A Car"/>
           <key key="name" value="Dollar"/>
+          <key key="official_name" value="Dollar Rent A Car"/>
         </item>
         <item name="Enterprise" type="node,closedway,multipolygon">
           <key key="amenity" value="car_rental"/>
@@ -5382,6 +5408,7 @@
           <key key="brand:wikidata" value="Q17085454"/>
           <key key="brand:wikipedia" value="en:Enterprise Rent-A-Car"/>
           <key key="name" value="Enterprise"/>
+          <key key="official_name" value="Enterprise Rent-A-Car"/>
         </item>
         <item name="Europcar" type="node,closedway,multipolygon">
           <key key="amenity" value="car_rental"/>
@@ -5403,6 +5430,14 @@
           <key key="brand:wikidata" value="Q10319490"/>
           <key key="brand:wikipedia" value="en:Localiza"/>
           <key key="name" value="Localiza"/>
+        </item>
+        <item name="National" type="node,closedway,multipolygon">
+          <key key="amenity" value="car_rental"/>
+          <key key="brand" value="National"/>
+          <key key="brand:wikidata" value="Q1424142"/>
+          <key key="brand:wikipedia" value="en:National Car Rental"/>
+          <key key="name" value="National"/>
+          <key key="official_name" value="National Car Rental"/>
         </item>
         <item name="Sixt" type="node,closedway,multipolygon">
           <key key="amenity" value="car_rental"/>
@@ -5485,6 +5520,13 @@
           <key key="brand:wikipedia" value="en:Enterprise Car Club"/>
           <key key="name" value="Enterprise Car Club"/>
         </item>
+        <item name="Greenwheels" type="node,closedway,multipolygon">
+          <key key="amenity" value="car_sharing"/>
+          <key key="brand" value="Greenwheels"/>
+          <key key="brand:wikidata" value="Q316782"/>
+          <key key="brand:wikipedia" value="en:Greenwheels"/>
+          <key key="name" value="Greenwheels"/>
+        </item>
         <item name="Zipcar" type="node,closedway,multipolygon">
           <key key="amenity" value="car_sharing"/>
           <key key="brand" value="Zipcar"/>
@@ -5498,6 +5540,13 @@
           <key key="brand:wikidata" value="Q2327629"/>
           <key key="brand:wikipedia" value="en:Stadtmobil"/>
           <key key="name" value="stadtmobil"/>
+        </item>
+        <item name="teilAuto" type="node,closedway,multipolygon">
+          <key key="amenity" value="car_sharing"/>
+          <key key="brand" value="teilAuto"/>
+          <key key="brand:wikidata" value="Q2400658"/>
+          <key key="brand:wikipedia" value="de:TeilAuto"/>
+          <key key="name" value="teilAuto"/>
         </item>
       </group>
       <group name="charging_station">
@@ -5652,6 +5701,21 @@
           <key key="brand:wikidata" value="Q5120901"/>
           <key key="brand:wikipedia" value="en:Cineworld"/>
           <key key="name" value="Cineworld"/>
+        </item>
+        <item name="Event" type="node,closedway,multipolygon">
+          <key key="amenity" value="cinema"/>
+          <key key="brand" value="Event"/>
+          <key key="brand:wikidata" value="Q5416698"/>
+          <key key="brand:wikipedia" value="en:Event Cinemas"/>
+          <key key="name" value="Event"/>
+          <key key="official_name" value="Event Cinemas"/>
+        </item>
+        <item name="Hoyts" type="node,closedway,multipolygon">
+          <key key="amenity" value="cinema"/>
+          <key key="brand" value="Hoyts"/>
+          <key key="brand:wikidata" value="Q5922976"/>
+          <key key="brand:wikipedia" value="en:Hoyts"/>
+          <key key="name" value="Hoyts"/>
         </item>
         <item name="Landmark Theatres" type="node,closedway,multipolygon">
           <key key="amenity" value="cinema"/>
@@ -5967,6 +6031,15 @@
           <key key="name" value="Baja Fresh"/>
           <key key="takeaway" value="yes"/>
         </item>
+        <item name="Barburrito" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Barburrito"/>
+          <key key="brand:wikidata" value="Q16983668"/>
+          <key key="brand:wikipedia" value="en:Barburrito"/>
+          <key key="cuisine" value="mexican"/>
+          <key key="name" value="Barburrito"/>
+          <key key="takeaway" value="yes"/>
+        </item>
         <item name="Bembos" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Bembos"/>
@@ -6066,6 +6139,15 @@
           <key key="brand:wikipedia" value="en:BurgerFi"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="BurgerFi"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="Burgerville" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Burgerville"/>
+          <key key="brand:wikidata" value="Q4998570"/>
+          <key key="brand:wikipedia" value="en:Burgerville"/>
+          <key key="cuisine" value="burger"/>
+          <key key="name" value="Burgerville"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Captain D's" type="node,closedway,multipolygon">
@@ -6376,6 +6458,15 @@
           <key key="brand:wikipedia" value="en:Golden Krust Caribbean Bakery &amp; Grill"/>
           <key key="cuisine" value="caribbean"/>
           <key key="name" value="Golden Krust"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="Great American Cookies" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Great American Cookies"/>
+          <key key="brand:wikidata" value="Q5598629"/>
+          <key key="brand:wikipedia" value="en:Great American Cookies"/>
+          <key key="cuisine" value="cookies"/>
+          <key key="name" value="Great American Cookies"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Greenwich" type="node,closedway,multipolygon">
@@ -6771,6 +6862,7 @@
           <key key="brand:wikipedia" value="en:Pal's"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="Pal's"/>
+          <key key="official_name" value="Pal's Sudden Service"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Panago" type="node,closedway,multipolygon">
@@ -6952,6 +7044,15 @@
           <key key="name" value="Pret A Manger"/>
           <key key="takeaway" value="yes"/>
         </item>
+        <item name="Pretzelmaker" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Pretzelmaker"/>
+          <key key="brand:wikidata" value="Q7242321"/>
+          <key key="brand:wikipedia" value="en:Pretzelmaker"/>
+          <key key="cuisine" value="pretzel"/>
+          <key key="name" value="Pretzelmaker"/>
+          <key key="takeaway" value="yes"/>
+        </item>
         <item name="Qdoba" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Qdoba"/>
@@ -7087,6 +7188,14 @@
           <key key="brand:wikipedia" value="en:Sonic Drive-In"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="Sonic"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="Specialty's" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Specialty's"/>
+          <key key="brand:wikidata" value="Q64339210"/>
+          <key key="cuisine" value="sandwich;bakery"/>
+          <key key="name" value="Specialty's"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Steak Escape" type="node,closedway,multipolygon">
@@ -7353,100 +7462,140 @@
         <item name="Γρηγόρης" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Γρηγόρης"/>
+          <key key="brand:el" value="Γρηγόρης"/>
+          <key key="brand:en" value="Gregorys"/>
           <key key="brand:wikidata" value="Q62273834"/>
           <key key="cuisine" value="sandwich"/>
           <key key="name" value="Γρηγόρης"/>
+          <key key="name:el" value="Γρηγόρης"/>
+          <key key="name:en" value="Gregorys"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Бургер Кинг" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Бургер Кинг"/>
           <key key="brand:en" value="Burger King"/>
+          <key key="brand:ru" value="Бургер Кинг"/>
           <key key="brand:wikidata" value="Q177054"/>
           <key key="brand:wikipedia" value="en:Burger King"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="Бургер Кинг"/>
           <key key="name:en" value="Burger King"/>
+          <key key="name:ru" value="Бургер Кинг"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="Домино'c Пицца" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="Домино'c Пицца"/>
+          <key key="brand:en" value="Domino's Pizza"/>
+          <key key="brand:ru" value="Домино'c Пицца"/>
+          <key key="brand:wikidata" value="Q839466"/>
+          <key key="brand:wikipedia" value="ru:Domino’s Pizza"/>
+          <key key="name" value="Домино'c Пицца"/>
+          <key key="name:en" value="Domino's Pizza"/>
+          <key key="name:ru" value="Домино'c Пицца"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Крошка Картошка" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Крошка Картошка"/>
+          <key key="brand:en" value="Kroshka Kartoshka"/>
+          <key key="brand:ru" value="Крошка Картошка"/>
           <key key="brand:wikidata" value="Q4241838"/>
           <key key="brand:wikipedia" value="ru:Крошка Картошка"/>
           <key key="cuisine" value="potato"/>
           <key key="name" value="Крошка Картошка"/>
+          <key key="name:en" value="Kroshka Kartoshka"/>
+          <key key="name:ru" value="Крошка Картошка"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Макдоналдс" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Макдоналдс"/>
           <key key="brand:en" value="McDonald's"/>
+          <key key="brand:ru" value="Макдоналдс"/>
           <key key="brand:wikidata" value="Q38076"/>
           <key key="brand:wikipedia" value="en:McDonald's"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="Макдоналдс"/>
           <key key="name:en" value="McDonald's"/>
+          <key key="name:ru" value="Макдоналдс"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Папа Джонс" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Папа Джонс"/>
           <key key="brand:en" value="Papa John's"/>
+          <key key="brand:ru" value="Папа Джонс"/>
           <key key="brand:wikidata" value="Q2759586"/>
           <key key="brand:wikipedia" value="ru:Papa John’s"/>
           <key key="cuisine" value="pizza"/>
           <key key="name" value="Папа Джонс"/>
           <key key="name:en" value="Papa John's"/>
+          <key key="name:ru" value="Папа Джонс"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Робин Сдобин" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Робин Сдобин"/>
+          <key key="brand:en" value="Robins Dobin"/>
+          <key key="brand:ru" value="Робин Сдобин"/>
           <key key="brand:wikidata" value="Q62273880"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="Робин Сдобин"/>
+          <key key="name:en" value="Robins Dobin"/>
+          <key key="name:ru" value="Робин Сдобин"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Русский Аппетит" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Русский Аппетит"/>
+          <key key="brand:en" value="Russkiy Appetit"/>
+          <key key="brand:ru" value="Русский Аппетит"/>
           <key key="brand:wikidata" value="Q62086063"/>
           <key key="cuisine" value="sandwich;salad;regional"/>
           <key key="name" value="Русский Аппетит"/>
+          <key key="name:en" value="Russkiy Appetit"/>
+          <key key="name:ru" value="Русский Аппетит"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Стардог!s" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Стардог!s"/>
           <key key="brand:en" value="Stardog!s"/>
+          <key key="brand:ru" value="Стардог!s"/>
           <key key="brand:wikidata" value="Q4439856"/>
           <key key="brand:wikipedia" value="ru:Стардогс"/>
           <key key="cuisine" value="sausage"/>
           <key key="name" value="Стардог!s"/>
           <key key="name:en" value="Stardog!s"/>
+          <key key="name:ru" value="Стардог!s"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Суши Wok" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Суши Wok"/>
           <key key="brand:en" value="Sushi Wok"/>
+          <key key="brand:ru" value="Суши Wok"/>
           <key key="brand:wikidata" value="Q25444754"/>
           <key key="brand:wikipedia" value="uk:Суши Wok (мережа магазинів)"/>
           <key key="cuisine" value="asian"/>
           <key key="name" value="Суши Wok"/>
           <key key="name:en" value="Sushi Wok"/>
+          <key key="name:ru" value="Суши Wok"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="Теремок" type="node,closedway,multipolygon">
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="Теремок"/>
           <key key="brand:en" value="Teremok"/>
+          <key key="brand:ru" value="Теремок"/>
           <key key="brand:wikidata" value="Q4455593"/>
           <key key="brand:wikipedia" value="ru:Теремок (сеть быстрого питания)"/>
           <key key="cuisine" value="crepe;russian"/>
           <key key="name" value="Теремок"/>
           <key key="name:en" value="Teremok"/>
+          <key key="name:ru" value="Теремок"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="מקדונלד'ס" type="node,closedway,multipolygon">
@@ -7891,11 +8040,13 @@
           <key key="amenity" value="fast_food"/>
           <key key="brand" value="麥當勞"/>
           <key key="brand:en" value="McDonald's"/>
+          <key key="brand:lzh" value="麥當勞"/>
           <key key="brand:wikidata" value="Q38076"/>
           <key key="brand:wikipedia" value="zh_classical:麥當勞"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="麥當勞"/>
           <key key="name:en" value="McDonald's"/>
+          <key key="name:lzh" value="麥當勞"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="麦当劳" type="node,closedway,multipolygon">
@@ -7904,9 +8055,11 @@
           <key key="brand:en" value="McDonald's"/>
           <key key="brand:wikidata" value="Q38076"/>
           <key key="brand:wikipedia" value="zh:麦当劳"/>
+          <key key="brand:zh" value="麦当劳"/>
           <key key="cuisine" value="burger"/>
           <key key="name" value="麦当劳"/>
           <key key="name:en" value="McDonald's"/>
+          <key key="name:zh" value="麦当劳"/>
           <key key="takeaway" value="yes"/>
         </item>
         <item name="롯데리아" type="node,closedway,multipolygon">
@@ -7920,6 +8073,19 @@
           <key key="name" value="롯데리아"/>
           <key key="name:en" value="Lotteria"/>
           <key key="name:ko" value="롯데리아"/>
+          <key key="takeaway" value="yes"/>
+        </item>
+        <item name="맥도날드" type="node,closedway,multipolygon">
+          <key key="amenity" value="fast_food"/>
+          <key key="brand" value="맥도날드"/>
+          <key key="brand:en" value="McDonald's"/>
+          <key key="brand:ko" value="맥도날드"/>
+          <key key="brand:wikidata" value="Q38076"/>
+          <key key="brand:wikipedia" value="ko:맥도날드"/>
+          <key key="cuisine" value="burger"/>
+          <key key="name" value="맥도날드"/>
+          <key key="name:en" value="McDonald's"/>
+          <key key="name:ko" value="맥도날드"/>
           <key key="takeaway" value="yes"/>
         </item>
       </group>
@@ -9871,6 +10037,14 @@
           <key key="cuisine" value="ice_cream"/>
           <key key="name" value="Ben &amp; Jerry's"/>
         </item>
+        <item name="Bruster's Ice Cream" type="node,closedway,multipolygon">
+          <key key="amenity" value="ice_cream"/>
+          <key key="brand" value="Bruster's Ice Cream"/>
+          <key key="brand:wikidata" value="Q4979810"/>
+          <key key="brand:wikipedia" value="en:Bruster's Ice Cream"/>
+          <key key="cuisine" value="ice_cream"/>
+          <key key="name" value="Bruster's Ice Cream"/>
+        </item>
         <item name="Cold Stone Creamery" type="node,closedway,multipolygon">
           <key key="amenity" value="ice_cream"/>
           <key key="brand" value="Cold Stone Creamery"/>
@@ -9911,6 +10085,13 @@
           <key key="brand:wikipedia" value="es:Grido Helado"/>
           <key key="cuisine" value="ice_cream"/>
           <key key="name" value="Grido"/>
+        </item>
+        <item name="La Michoacana" type="node,closedway,multipolygon">
+          <key key="amenity" value="ice_cream"/>
+          <key key="brand" value="La Michoacana"/>
+          <key key="brand:wikidata" value="Q17118857"/>
+          <key key="brand:wikipedia" value="en:Paletería La Michoacana"/>
+          <key key="name" value="La Michoacana"/>
         </item>
         <item name="Marble Slab Creamery" type="node,closedway,multipolygon">
           <key key="amenity" value="ice_cream"/>
@@ -9989,6 +10170,13 @@
           <key key="brand:wikidata" value="Q3062276"/>
           <key key="brand:wikipedia" value="fr:Express Union"/>
           <key key="name" value="Express Union"/>
+        </item>
+        <item name="MoneyGram" type="node,closedway,multipolygon">
+          <key key="amenity" value="money_transfer"/>
+          <key key="brand" value="MoneyGram"/>
+          <key key="brand:wikidata" value="Q1944412"/>
+          <key key="brand:wikipedia" value="en:MoneyGram"/>
+          <key key="name" value="MoneyGram"/>
         </item>
         <item name="Orange Money" type="node,closedway,multipolygon">
           <key key="amenity" value="money_transfer"/>
@@ -11489,6 +11677,14 @@
           <key key="name" value="Cheddar's"/>
           <key key="official_name" value="Cheddar's Scratch Kitchen"/>
         </item>
+        <item name="Cheeburger Cheeburger" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand" value="Cheeburger Cheeburger"/>
+          <key key="brand:wikidata" value="Q5089247"/>
+          <key key="brand:wikipedia" value="en:Cheeburger Cheeburger"/>
+          <key key="cuisine" value="burger"/>
+          <key key="name" value="Cheeburger Cheeburger"/>
+        </item>
         <item name="Chevys" type="node,closedway,multipolygon">
           <key key="amenity" value="restaurant"/>
           <key key="brand" value="Chevys Fresh Mex"/>
@@ -11541,6 +11737,14 @@
           <key key="operator" value="Landry's"/>
           <key key="operator:wikidata" value="Q3217105"/>
           <key key="operator:wikipedia" value="en:Landry's, Inc."/>
+        </item>
+        <item name="Coast to Coast" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand" value="Coast to Coast"/>
+          <key key="brand:wikidata" value="Q22000729"/>
+          <key key="brand:wikipedia" value="en:Coast to Coast (restaurant)"/>
+          <key key="cuisine" value="american"/>
+          <key key="name" value="Coast to Coast"/>
         </item>
         <item name="Cosmo" type="node,closedway,multipolygon">
           <key key="amenity" value="restaurant"/>
@@ -11614,6 +11818,13 @@
           <key key="brand:wikipedia" value="en:East Side Mario's"/>
           <key key="cuisine" value="italian"/>
           <key key="name" value="East Side Mario's"/>
+        </item>
+        <item name="Eat'n Park" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand:wikidata" value="Q5331211"/>
+          <key key="brand:wikipedia" value="en:Eat'n Park"/>
+          <key key="cuisine" value="american"/>
+          <key key="name" value="Eat'n Park"/>
         </item>
         <item name="Famous Dave's" type="node,closedway,multipolygon">
           <key key="amenity" value="restaurant"/>
@@ -11863,6 +12074,14 @@
           <key key="name" value="LaRosa's Pizzeria"/>
           <key key="takeaway" value="yes"/>
         </item>
+        <item name="Legal Sea Foods" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand" value="Legal Sea Foods"/>
+          <key key="brand:wikidata" value="Q6517417"/>
+          <key key="brand:wikipedia" value="en:Legal Sea Foods"/>
+          <key key="cuisine" value="seafood"/>
+          <key key="name" value="Legal Sea Foods"/>
+        </item>
         <item name="Logan's Roadhouse" type="node,closedway,multipolygon">
           <key key="amenity" value="restaurant"/>
           <key key="brand" value="Logan's Roadhouse"/>
@@ -11952,6 +12171,15 @@
           <key key="cuisine" value="french"/>
           <key key="name" value="Mimi's Cafe"/>
         </item>
+        <item name="Montana's" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand" value="Montana's"/>
+          <key key="brand:wikidata" value="Q17022490"/>
+          <key key="brand:wikipedia" value="en:Montana's BBQ &amp; Bar"/>
+          <key key="cuisine" value="barbecue"/>
+          <key key="name" value="Montana's"/>
+          <key key="official_name" value="Montana's BBQ &amp; Bar"/>
+        </item>
         <item name="Mountain Mike's" type="node,closedway,multipolygon">
           <key key="alt_name" value="Mountain Mike's Pizza"/>
           <key key="amenity" value="restaurant"/>
@@ -11992,6 +12220,14 @@
           <key key="brand:wikidata" value="Q62075311"/>
           <key key="cuisine" value="seafood"/>
           <key key="name" value="Ocean Basket"/>
+        </item>
+        <item name="Old Chicago" type="node,closedway,multipolygon">
+          <key key="amenity" value="restaurant"/>
+          <key key="brand" value="Old Chicago"/>
+          <key key="brand:wikidata" value="Q64411347"/>
+          <key key="cuisine" value="pizza"/>
+          <key key="name" value="Old Chicago"/>
+          <key key="official_name" value="Old Chicago Pizza &amp; Taproom"/>
         </item>
         <item name="Old Wild West" type="node,closedway,multipolygon">
           <key key="amenity" value="restaurant"/>
@@ -12308,6 +12544,7 @@
           <key key="name" value="Texas Roadhouse"/>
         </item>
         <item name="The Cheesecake Factory" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Cheesecake Factory"/>
           <key key="amenity" value="restaurant"/>
           <key key="brand" value="The Cheesecake Factory"/>
           <key key="brand:wikidata" value="Q1045842"/>
@@ -12324,6 +12561,7 @@
           <key key="name" value="The Keg"/>
         </item>
         <item name="The Melting Pot" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Melting Pot"/>
           <key key="amenity" value="restaurant"/>
           <key key="brand" value="The Melting Pot"/>
           <key key="brand:wikidata" value="Q7750948"/>
@@ -12755,6 +12993,7 @@
           <key key="brand:en" value="Yonghe Soy Milk"/>
           <key key="brand:wikidata" value="Q11131335"/>
           <key key="brand:wikipedia" value="zh:永和豆漿"/>
+          <key key="cuisine" value="chinese;breakfast"/>
           <key key="name" value="永和豆漿"/>
           <key key="name:en" value="Yonghe Soy Milk"/>
         </item>
@@ -12811,7 +13050,6 @@
       </group>
       <group name="social_centre">
         <item name="American Legion Hall" type="node,closedway,multipolygon">
-          <key key="alt_name" value="American Legion Hall"/>
           <key key="amenity" value="social_centre"/>
           <key key="brand" value="American Legion"/>
           <key key="brand:wikidata" value="Q468865"/>
@@ -12837,7 +13075,6 @@
           <key key="official_name" value="Benevolent and Protective Order of Elks"/>
         </item>
         <item name="Moose Lodge" type="node,closedway,multipolygon">
-          <key key="alt_name" value="Moose Lodge"/>
           <key key="amenity" value="social_centre"/>
           <key key="brand" value="Loyal Order of Moose"/>
           <key key="brand:wikidata" value="Q6908585"/>
@@ -12852,6 +13089,34 @@
           <key key="brand:wikipedia" value="en:Independent Order of Odd Fellows"/>
           <key key="name" value="Odd Fellows Hall"/>
           <key key="official_name" value="Independent Order of Odd Fellows"/>
+        </item>
+      </group>
+      <group name="vehicle_inspection">
+        <item name="Autosur" type="node,closedway,multipolygon">
+          <key key="amenity" value="vehicle_inspection"/>
+          <key key="brand" value="Autosur"/>
+          <key key="brand:wikidata" value="Q64224807"/>
+          <key key="name" value="Autosur"/>
+        </item>
+        <item name="Autovision" type="node,closedway,multipolygon">
+          <key key="amenity" value="vehicle_inspection"/>
+          <key key="brand" value="Autovision"/>
+          <key key="brand:wikidata" value="Q64224842"/>
+          <key key="name" value="Autovision"/>
+        </item>
+        <item name="Dekra" type="node,closedway,multipolygon">
+          <key key="amenity" value="vehicle_inspection"/>
+          <key key="brand" value="Dekra"/>
+          <key key="brand:wikidata" value="Q383711"/>
+          <key key="brand:wikipedia" value="en:Dekra"/>
+          <key key="name" value="Dekra"/>
+          <key key="official_name" value="Dekra Automotive"/>
+        </item>
+        <item name="Sécuritest" type="node,closedway,multipolygon">
+          <key key="amenity" value="vehicle_inspection"/>
+          <key key="brand" value="Sécuritest"/>
+          <key key="brand:wikidata" value="Q64224992"/>
+          <key key="name" value="Sécuritest"/>
         </item>
       </group>
       <group name="vending_machine">
@@ -13023,6 +13288,20 @@
       </group>
     </group>
     <group name="healthcare">
+      <group name="blood_donation">
+        <item name="Australian Red Cross Blood Service" type="node,closedway,multipolygon">
+          <key key="brand" value="Australian Red Cross"/>
+          <key key="brand:wikidata" value="Q4824610"/>
+          <key key="brand:wikipedia" value="en:Australian Red Cross"/>
+          <key key="donation:compensation" value="no"/>
+          <key key="healthcare" value="blood_donation"/>
+          <key key="name" value="Australian Red Cross Blood Service"/>
+          <key key="operator" value="Australian Red Cross Blood Service"/>
+          <key key="operator:wikidata" value="Q4824602"/>
+          <key key="operator:wikipedia" value="en:Australian Red Cross Blood Service"/>
+          <key key="short_name" value="Blood Service"/>
+        </item>
+      </group>
       <group name="clinic">
         <item name="ZoomCare" type="node,closedway,multipolygon">
           <key key="amenity" value="clinic"/>
@@ -13102,12 +13381,25 @@
           <key key="name" value="CorePower Yoga"/>
           <key key="sport" value="yoga"/>
         </item>
+        <item name="Crunch Fitness" type="node,closedway,multipolygon">
+          <key key="brand" value="Crunch Fitness"/>
+          <key key="brand:wikidata" value="Q5190093"/>
+          <key key="brand:wikipedia" value="en:Crunch Fitness"/>
+          <key key="leisure" value="fitness_centre"/>
+          <key key="name" value="Crunch Fitness"/>
+        </item>
         <item name="Curves" type="node,closedway,multipolygon">
           <key key="brand" value="Curves"/>
           <key key="brand:wikidata" value="Q5196080"/>
           <key key="brand:wikipedia" value="en:Curves International"/>
           <key key="leisure" value="fitness_centre"/>
           <key key="name" value="Curves"/>
+        </item>
+        <item name="F45 Training" type="node,closedway,multipolygon">
+          <key key="brand" value="F45 Training"/>
+          <key key="brand:wikidata" value="Q64390973"/>
+          <key key="leisure" value="fitness_centre"/>
+          <key key="name" value="F45 Training"/>
         </item>
         <item name="Fitness First" type="node,closedway,multipolygon">
           <key key="brand" value="Fitness First"/>
@@ -13188,6 +13480,7 @@
       </group>
       <group name="playground">
         <item name="McDonald's PlayPlace" type="node,closedway,multipolygon">
+          <key key="access" value="customers"/>
           <key key="brand" value="McDonald's"/>
           <key key="brand:wikidata" value="Q38076"/>
           <key key="brand:wikipedia" value="en:McDonald's"/>
@@ -13366,10 +13659,17 @@
           <key key="office" value="insurance"/>
           <key key="official_name" value="Mutuelles du Mans Assurances"/>
         </item>
+        <item name="Macif" type="node,closedway,multipolygon">
+          <key key="brand" value="Macif"/>
+          <key key="brand:wikidata" value="Q3331021"/>
+          <key key="brand:wikipedia" value="fr:Mutuelle assurance des commerçants et industriels de France et des cadres et des salariés de l'industrie et du commerce"/>
+          <key key="name" value="Macif"/>
+          <key key="office" value="insurance"/>
+        </item>
         <item name="Maif" type="node,closedway,multipolygon">
           <key key="brand" value="Maif"/>
           <key key="brand:wikidata" value="Q3331029"/>
-          <key key="brand:wikipedia" value="fr:Mutuelle d'assurance des instituteurs de France"/>
+          <key key="brand:wikipedia" value="fr:Maif"/>
           <key key="name" value="Maif"/>
           <key key="office" value="insurance"/>
           <key key="official_name" value="Mutuelle d'assurance des instituteurs de France"/>
@@ -13418,12 +13718,12 @@
           <key key="office" value="tax_advisor"/>
         </item>
         <item name="Jackson Hewitt" type="node,closedway,multipolygon">
-          <key key="alt_name" value="Jackson Hewitt Tax Service"/>
           <key key="brand" value="Jackson Hewitt"/>
           <key key="brand:wikidata" value="Q6117132"/>
           <key key="brand:wikipedia" value="en:Jackson Hewitt"/>
           <key key="name" value="Jackson Hewitt"/>
           <key key="office" value="tax_advisor"/>
+          <key key="official_name" value="Jackson Hewitt Tax Service"/>
         </item>
         <item name="Liberty Tax" type="node,closedway,multipolygon">
           <key key="alt_name" value="Liberty Tax Service"/>
@@ -13718,6 +14018,14 @@
           <key key="official_name" value="Birds Bakery"/>
           <key key="shop" value="bakery"/>
         </item>
+        <item name="Breadtop" type="node,closedway,multipolygon">
+          <key key="brand" value="Breadtop"/>
+          <key key="brand:wikidata" value="Q4959217"/>
+          <key key="brand:wikipedia" value="en:Breadtop"/>
+          <key key="cuisine" value="chinese"/>
+          <key key="name" value="Breadtop"/>
+          <key key="shop" value="bakery"/>
+        </item>
         <item name="Bäckerei Fuchs" type="node,closedway,multipolygon">
           <key key="brand" value="Bäckerei Fuchs"/>
           <key key="brand:wikidata" value="Q42825993"/>
@@ -13858,6 +14166,12 @@
           <key key="name" value="Nothing Bundt Cakes"/>
           <key key="shop" value="bakery"/>
         </item>
+        <item name="Paris Baguette (worldwide)" type="node,closedway,multipolygon">
+          <key key="brand" value="Paris Baguette"/>
+          <key key="brand:wikidata" value="Q62605260"/>
+          <key key="name" value="Paris Baguette"/>
+          <key key="shop" value="bakery"/>
+        </item>
         <item name="Paul" type="node,closedway,multipolygon">
           <key key="brand" value="Paul"/>
           <key key="brand:wikidata" value="Q3370417"/>
@@ -13927,6 +14241,16 @@
           <key key="name" value="von Allwörden"/>
           <key key="shop" value="bakery"/>
         </item>
+        <item name="巴黎贝甜 (China)" type="node,closedway,multipolygon">
+          <key key="brand" value="巴黎贝甜"/>
+          <key key="brand:en" value="Paris Baguette"/>
+          <key key="brand:wikidata" value="Q62605260"/>
+          <key key="brand:zh" value="巴黎贝甜"/>
+          <key key="name" value="巴黎贝甜"/>
+          <key key="name:en" value="Paris Baguette"/>
+          <key key="name:zh" value="巴黎贝甜"/>
+          <key key="shop" value="bakery"/>
+        </item>
         <item name="뚜레쥬르" type="node,closedway,multipolygon">
           <key key="brand" value="뚜레쥬르"/>
           <key key="brand:en" value="Tous Les Jours"/>
@@ -13938,13 +14262,25 @@
           <key key="name:ko" value="뚜레쥬르"/>
           <key key="shop" value="bakery"/>
         </item>
+        <item name="파리바게뜨 (South Korea)" type="node,closedway,multipolygon">
+          <key key="alt_name:ko" value="파리바게트"/>
+          <key key="brand" value="파리바게뜨"/>
+          <key key="brand:en" value="Paris Baguette"/>
+          <key key="brand:ko" value="파리바게뜨"/>
+          <key key="brand:wikidata" value="Q62605260"/>
+          <key key="name" value="파리바게뜨"/>
+          <key key="name:en" value="Paris Baguette"/>
+          <key key="name:ko" value="파리바게뜨"/>
+          <key key="shop" value="bakery"/>
+        </item>
       </group>
       <group name="beauty">
-        <item name="Bath &amp; Body Works" type="node,closedway,multipolygon">
-          <key key="brand" value="Bath &amp; Body Works"/>
-          <key key="brand:wikidata" value="Q810773"/>
-          <key key="brand:wikipedia" value="en:Bath &amp; Body Works"/>
-          <key key="name" value="Bath &amp; Body Works"/>
+        <item name="Benefit Brow Bar" type="node,closedway,multipolygon">
+          <key key="beauty" value="eyebrow;eyelash;waxing"/>
+          <key key="brand" value="Benefit"/>
+          <key key="brand:wikidata" value="Q2895769"/>
+          <key key="brand:wikipedia" value="en:Benefit Cosmetics"/>
+          <key key="name" value="Benefit Brow Bar"/>
           <key key="shop" value="beauty"/>
         </item>
         <item name="European Wax Center" type="node,closedway,multipolygon">
@@ -13962,12 +14298,20 @@
           <key key="name" value="Indigo Sun"/>
           <key key="shop" value="beauty"/>
         </item>
-        <item name="Ulta Beauty" type="node,closedway,multipolygon">
-          <key key="beauty" value="cosmetics;eyebrow;eyelash;hair;skin_care;supplies;waxing"/>
+        <item name="Sola Salons" type="node,closedway,multipolygon">
+          <key key="beauty" value="hair;nails;skin_care;massage"/>
+          <key key="brand" value="Sola Salons"/>
+          <key key="brand:wikidata" value="Q64337426"/>
+          <key key="name" value="Sola Salons"/>
+          <key key="shop" value="beauty"/>
+        </item>
+        <item name="The Skin Bar at Ulta Beauty" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Ulta Skin Bar"/>
+          <key key="beauty" value="skin_care"/>
           <key key="brand" value="Ulta Beauty"/>
           <key key="brand:wikidata" value="Q7880076"/>
           <key key="brand:wikipedia" value="en:Ulta Beauty"/>
-          <key key="name" value="Ulta Beauty"/>
+          <key key="name" value="The Skin Bar at Ulta Beauty"/>
           <key key="shop" value="beauty"/>
         </item>
         <item name="Yves Rocher" type="node,closedway,multipolygon">
@@ -13980,6 +14324,13 @@
         </item>
       </group>
       <group name="bed">
+        <item name="Casper" type="node,closedway,multipolygon">
+          <key key="brand" value="Casper"/>
+          <key key="brand:wikidata" value="Q20539294"/>
+          <key key="brand:wikipedia" value="en:Casper Sleep"/>
+          <key key="name" value="Casper"/>
+          <key key="shop" value="bed"/>
+        </item>
         <item name="Dreams" type="node,closedway,multipolygon">
           <key key="brand" value="Dreams"/>
           <key key="brand:wikidata" value="Q5306688"/>
@@ -14283,6 +14634,14 @@
           <key key="brand:wikidata" value="Q1634142"/>
           <key key="brand:wikipedia" value="en:Hugendubel"/>
           <key key="name" value="Hugendubel"/>
+          <key key="shop" value="books"/>
+        </item>
+        <item name="Indigo" type="node,closedway,multipolygon">
+          <key key="alt_name" value="!ndigo"/>
+          <key key="brand" value="Indigo"/>
+          <key key="brand:wikidata" value="Q2477358"/>
+          <key key="brand:wikipedia" value="en:Indigo Books and Music"/>
+          <key key="name" value="Indigo"/>
           <key key="shop" value="books"/>
         </item>
         <item name="Mondadori" type="node,closedway,multipolygon">
@@ -14682,13 +15041,6 @@
           <key key="name" value="Citroën"/>
           <key key="shop" value="car_repair"/>
         </item>
-        <item name="Dekra" type="node,closedway,multipolygon">
-          <key key="brand" value="Dekra"/>
-          <key key="brand:wikidata" value="Q383711"/>
-          <key key="brand:wikipedia" value="en:Dekra"/>
-          <key key="name" value="Dekra"/>
-          <key key="shop" value="car_repair"/>
-        </item>
         <item name="Euromaster" type="node,closedway,multipolygon">
           <key key="brand" value="Euromaster"/>
           <key key="brand:wikidata" value="Q3060668"/>
@@ -14767,6 +15119,7 @@
           <key key="brand:wikidata" value="Q6810159"/>
           <key key="brand:wikipedia" value="en:Meineke Car Care Centers"/>
           <key key="name" value="Meineke"/>
+          <key key="official_name" value="Meineke Car Care Center"/>
           <key key="shop" value="car_repair"/>
         </item>
         <item name="Mekonomen" type="node,closedway,multipolygon">
@@ -15321,6 +15674,13 @@
           <key key="name" value="dm"/>
           <key key="shop" value="chemist"/>
         </item>
+        <item name="屈臣氏" type="node,closedway,multipolygon">
+          <key key="brand" value="屈臣氏"/>
+          <key key="brand:wikidata" value="Q7974785"/>
+          <key key="brand:wikipedia" value="zh:屈臣氏"/>
+          <key key="name" value="屈臣氏"/>
+          <key key="shop" value="chemist"/>
+        </item>
         <item name="康是美" type="node,closedway,multipolygon">
           <key key="brand" value="康是美"/>
           <key key="brand:wikidata" value="Q11063876"/>
@@ -15401,6 +15761,13 @@
           <key key="name" value="Aeropostale"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="AllSaints" type="node,closedway,multipolygon">
+          <key key="brand" value="AllSaints"/>
+          <key key="brand:wikidata" value="Q4728473"/>
+          <key key="brand:wikipedia" value="en:AllSaints"/>
+          <key key="name" value="AllSaints"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="American Eagle Outfitters" type="node,closedway,multipolygon">
           <key key="brand" value="American Eagle Outfitters"/>
           <key key="brand:wikidata" value="Q2842931"/>
@@ -15438,6 +15805,14 @@
           <key key="brand:wikidata" value="Q2860764"/>
           <key key="brand:wikipedia" value="en:Ardene"/>
           <key key="name" value="Ardene"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Aritzia" type="node,closedway,multipolygon">
+          <key key="brand" value="Aritzia"/>
+          <key key="brand:wikidata" value="Q4791147"/>
+          <key key="brand:wikipedia" value="en:Aritzia"/>
+          <key key="clothes" value="women"/>
+          <key key="name" value="Aritzia"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Armand Thiery" type="node,closedway,multipolygon">
@@ -15485,6 +15860,14 @@
           <key key="name" value="Big Star"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Billabong" type="node,closedway,multipolygon">
+          <key key="brand" value="Billabong"/>
+          <key key="brand:wikidata" value="Q862718"/>
+          <key key="brand:wikipedia" value="en:Billabong (clothing)"/>
+          <key key="clothes" value="men;women"/>
+          <key key="name" value="Billabong"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Bonita" type="node,closedway,multipolygon">
           <key key="brand" value="Bonita"/>
           <key key="brand:wikidata" value="Q892598"/>
@@ -15521,6 +15904,13 @@
           <key key="name" value="Brooks Brothers"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Brunello Cucinelli" type="node,closedway,multipolygon">
+          <key key="brand" value="Brunello Cucinelli"/>
+          <key key="brand:wikidata" value="Q3645582"/>
+          <key key="brand:wikipedia" value="en:Brunello Cucinelli"/>
+          <key key="name" value="Brunello Cucinelli"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Buckle" type="node,closedway,multipolygon">
           <key key="brand" value="Buckle"/>
           <key key="brand:wikidata" value="Q4983306"/>
@@ -15541,6 +15931,7 @@
           <key key="brand" value="Burberry"/>
           <key key="brand:wikidata" value="Q390107"/>
           <key key="brand:wikipedia" value="en:Burberry"/>
+          <key key="clothes" value="men;women"/>
           <key key="name" value="Burberry"/>
           <key key="shop" value="clothes"/>
         </item>
@@ -15606,10 +15997,18 @@
           <key key="name" value="Camp David"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Canada Goose" type="node,closedway,multipolygon">
+          <key key="brand" value="Canada Goose"/>
+          <key key="brand:wikidata" value="Q2988422"/>
+          <key key="brand:wikipedia" value="en:Canada Goose"/>
+          <key key="name" value="Canada Goose"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Carhartt" type="node,closedway,multipolygon">
           <key key="brand" value="Carhartt"/>
           <key key="brand:wikidata" value="Q527877"/>
           <key key="brand:wikipedia" value="en:Carhartt"/>
+          <key key="clothes" value="workwear"/>
           <key key="name" value="Carhartt"/>
           <key key="shop" value="clothes"/>
         </item>
@@ -15649,6 +16048,13 @@
           <key key="name" value="Celio"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Chanel" type="node,closedway,multipolygon">
+          <key key="brand" value="Chanel"/>
+          <key key="brand:wikidata" value="Q218115"/>
+          <key key="brand:wikipedia" value="en:Chanel"/>
+          <key key="name" value="Chanel"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Charles Vögele" type="node,closedway,multipolygon">
           <key key="brand" value="Charles Vögele"/>
           <key key="brand:wikidata" value="Q1066326"/>
@@ -15661,6 +16067,14 @@
           <key key="brand:wikidata" value="Q5086126"/>
           <key key="brand:wikipedia" value="en:Charlotte Russe (clothing retailer)"/>
           <key key="name" value="Charlotte Russe"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Charming Charlie" type="node,closedway,multipolygon">
+          <key key="brand" value="Charming Charlie"/>
+          <key key="brand:wikidata" value="Q16829286"/>
+          <key key="brand:wikipedia" value="en:Charming Charlie"/>
+          <key key="clothes" value="women"/>
+          <key key="name" value="Charming Charlie"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Chico's" type="node,closedway,multipolygon">
@@ -15732,7 +16146,7 @@
           <key key="brand" value="David's Bridal"/>
           <key key="brand:wikidata" value="Q5230388"/>
           <key key="brand:wikipedia" value="en:David's Bridal"/>
-          <key key="clothes" value="bridal"/>
+          <key key="clothes" value="wedding"/>
           <key key="name" value="David's Bridal"/>
           <key key="shop" value="clothes"/>
         </item>
@@ -15757,11 +16171,25 @@
           <key key="name" value="Diesel"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Dior" type="node,closedway,multipolygon">
+          <key key="brand" value="Dior"/>
+          <key key="brand:wikidata" value="Q542767"/>
+          <key key="brand:wikipedia" value="en:Christian Dior (fashion house)"/>
+          <key key="name" value="Dior"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Diverse" type="node,closedway,multipolygon">
           <key key="brand" value="Diverse"/>
           <key key="brand:wikidata" value="Q11694298"/>
           <key key="brand:wikipedia" value="pl:Diverse"/>
           <key key="name" value="Diverse"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Dolce &amp; Gabbana" type="node,closedway,multipolygon">
+          <key key="brand" value="Dolce &amp; Gabbana"/>
+          <key key="brand:wikidata" value="Q214480"/>
+          <key key="brand:wikipedia" value="en:Dolce &amp; Gabbana"/>
+          <key key="name" value="Dolce &amp; Gabbana"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Dorothy Perkins" type="node,closedway,multipolygon">
@@ -15799,6 +16227,14 @@
           <key key="name" value="Engbers"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Ermenegildo Zegna" type="node,closedway,multipolygon">
+          <key key="brand" value="Ermenegildo Zegna"/>
+          <key key="brand:wikidata" value="Q1355904"/>
+          <key key="brand:wikipedia" value="en:Ermenegildo Zegna"/>
+          <key key="clothes" value="men"/>
+          <key key="name" value="Ermenegildo Zegna"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Ernsting's family" type="node,closedway,multipolygon">
           <key key="brand" value="Ernsting's family"/>
           <key key="brand:wikidata" value="Q1361016"/>
@@ -15832,6 +16268,13 @@
           <key key="brand:wikidata" value="Q5437186"/>
           <key key="brand:wikipedia" value="en:Fat Face"/>
           <key key="name" value="Fat Face"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Fendi" type="node,closedway,multipolygon">
+          <key key="brand" value="Fendi"/>
+          <key key="brand:wikidata" value="Q926575"/>
+          <key key="brand:wikipedia" value="en:Fendi"/>
+          <key key="name" value="Fendi"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Forever 21" type="node,closedway,multipolygon">
@@ -15925,6 +16368,14 @@
           <key key="name" value="H&amp;M"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Haggar" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Haggar Clothing Co."/>
+          <key key="brand" value="Haggar"/>
+          <key key="brand:wikidata" value="Q5638669"/>
+          <key key="brand:wikipedia" value="en:Haggar Clothing"/>
+          <key key="name" value="Haggar"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Hallhuber" type="node,closedway,multipolygon">
           <key key="brand" value="Hallhuber"/>
           <key key="brand:wikidata" value="Q1571714"/>
@@ -15938,6 +16389,13 @@
           <key key="brand:wikipedia" value="en:Hanna Andersson"/>
           <key key="clothes" value="baby;children;women"/>
           <key key="name" value="Hanna Andersson"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Hermès" type="node,closedway,multipolygon">
+          <key key="brand" value="Hermès"/>
+          <key key="brand:wikidata" value="Q843887"/>
+          <key key="brand:wikipedia" value="en:Hermès"/>
+          <key key="name" value="Hermès"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Hollister" type="node,closedway,multipolygon">
@@ -15969,6 +16427,14 @@
           <key key="name" value="Hunkemöller"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Indochino" type="node,closedway,multipolygon">
+          <key key="brand" value="Indochino"/>
+          <key key="brand:wikidata" value="Q64448127"/>
+          <key key="brand:wikipedia" value="en:Indochino"/>
+          <key key="clothes" value="suits"/>
+          <key key="name" value="Indochino"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Intimissimi" type="node,closedway,multipolygon">
           <key key="brand" value="Intimissimi"/>
           <key key="brand:wikidata" value="Q305404"/>
@@ -15983,6 +16449,14 @@
           <key key="brand:wikipedia" value="en:J.Crew"/>
           <key key="clothes" value="men;women;children"/>
           <key key="name" value="J.Crew"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="J.Jill" type="node,closedway,multipolygon">
+          <key key="brand" value="J.Jill"/>
+          <key key="brand:wikidata" value="Q64448268"/>
+          <key key="brand:wikipedia" value="en:J.Jill"/>
+          <key key="clothes" value="women"/>
+          <key key="name" value="J.Jill"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="JBC" type="node,closedway,multipolygon">
@@ -16004,6 +16478,14 @@
           <key key="brand:wikidata" value="Q6115814"/>
           <key key="brand:wikipedia" value="en:Jack Wills"/>
           <key key="name" value="Jack Wills"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Janie &amp; Jack" type="node,closedway,multipolygon">
+          <key key="brand" value="Janie &amp; Jack"/>
+          <key key="brand:wikidata" value="Q64449634"/>
+          <key key="brand:wikipedia" value="en:Janie &amp; Jack"/>
+          <key key="clothes" value="children"/>
+          <key key="name" value="Janie &amp; Jack"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Jeans Fritz" type="node,closedway,multipolygon">
@@ -16033,11 +16515,11 @@
           <key key="name" value="Jigsaw"/>
           <key key="shop" value="clothes"/>
         </item>
-        <item name="Jos. A. Bank" type="node,closedway,multipolygon">
-          <key key="brand" value="Jos. A. Bank"/>
+        <item name="JoS. A. Bank" type="node,closedway,multipolygon">
+          <key key="brand" value="JoS. A. Bank"/>
           <key key="brand:wikidata" value="Q6204078"/>
           <key key="brand:wikipedia" value="en:JoS. A. Bank Clothiers"/>
-          <key key="name" value="Jos. A. Bank"/>
+          <key key="name" value="JoS. A. Bank"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Joules" type="node,closedway,multipolygon">
@@ -16045,6 +16527,14 @@
           <key key="brand:wikidata" value="Q25351738"/>
           <key key="brand:wikipedia" value="en:Joules (clothing)"/>
           <key key="name" value="Joules"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Jules" type="node,closedway,multipolygon">
+          <key key="brand" value="Jules"/>
+          <key key="brand:wikidata" value="Q3188386"/>
+          <key key="brand:wikipedia" value="fr:Jules (enseigne)"/>
+          <key key="clothes" value="men"/>
+          <key key="name" value="Jules"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Justice" type="node,closedway,multipolygon">
@@ -16144,11 +16634,32 @@
           <key key="operator:wikipedia" value="en:Ann Inc."/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Loro Piana" type="node,closedway,multipolygon">
+          <key key="brand" value="Loro Piana"/>
+          <key key="brand:wikidata" value="Q1686544"/>
+          <key key="brand:wikipedia" value="en:Loro Piana"/>
+          <key key="name" value="Loro Piana"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Louis Vuitton" type="node,closedway,multipolygon">
           <key key="brand" value="Louis Vuitton"/>
           <key key="brand:wikidata" value="Q191485"/>
           <key key="brand:wikipedia" value="en:Louis Vuitton"/>
           <key key="name" value="Louis Vuitton"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Lowes" type="node,closedway,multipolygon">
+          <key key="brand" value="Lowes"/>
+          <key key="brand:wikidata" value="Q6693996"/>
+          <key key="brand:wikipedia" value="en:Lowes Menswear"/>
+          <key key="name" value="Lowes"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Lucky Brand" type="node,closedway,multipolygon">
+          <key key="brand" value="Lucky Brand"/>
+          <key key="brand:wikidata" value="Q6697865"/>
+          <key key="brand:wikipedia" value="en:Lucky Brand Jeans"/>
+          <key key="name" value="Lucky Brand"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Lululemon" type="node,closedway,multipolygon">
@@ -16204,13 +16715,6 @@
           <key key="name" value="Mark's"/>
           <key key="shop" value="clothes"/>
         </item>
-        <item name="Marks &amp; Spencer" type="node,closedway,multipolygon">
-          <key key="brand" value="Marks &amp; Spencer"/>
-          <key key="brand:wikidata" value="Q714491"/>
-          <key key="brand:wikipedia" value="en:Marks &amp; Spencer"/>
-          <key key="name" value="Marks &amp; Spencer"/>
-          <key key="shop" value="clothes"/>
-        </item>
         <item name="Massimo Dutti" type="node,closedway,multipolygon">
           <key key="brand" value="Massimo Dutti"/>
           <key key="brand:wikidata" value="Q788231"/>
@@ -16242,6 +16746,7 @@
         <item name="Men's Wearhouse" type="node,closedway,multipolygon">
           <key key="brand" value="Men's Wearhouse"/>
           <key key="brand:wikidata" value="Q57405513"/>
+          <key key="brand:wikipedia" value="en:Men's Wearhouse"/>
           <key key="clothes" value="suits"/>
           <key key="name" value="Men's Wearhouse"/>
           <key key="shop" value="clothes"/>
@@ -16460,6 +16965,13 @@
           <key key="second_hand" value="only"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Polo Ralph Lauren" type="node,closedway,multipolygon">
+          <key key="brand" value="Polo Ralph Lauren"/>
+          <key key="brand:wikidata" value="Q1641437"/>
+          <key key="brand:wikipedia" value="en:Ralph Lauren Corporation"/>
+          <key key="name" value="Polo Ralph Lauren"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Primark" type="node,closedway,multipolygon">
           <key key="brand" value="Primark"/>
           <key key="brand:wikidata" value="Q137023"/>
@@ -16483,7 +16995,7 @@
         </item>
         <item name="Puma" type="node,closedway,multipolygon">
           <key key="brand" value="Puma"/>
-          <key key="brand:wikidata" value="Q7203029"/>
+          <key key="brand:wikidata" value="Q157064"/>
           <key key="brand:wikipedia" value="en:Puma (brand)"/>
           <key key="name" value="Puma"/>
           <key key="shop" value="clothes"/>
@@ -16523,6 +17035,14 @@
           <key key="name" value="River Island"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Robert Graham" type="node,closedway,multipolygon">
+          <key key="brand" value="Robert Graham"/>
+          <key key="brand:wikidata" value="Q18390679"/>
+          <key key="brand:wikipedia" value="en:Robert Graham (fashion brand)"/>
+          <key key="clothes" value="men"/>
+          <key key="name" value="Robert Graham"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Ross" type="node,closedway,multipolygon">
           <key key="brand" value="Ross"/>
           <key key="brand:wikidata" value="Q3442791"/>
@@ -16530,6 +17050,15 @@
           <key key="name" value="Ross"/>
           <key key="official_name" value="Ross Dress for Less"/>
           <key key="shop" value="clothes"/>
+        </item>
+        <item name="Saint Laurent" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Yves Saint Laurent"/>
+          <key key="brand" value="Saint Laurent"/>
+          <key key="brand:wikidata" value="Q2282172"/>
+          <key key="brand:wikipedia" value="en:Yves Saint Laurent (brand)"/>
+          <key key="name" value="Saint Laurent"/>
+          <key key="shop" value="clothes"/>
+          <key key="short_name" value="YSL"/>
         </item>
         <item name="Sela" type="node,closedway,multipolygon">
           <key key="brand" value="Sela"/>
@@ -16553,6 +17082,14 @@
           <key key="operator" value="Benetton Group"/>
           <key key="operator:wikidata" value="Q817139"/>
           <key key="operator:wikipedia" value="en:Benetton Group"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Spanx" type="node,closedway,multipolygon">
+          <key key="brand" value="Spanx"/>
+          <key key="brand:wikidata" value="Q1932886"/>
+          <key key="brand:wikipedia" value="en:Spanx"/>
+          <key key="clothes" value="underwear"/>
+          <key key="name" value="Spanx"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Springfield" type="node,closedway,multipolygon">
@@ -16673,7 +17210,15 @@
           <key key="brand:wikidata" value="Q30716262"/>
           <key key="brand:wikipedia" value="en:The Walking Company"/>
           <key key="name" value="The Walking Company"/>
-          <key key="shop" value="shoes"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="Tillys" type="node,closedway,multipolygon">
+          <key key="brand" value="Tillys"/>
+          <key key="brand:wikidata" value="Q7802889"/>
+          <key key="brand:wikipedia" value="en:Tillys"/>
+          <key key="clothes" value="children;men;women"/>
+          <key key="name" value="Tillys"/>
+          <key key="shop" value="clothes"/>
         </item>
         <item name="Timberland" type="node,closedway,multipolygon">
           <key key="brand" value="Timberland"/>
@@ -16717,6 +17262,13 @@
           <key key="name" value="Torrid"/>
           <key key="shop" value="clothes"/>
         </item>
+        <item name="Tory Burch" type="node,closedway,multipolygon">
+          <key key="brand" value="Tory Burch"/>
+          <key key="brand:wikidata" value="Q19988222"/>
+          <key key="brand:wikipedia" value="en:Tory Burch (company)"/>
+          <key key="name" value="Tory Burch"/>
+          <key key="shop" value="clothes"/>
+        </item>
         <item name="Triumph" type="node,closedway,multipolygon">
           <key key="brand" value="Triumph"/>
           <key key="brand:wikidata" value="Q671216"/>
@@ -16729,6 +17281,13 @@
           <key key="brand:wikidata" value="Q24233998"/>
           <key key="brand:wikipedia" value="en:Truworths"/>
           <key key="name" value="Truworths"/>
+          <key key="shop" value="clothes"/>
+        </item>
+        <item name="UNTUCKit" type="node,closedway,multipolygon">
+          <key key="brand" value="UNTUCKit"/>
+          <key key="brand:wikidata" value="Q28207006"/>
+          <key key="brand:wikipedia" value="en:Untuckit"/>
+          <key key="name" value="UNTUCKit"/>
           <key key="shop" value="clothes"/>
         </item>
         <item name="Ulla Popken" type="node,closedway,multipolygon">
@@ -17008,6 +17567,14 @@
           <key key="name" value="Jamin"/>
           <key key="shop" value="confectionery"/>
         </item>
+        <item name="Kilwins" type="node,closedway,multipolygon">
+          <key key="brand" value="Kilwins"/>
+          <key key="brand:wikidata" value="Q38250832"/>
+          <key key="brand:wikipedia" value="en:Kilwins"/>
+          <key key="cuisine" value="chocolate;ice_cream;popcorn"/>
+          <key key="name" value="Kilwins"/>
+          <key key="shop" value="confectionery"/>
+        </item>
         <item name="Rocky Mountain Chocolate Factory" type="node,closedway,multipolygon">
           <key key="brand" value="Rocky Mountain Chocolate Factory"/>
           <key key="brand:wikidata" value="Q7355878"/>
@@ -17219,6 +17786,12 @@
           <key key="brand:wikidata" value="Q11693824"/>
           <key key="brand:wikipedia" value="pl:Delikatesy Centrum"/>
           <key key="name" value="Delikatesy Centrum"/>
+          <key key="shop" value="convenience"/>
+        </item>
+        <item name="ExtraMile" type="node,closedway,multipolygon">
+          <key key="brand" value="ExtraMile"/>
+          <key key="brand:wikidata" value="Q64224605"/>
+          <key key="name" value="ExtraMile"/>
           <key key="shop" value="convenience"/>
         </item>
         <item name="FamilyMart" type="node,closedway,multipolygon">
@@ -17499,6 +18072,13 @@
           <key key="brand:wikidata" value="Q7492551"/>
           <key key="brand:wikipedia" value="en:Sheetz"/>
           <key key="name" value="Sheetz"/>
+          <key key="shop" value="convenience"/>
+        </item>
+        <item name="Shell" type="node,closedway,multipolygon">
+          <key key="brand" value="Shell"/>
+          <key key="brand:wikidata" value="Q154950"/>
+          <key key="brand:wikipedia" value="en:Royal Dutch Shell"/>
+          <key key="name" value="Shell"/>
           <key key="shop" value="convenience"/>
         </item>
         <item name="Shell Select" type="node,closedway,multipolygon">
@@ -17946,6 +18526,20 @@
         </item>
       </group>
       <group name="cosmetics">
+        <item name="Aveda" type="node,closedway,multipolygon">
+          <key key="brand" value="Aveda"/>
+          <key key="brand:wikidata" value="Q4827965"/>
+          <key key="brand:wikipedia" value="en:Aveda"/>
+          <key key="name" value="Aveda"/>
+          <key key="shop" value="cosmetics"/>
+        </item>
+        <item name="Bath &amp; Body Works" type="node,closedway,multipolygon">
+          <key key="brand" value="Bath &amp; Body Works"/>
+          <key key="brand:wikidata" value="Q810773"/>
+          <key key="brand:wikipedia" value="en:Bath &amp; Body Works"/>
+          <key key="name" value="Bath &amp; Body Works"/>
+          <key key="shop" value="cosmetics"/>
+        </item>
         <item name="KIKO Milano" type="node,closedway,multipolygon">
           <key key="brand" value="KIKO Milano"/>
           <key key="brand:wikidata" value="Q3812045"/>
@@ -17996,6 +18590,13 @@
           <key key="name" value="Origins"/>
           <key key="shop" value="cosmetics"/>
         </item>
+        <item name="Saje" type="node,closedway,multipolygon">
+          <key key="brand" value="Saje"/>
+          <key key="brand:wikidata" value="Q44631749"/>
+          <key key="brand:wikipedia" value="en:Saje Natural Wellness"/>
+          <key key="name" value="Saje"/>
+          <key key="shop" value="cosmetics"/>
+        </item>
         <item name="Sephora" type="node,closedway,multipolygon">
           <key key="brand" value="Sephora"/>
           <key key="brand:wikidata" value="Q2408041"/>
@@ -18008,6 +18609,13 @@
           <key key="brand:wikidata" value="Q837851"/>
           <key key="brand:wikipedia" value="en:The Body Shop"/>
           <key key="name" value="The Body Shop"/>
+          <key key="shop" value="cosmetics"/>
+        </item>
+        <item name="Ulta Beauty" type="node,closedway,multipolygon">
+          <key key="brand" value="Ulta Beauty"/>
+          <key key="brand:wikidata" value="Q7880076"/>
+          <key key="brand:wikipedia" value="en:Ulta Beauty"/>
+          <key key="name" value="Ulta Beauty"/>
           <key key="shop" value="cosmetics"/>
         </item>
         <item name="Л'Этуаль" type="node,closedway,multipolygon">
@@ -18126,6 +18734,13 @@
         </item>
       </group>
       <group name="craft">
+        <item name="A.C. Moore" type="node,closedway,multipolygon">
+          <key key="brand" value="A.C. Moore"/>
+          <key key="brand:wikidata" value="Q4647066"/>
+          <key key="brand:wikipedia" value="en:A.C. Moore"/>
+          <key key="name" value="A.C. Moore"/>
+          <key key="shop" value="craft"/>
+        </item>
         <item name="Hobby Lobby" type="node,closedway,multipolygon">
           <key key="brand" value="Hobby Lobby"/>
           <key key="brand:wikidata" value="Q5874938"/>
@@ -18241,6 +18856,13 @@
           <key key="brand:wikidata" value="Q2497795"/>
           <key key="brand:wikipedia" value="en:Coppel"/>
           <key key="name" value="Coppel"/>
+          <key key="shop" value="department_store"/>
+        </item>
+        <item name="David Jones" type="node,closedway,multipolygon">
+          <key key="brand" value="David Jones"/>
+          <key key="brand:wikidata" value="Q5235753"/>
+          <key key="brand:wikipedia" value="en:David Jones Limited"/>
+          <key key="name" value="David Jones"/>
           <key key="shop" value="department_store"/>
         </item>
         <item name="Debenhams" type="node,closedway,multipolygon">
@@ -18396,6 +19018,17 @@
           <key key="name" value="Marshalls"/>
           <key key="shop" value="department_store"/>
         </item>
+        <item name="Muji" type="node,closedway,multipolygon">
+          <key key="brand" value="Muji"/>
+          <key key="brand:en" value="Muji"/>
+          <key key="brand:jp" value="無印良品"/>
+          <key key="brand:wikidata" value="Q708789"/>
+          <key key="brand:wikipedia" value="en:Muji"/>
+          <key key="name" value="Muji"/>
+          <key key="name:en" value="Muji"/>
+          <key key="name:jp" value="無印良品"/>
+          <key key="shop" value="department_store"/>
+        </item>
         <item name="Myer" type="node,closedway,multipolygon">
           <key key="brand" value="Myer"/>
           <key key="brand:wikidata" value="Q1110323"/>
@@ -18537,6 +19170,17 @@
           <key key="name" value="東急ハンズ"/>
           <key key="name:en" value="Tokyu Hands"/>
           <key key="name:ja" value="東急ハンズ"/>
+          <key key="shop" value="department_store"/>
+        </item>
+        <item name="無印良品" type="node,closedway,multipolygon">
+          <key key="brand" value="無印良品"/>
+          <key key="brand:en" value="Muji"/>
+          <key key="brand:jp" value="無印良品"/>
+          <key key="brand:wikidata" value="Q708789"/>
+          <key key="brand:wikipedia" value="jp:無印良品"/>
+          <key key="name" value="無印良品"/>
+          <key key="name:en" value="Muji"/>
+          <key key="name:jp" value="無印良品"/>
           <key key="shop" value="department_store"/>
         </item>
         <item name="롯데백화점" type="node,closedway,multipolygon">
@@ -19167,6 +19811,13 @@
           <key key="name" value="Teknikmagasinet"/>
           <key key="shop" value="electronics"/>
         </item>
+        <item name="The Good Guys" type="node,closedway,multipolygon">
+          <key key="brand" value="The Good Guys"/>
+          <key key="brand:wikidata" value="Q7737217"/>
+          <key key="brand:wikipedia" value="en:The Good Guys (Australian company)"/>
+          <key key="name" value="The Good Guys"/>
+          <key key="shop" value="electronics"/>
+        </item>
         <item name="The Source" type="node,closedway,multipolygon">
           <key key="brand" value="The Source"/>
           <key key="brand:wikidata" value="Q3212934"/>
@@ -19186,6 +19837,13 @@
           <key key="brand:wikidata" value="Q10394039"/>
           <key key="brand:wikipedia" value="pt:Worten"/>
           <key key="name" value="Worten"/>
+          <key key="shop" value="electronics"/>
+        </item>
+        <item name="b8ta" type="node,closedway,multipolygon">
+          <key key="brand" value="b8ta"/>
+          <key key="brand:wikidata" value="Q55604609"/>
+          <key key="brand:wikipedia" value="en:B8ta"/>
+          <key key="name" value="b8ta"/>
           <key key="shop" value="electronics"/>
         </item>
         <item name="М.Видео" type="node,closedway,multipolygon">
@@ -19319,6 +19977,50 @@
           <key key="brand:wikipedia" value="fr:Mondial Tissus"/>
           <key key="name" value="Mondial Tissus"/>
           <key key="shop" value="fabric"/>
+        </item>
+      </group>
+      <group name="fashion_accessories">
+        <item name="Brighton Collectibles" type="node,closedway,multipolygon">
+          <key key="brand" value="Brighton Collectibles"/>
+          <key key="brand:wikidata" value="Q4967623"/>
+          <key key="brand:wikipedia" value="en:Brighton Collectibles"/>
+          <key key="name" value="Brighton Collectibles"/>
+          <key key="shop" value="fashion_accessories"/>
+        </item>
+        <item name="Bvlgari" type="node,closedway,multipolygon">
+          <key key="brand" value="Bulgari"/>
+          <key key="brand:wikidata" value="Q752515"/>
+          <key key="brand:wikipedia" value="en:Bulgari"/>
+          <key key="name" value="Bvlgari"/>
+          <key key="shop" value="fashion_accessories"/>
+        </item>
+        <item name="Jimmy Choo" type="node,closedway,multipolygon">
+          <key key="brand" value="Jimmy Choo"/>
+          <key key="brand:wikidata" value="Q5213855"/>
+          <key key="brand:wikipedia" value="en:Jimmy Choo Ltd"/>
+          <key key="name" value="Jimmy Choo"/>
+          <key key="shop" value="fashion_accessories"/>
+        </item>
+        <item name="Prada" type="node,closedway,multipolygon">
+          <key key="brand" value="Prada"/>
+          <key key="brand:wikidata" value="Q193136"/>
+          <key key="brand:wikipedia" value="en:Prada"/>
+          <key key="name" value="Prada"/>
+          <key key="shop" value="fashion_accessories"/>
+        </item>
+        <item name="Salvatore Ferragamo" type="node,closedway,multipolygon">
+          <key key="brand" value="Salvatore Ferragamo"/>
+          <key key="brand:wikidata" value="Q3946053"/>
+          <key key="brand:wikipedia" value="en:Salvatore Ferragamo S.p.A."/>
+          <key key="name" value="Salvatore Ferragamo"/>
+          <key key="shop" value="fashion_accessories"/>
+        </item>
+        <item name="Van Cleef &amp; Arpels" type="node,closedway,multipolygon">
+          <key key="brand" value="Van Cleef &amp; Arpels"/>
+          <key key="brand:wikidata" value="Q2708181"/>
+          <key key="brand:wikipedia" value="en:Van Cleef &amp; Arpels"/>
+          <key key="name" value="Van Cleef &amp; Arpels"/>
+          <key key="shop" value="fashion_accessories"/>
         </item>
       </group>
       <group name="florist">
@@ -19508,6 +20210,20 @@
           <key key="name" value="Fly"/>
           <key key="shop" value="furniture"/>
         </item>
+        <item name="Freedom" type="node,closedway,multipolygon">
+          <key key="brand" value="Freedom"/>
+          <key key="brand:wikidata" value="Q5500546"/>
+          <key key="brand:wikipedia" value="en:Freedom Furniture"/>
+          <key key="name" value="Freedom"/>
+          <key key="shop" value="furniture"/>
+        </item>
+        <item name="HSL" type="node,closedway,multipolygon">
+          <key key="brand" value="HSL"/>
+          <key key="brand:wikidata" value="Q64284324"/>
+          <key key="name" value="HSL"/>
+          <key key="official_name" value="High Seat Limited"/>
+          <key key="shop" value="furniture"/>
+        </item>
         <item name="Harveys" type="node,closedway,multipolygon">
           <key key="brand" value="Harveys"/>
           <key key="brand:wikidata" value="Q5677754"/>
@@ -19548,6 +20264,13 @@
           <key key="brand:wikidata" value="Q6391583"/>
           <key key="brand:wikipedia" value="en:La-Z-Boy"/>
           <key key="name" value="La-Z-Boy"/>
+          <key key="shop" value="furniture"/>
+        </item>
+        <item name="LoveSac" type="node,closedway,multipolygon">
+          <key key="brand" value="LoveSac"/>
+          <key key="brand:wikidata" value="Q6690181"/>
+          <key key="brand:wikipedia" value="en:LoveSac"/>
+          <key key="name" value="LoveSac"/>
           <key key="shop" value="furniture"/>
         </item>
         <item name="Pottery Barn" type="node,closedway,multipolygon">
@@ -19710,6 +20433,13 @@
           <key key="operator:wikipedia" value="en:Disney Consumer Products and Interactive Media"/>
           <key key="shop" value="gift"/>
         </item>
+        <item name="Edible Arrangements" type="node,closedway,multipolygon">
+          <key key="brand" value="Edible Arrangements"/>
+          <key key="brand:wikidata" value="Q5337996"/>
+          <key key="brand:wikipedia" value="en:Edible Arrangements"/>
+          <key key="name" value="Edible Arrangements"/>
+          <key key="shop" value="gift"/>
+        </item>
         <item name="Hallmark" type="node,closedway,multipolygon">
           <key key="brand" value="Hallmark"/>
           <key key="brand:wikidata" value="Q1521910"/>
@@ -19808,6 +20538,12 @@
           <key key="name" value="Hairkiller"/>
           <key key="shop" value="hairdresser"/>
         </item>
+        <item name="Jean Louis David" type="node,closedway,multipolygon">
+          <key key="brand" value="Jean Louis David"/>
+          <key key="brand:wikidata" value="Q64445174"/>
+          <key key="name" value="Jean Louis David"/>
+          <key key="shop" value="hairdresser"/>
+        </item>
         <item name="Klier" type="node,closedway,multipolygon">
           <key key="brand" value="Klier"/>
           <key key="brand:wikidata" value="Q1465159"/>
@@ -19857,6 +20593,14 @@
           <key key="brand" value="Tchip"/>
           <key key="brand:wikidata" value="Q62871250"/>
           <key key="name" value="Tchip"/>
+          <key key="shop" value="hairdresser"/>
+        </item>
+        <item name="The Salon at Ulta Beauty" type="node,closedway,multipolygon">
+          <key key="alt_name" value="Ulta Salon"/>
+          <key key="brand" value="Ulta Beauty"/>
+          <key key="brand:wikidata" value="Q7880076"/>
+          <key key="brand:wikipedia" value="en:Ulta Beauty"/>
+          <key key="name" value="The Salon at Ulta Beauty"/>
           <key key="shop" value="hairdresser"/>
         </item>
         <item name="Toni &amp; Guy" type="node,closedway,multipolygon">
@@ -19993,6 +20737,12 @@
         </item>
       </group>
       <group name="houseware">
+        <item name="At Home" type="node,closedway,multipolygon">
+          <key key="brand" value="At Home (store)"/>
+          <key key="brand:wikidata" value="Q5522290"/>
+          <key key="name" value="At Home"/>
+          <key key="shop" value="houseware"/>
+        </item>
         <item name="Bed Bath &amp; Beyond" type="node,closedway,multipolygon">
           <key key="brand" value="Bed Bath &amp; Beyond"/>
           <key key="brand:wikidata" value="Q813782"/>
@@ -20201,6 +20951,13 @@
           <key key="name" value="Claire's"/>
           <key key="shop" value="jewelry"/>
         </item>
+        <item name="David Yurman" type="node,closedway,multipolygon">
+          <key key="brand" value="David Yurman"/>
+          <key key="brand:wikidata" value="Q5241390"/>
+          <key key="brand:wikipedia" value="en:David Yurman"/>
+          <key key="name" value="David Yurman"/>
+          <key key="shop" value="jewelry"/>
+        </item>
         <item name="Ernest Jones" type="node,closedway,multipolygon">
           <key key="brand" value="Ernest Jones"/>
           <key key="brand:wikidata" value="Q5393358"/>
@@ -20290,8 +21047,12 @@
         </item>
         <item name="Адамас" type="node,closedway,multipolygon">
           <key key="brand" value="Адамас"/>
+          <key key="brand:en" value="Adamas"/>
+          <key key="brand:ru" value="Адамас"/>
           <key key="brand:wikidata" value="Q62393709"/>
           <key key="name" value="Адамас"/>
+          <key key="name:en" value="Adamas"/>
+          <key key="name:ru" value="Адамас"/>
           <key key="shop" value="jewelry"/>
         </item>
       </group>
@@ -20535,8 +21296,8 @@
         </item>
         <item name="O2" type="node,closedway,multipolygon">
           <key key="brand" value="O2"/>
-          <key key="brand:wikidata" value="Q7072246"/>
-          <key key="brand:wikipedia" value="en:O2 (Ireland)"/>
+          <key key="brand:wikidata" value="Q1759255"/>
+          <key key="brand:wikipedia" value="en:Telefónica Europe"/>
           <key key="name" value="O2"/>
           <key key="shop" value="mobile_phone"/>
         </item>
@@ -20822,6 +21583,18 @@
         </item>
       </group>
       <group name="money_lender">
+        <item name="ACE Cash Express" type="node,closedway,multipolygon">
+          <key key="brand" value="ACE Cash Express"/>
+          <key key="brand:wikidata" value="Q24260962"/>
+          <key key="name" value="ACE Cash Express"/>
+          <key key="shop" value="money_lender"/>
+        </item>
+        <item name="California Check Cashing Stores" type="node,closedway,multipolygon">
+          <key key="brand" value="California Check Cashing Stores"/>
+          <key key="brand:wikidata" value="Q64390932"/>
+          <key key="name" value="California Check Cashing Stores"/>
+          <key key="shop" value="money_lender"/>
+        </item>
         <item name="Cash Store" type="node,closedway,multipolygon">
           <key key="brand" value="Cash Store"/>
           <key key="brand:wikidata" value="Q61943411"/>
@@ -21041,6 +21814,7 @@
           <key key="brand:wikipedia" value="en:America's Best Contacts &amp; Eyeglasses"/>
           <key key="name" value="America's Best Contacts &amp; Eyeglasses"/>
           <key key="shop" value="optician"/>
+          <key key="short_name" value="America's Best"/>
         </item>
         <item name="Apollo-Optik" type="node,closedway,multipolygon">
           <key key="brand" value="Apollo-Optik"/>
@@ -21048,6 +21822,7 @@
           <key key="brand:wikipedia" value="de:Apollo-Optik"/>
           <key key="name" value="Apollo-Optik"/>
           <key key="shop" value="optician"/>
+          <key key="short_name" value="Apollo"/>
         </item>
         <item name="Atol" type="node,closedway,multipolygon">
           <key key="brand" value="Atol"/>
@@ -21062,6 +21837,7 @@
           <key key="brand:wikipedia" value="en:Boots Opticians"/>
           <key key="name" value="Boots Opticians"/>
           <key key="shop" value="optician"/>
+          <key key="short_name" value="Boots"/>
         </item>
         <item name="Clarkson Eyecare" type="node,closedway,multipolygon">
           <key key="brand" value="Clarkson Eyecare"/>
@@ -21069,6 +21845,7 @@
           <key key="healthcare" value="optometrist"/>
           <key key="name" value="Clarkson Eyecare"/>
           <key key="shop" value="optician"/>
+          <key key="short_name" value="Clarkson"/>
         </item>
         <item name="Eye Wish" type="node,closedway,multipolygon">
           <key key="brand" value="Eye Wish"/>
@@ -21172,11 +21949,25 @@
           <key key="name" value="Oakley"/>
           <key key="shop" value="optician"/>
         </item>
+        <item name="Oliver Peoples" type="node,closedway,multipolygon">
+          <key key="brand" value="Oliver Peoples"/>
+          <key key="brand:wikidata" value="Q7087746"/>
+          <key key="brand:wikipedia" value="en:Oliver Peoples"/>
+          <key key="name" value="Oliver Peoples"/>
+          <key key="shop" value="optician"/>
+        </item>
         <item name="Optic 2000" type="node,closedway,multipolygon">
           <key key="brand" value="Optic 2000"/>
           <key key="brand:wikidata" value="Q3354445"/>
           <key key="brand:wikipedia" value="fr:Optic 2000"/>
           <key key="name" value="Optic 2000"/>
+          <key key="shop" value="optician"/>
+        </item>
+        <item name="Optical Center" type="node,closedway,multipolygon">
+          <key key="brand" value="Optical Center"/>
+          <key key="brand:wikidata" value="Q3354448"/>
+          <key key="brand:wikipedia" value="fr:Optical Center"/>
+          <key key="name" value="Optical Center"/>
           <key key="shop" value="optician"/>
         </item>
         <item name="Opticalia" type="node,closedway,multipolygon">
@@ -21185,12 +21976,13 @@
           <key key="name" value="Opticalia"/>
           <key key="shop" value="optician"/>
         </item>
-        <item name="Pearle" type="node,closedway,multipolygon">
-          <key key="brand" value="Pearle"/>
+        <item name="Pearle Vision" type="node,closedway,multipolygon">
+          <key key="brand" value="Pearle Vision"/>
           <key key="brand:wikidata" value="Q2231148"/>
           <key key="brand:wikipedia" value="en:Pearle Vision"/>
-          <key key="name" value="Pearle"/>
+          <key key="name" value="Pearle Vision"/>
           <key key="shop" value="optician"/>
+          <key key="short_name" value="Pearle"/>
         </item>
         <item name="Silmäasema" type="node,closedway,multipolygon">
           <key key="brand" value="Silmäasema"/>
@@ -21302,6 +22094,13 @@
           <key key="brand:wikidata" value="Q2793714"/>
           <key key="brand:wikipedia" value="en:Cabela's"/>
           <key key="name" value="Cabela's"/>
+          <key key="shop" value="outdoor"/>
+        </item>
+        <item name="Gander Outdoors" type="node,closedway,multipolygon">
+          <key key="brand" value="Gander Outdoors"/>
+          <key key="brand:wikidata" value="Q64357426"/>
+          <key key="brand:wikipedia" value="en:Gander Outdoors"/>
+          <key key="name" value="Gander Outdoors"/>
           <key key="shop" value="outdoor"/>
         </item>
         <item name="Jack Wolfskin" type="node,closedway,multipolygon">
@@ -21641,6 +22440,13 @@
           <key key="name" value="Aldo"/>
           <key key="shop" value="shoes"/>
         </item>
+        <item name="Allen Edmonds" type="node,closedway,multipolygon">
+          <key key="brand" value="Allen Edmonds"/>
+          <key key="brand:wikidata" value="Q4731627"/>
+          <key key="brand:wikipedia" value="en:Allen Edmonds"/>
+          <key key="name" value="Allen Edmonds"/>
+          <key key="shop" value="shoes"/>
+        </item>
         <item name="André" type="node,closedway,multipolygon">
           <key key="brand" value="André"/>
           <key key="brand:wikidata" value="Q2847114"/>
@@ -21780,6 +22586,13 @@
           <key key="brand:wikidata" value="Q63335"/>
           <key key="brand:wikipedia" value="en:Foot Locker"/>
           <key key="name" value="Foot Locker"/>
+          <key key="shop" value="shoes"/>
+        </item>
+        <item name="G.H. Bass &amp; Co." type="node,closedway,multipolygon">
+          <key key="brand" value="G.H. Bass &amp; Co."/>
+          <key key="brand:wikidata" value="Q16993893"/>
+          <key key="brand:wikipedia" value="en:G.H. Bass &amp; Co."/>
+          <key key="name" value="G.H. Bass &amp; Co."/>
           <key key="shop" value="shoes"/>
         </item>
         <item name="Gabor" type="node,closedway,multipolygon">
@@ -21998,6 +22811,13 @@
           <key key="name" value="Sperry"/>
           <key key="shop" value="shoes"/>
         </item>
+        <item name="Steve Madden" type="node,closedway,multipolygon">
+          <key key="brand" value="Steve Madden"/>
+          <key key="brand:wikidata" value="Q25352034"/>
+          <key key="brand:wikipedia" value="en:Steve Madden (company)"/>
+          <key key="name" value="Steve Madden"/>
+          <key key="shop" value="shoes"/>
+        </item>
         <item name="Stride Rite" type="node,closedway,multipolygon">
           <key key="brand" value="Stride Rite"/>
           <key key="brand:wikidata" value="Q2356171"/>
@@ -22184,6 +23004,13 @@
           <key key="name" value="Modell’s Sporting Goods"/>
           <key key="shop" value="sports"/>
         </item>
+        <item name="Peloton" type="node,closedway,multipolygon">
+          <key key="brand" value="Peloton"/>
+          <key key="brand:wikidata" value="Q56276186"/>
+          <key key="brand:wikipedia" value="en:Peloton (company)"/>
+          <key key="name" value="Peloton"/>
+          <key key="shop" value="sports"/>
+        </item>
         <item name="Play It Again Sports" type="node,closedway,multipolygon">
           <key key="brand" value="Play It Again Sports"/>
           <key key="brand:wikidata" value="Q7203029"/>
@@ -22307,6 +23134,13 @@
           <key key="name" value="Paperchase"/>
           <key key="shop" value="stationery"/>
         </item>
+        <item name="Papyrus" type="node,closedway,multipolygon">
+          <key key="brand" value="Papyrus"/>
+          <key key="brand:wikidata" value="Q28222692"/>
+          <key key="brand:wikipedia" value="en:Papyrus (company)"/>
+          <key key="name" value="Papyrus"/>
+          <key key="shop" value="stationery"/>
+        </item>
         <item name="Ryman" type="node,closedway,multipolygon">
           <key key="brand" value="Ryman"/>
           <key key="brand:wikidata" value="Q7385188"/>
@@ -22357,7 +23191,7 @@
         </item>
         <item name="99 Ranch Market" type="node,closedway,multipolygon">
           <key key="brand" value="99 Ranch Market"/>
-          <key key="brand:wikidata" value="Q3600279"/>
+          <key key="brand:wikidata" value="Q4646307"/>
           <key key="brand:wikipedia" value="en:99 Ranch Market"/>
           <key key="cuisine" value="asian"/>
           <key key="name" value="99 Ranch Market"/>
@@ -22646,7 +23480,7 @@
           <key key="name" value="Cardenas"/>
           <key key="shop" value="supermarket"/>
         </item>
-        <item name="Cargills Food City" type="node,closedway,multipolygon">
+        <item name="Cargills Food City (Sri Lanka)" type="node,closedway,multipolygon">
           <key key="brand" value="Cargills Food City"/>
           <key key="brand:wikidata" value="Q58353955"/>
           <key key="name" value="Cargills Food City"/>
@@ -22776,7 +23610,7 @@
         <item name="Comercial Mexicana" type="node,closedway,multipolygon">
           <key key="brand" value="Comercial Mexicana"/>
           <key key="brand:wikidata" value="Q2985173"/>
-          <key key="brand:wikipedia" value="en:Comercial Mexicana"/>
+          <key key="brand:wikipedia" value="es:Comercial Mexicana"/>
           <key key="name" value="Comercial Mexicana"/>
           <key key="shop" value="supermarket"/>
         </item>
@@ -23124,10 +23958,10 @@
           <key key="name" value="Food Basics"/>
           <key key="shop" value="supermarket"/>
         </item>
-        <item name="Food City" type="node,closedway,multipolygon">
+        <item name="Food City (USA)" type="node,closedway,multipolygon">
           <key key="brand" value="Food City"/>
-          <key key="brand:wikidata" value="Q5465306"/>
-          <key key="brand:wikipedia" value="en:Food City (Canada)"/>
+          <key key="brand:wikidata" value="Q16981107"/>
+          <key key="brand:wikipedia" value="en:Food City (K-VA-T)"/>
           <key key="name" value="Food City"/>
           <key key="shop" value="supermarket"/>
         </item>
@@ -23138,7 +23972,7 @@
           <key key="name" value="Food Lion"/>
           <key key="shop" value="supermarket"/>
         </item>
-        <item name="FoodLand (US)" type="node,closedway,multipolygon">
+        <item name="FoodLand (USA)" type="node,closedway,multipolygon">
           <key key="brand" value="FoodLand"/>
           <key key="brand:wikidata" value="Q5465271"/>
           <key key="brand:wikipedia" value="en:FoodLand"/>
@@ -23186,6 +24020,13 @@
           <key key="brand:wikidata" value="Q5495932"/>
           <key key="brand:wikipedia" value="en:Fred Meyer"/>
           <key key="name" value="Fred Meyer"/>
+          <key key="shop" value="supermarket"/>
+        </item>
+        <item name="Fresh" type="node,closedway,multipolygon">
+          <key key="brand" value="Fresh"/>
+          <key key="brand:wikidata" value="Q50737403"/>
+          <key key="brand:wikipedia" value="sk:Fresh"/>
+          <key key="name" value="Fresh"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Fresh Thyme" type="node,closedway,multipolygon">
@@ -23270,6 +24111,7 @@
           <key key="brand:wikidata" value="Q5609934"/>
           <key key="brand:wikipedia" value="en:Grocery Outlet"/>
           <key key="name" value="Grocery Outlet"/>
+          <key key="official_name" value="Grocery Outlet Bargain Market"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Groszek" type="node,closedway,multipolygon">
@@ -23516,6 +24358,13 @@
           <key key="name" value="King Soopers"/>
           <key key="shop" value="supermarket"/>
         </item>
+        <item name="Kings" type="node,closedway,multipolygon">
+          <key key="brand" value="Kings"/>
+          <key key="brand:wikidata" value="Q6412914"/>
+          <key key="brand:wikipedia" value="en:Kings Food Markets"/>
+          <key key="name" value="Kings"/>
+          <key key="shop" value="supermarket"/>
+        </item>
         <item name="Kiwi" type="node,closedway,multipolygon">
           <key key="brand" value="Kiwi"/>
           <key key="brand:wikidata" value="Q1613639"/>
@@ -23542,6 +24391,25 @@
           <key key="brand:wikidata" value="Q6135985"/>
           <key key="brand:wikipedia" value="es:La Anónima"/>
           <key key="name" value="La Anónima"/>
+          <key key="shop" value="supermarket"/>
+        </item>
+        <item name="La Comer" type="node,closedway,multipolygon">
+          <key key="brand" value="La Comer"/>
+          <key key="brand:wikidata" value="Q26765126"/>
+          <key key="brand:wikipedia" value="es:La Comer"/>
+          <key key="name" value="La Comer"/>
+          <key key="shop" value="supermarket"/>
+        </item>
+        <item name="La Michoacana Meat Market" type="node,closedway,multipolygon">
+          <key key="brand" value="La Michoacana Meat Market"/>
+          <key key="brand:en" value="La Michoacana Meat Market"/>
+          <key key="brand:es" value="La Michoacana"/>
+          <key key="brand:wikidata" value="Q6463872"/>
+          <key key="brand:wikipedia" value="en:La Michoacana Meat Market"/>
+          <key key="cuisine" value="latin_american"/>
+          <key key="name" value="La Michoacana Meat Market"/>
+          <key key="name:en" value="La Michoacana Meat Market"/>
+          <key key="name:es" value="La Michoacana"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="La Plaza de DIA" type="node,closedway,multipolygon">
@@ -24500,6 +25368,7 @@
           <key key="brand:wikidata" value="Q7825137"/>
           <key key="brand:wikipedia" value="en:Tops Friendly Markets"/>
           <key key="name" value="Tops"/>
+          <key key="official_name" value="Tops Friendly Markets"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Tottus" type="node,closedway,multipolygon">
@@ -24708,37 +25577,45 @@
         </item>
         <item name="ΑΒ Βασιλόπουλος" type="node,closedway,multipolygon">
           <key key="brand" value="ΑΒ Βασιλόπουλος"/>
+          <key key="brand:el" value="ΑΒ Βασιλόπουλος"/>
           <key key="brand:en" value="AB Vassilopoulos"/>
           <key key="brand:wikidata" value="Q4721807"/>
           <key key="brand:wikipedia" value="el:Άλφα Βήτα Βασιλόπουλος"/>
           <key key="name" value="ΑΒ Βασιλόπουλος"/>
+          <key key="name:el" value="ΑΒ Βασιλόπουλος"/>
           <key key="name:en" value="AB Vassilopoulos"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Γαλαξίας" type="node,closedway,multipolygon">
           <key key="brand" value="Γαλαξίας"/>
+          <key key="brand:el" value="Γαλαξίας"/>
           <key key="brand:en" value="Galaxias"/>
           <key key="brand:wikidata" value="Q5518063"/>
           <key key="brand:wikipedia" value="el:Γαλαξίας (σούπερ μάρκετ)"/>
           <key key="name" value="Γαλαξίας"/>
+          <key key="name:el" value="Γαλαξίας"/>
           <key key="name:en" value="Galaxias"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Μασούτης" type="node,closedway,multipolygon">
           <key key="brand" value="Μασούτης"/>
+          <key key="brand:el" value="Μασούτης"/>
           <key key="brand:en" value="Masoutis"/>
           <key key="brand:wikidata" value="Q6783887"/>
           <key key="brand:wikipedia" value="en:Masoutis"/>
           <key key="name" value="Μασούτης"/>
+          <key key="name:el" value="Μασούτης"/>
           <key key="name:en" value="Masoutis"/>
           <key key="shop" value="supermarket"/>
         </item>
         <item name="Σκλαβενίτης" type="node,closedway,multipolygon">
           <key key="brand" value="Σκλαβενίτης"/>
+          <key key="brand:el" value="Σκλαβενίτης"/>
           <key key="brand:en" value="Sklavenitis"/>
           <key key="brand:wikidata" value="Q7536037"/>
           <key key="brand:wikipedia" value="el:Σκλαβενίτης"/>
           <key key="name" value="Σκλαβενίτης"/>
+          <key key="name:el" value="Σκλαβενίτης"/>
           <key key="name:en" value="Sklavenitis"/>
           <key key="shop" value="supermarket"/>
         </item>
@@ -25909,6 +26786,20 @@
           <key key="brand:wikidata" value="Q356212"/>
           <key key="brand:wikipedia" value="en:Fossil Group"/>
           <key key="name" value="Fossil"/>
+          <key key="shop" value="watches"/>
+        </item>
+        <item name="Omega" type="node,closedway,multipolygon">
+          <key key="brand" value="Omega"/>
+          <key key="brand:wikidata" value="Q659224"/>
+          <key key="brand:wikipedia" value="en:Omega SA"/>
+          <key key="name" value="Omega"/>
+          <key key="shop" value="watches"/>
+        </item>
+        <item name="Rolex" type="node,closedway,multipolygon">
+          <key key="brand" value="Rolex"/>
+          <key key="brand:wikidata" value="Q62288"/>
+          <key key="brand:wikipedia" value="en:Rolex"/>
+          <key key="name" value="Rolex"/>
           <key key="shop" value="watches"/>
         </item>
         <item name="Swatch" type="node,closedway,multipolygon">

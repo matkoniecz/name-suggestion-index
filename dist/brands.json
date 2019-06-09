@@ -83,6 +83,7 @@
       }
     },
     "amenity/bank|AXA": {
+      "countryCodes": ["be", "fr"],
       "tags": {
         "amenity": "bank",
         "brand": "AXA",
@@ -611,6 +612,7 @@
       }
     },
     "amenity/bank|BMCE Bank": {
+      "countryCodes": ["ma"],
       "matchNames": ["bmce"],
       "tags": {
         "amenity": "bank",
@@ -732,6 +734,7 @@
       }
     },
     "amenity/bank|BNP Paribas Fortis": {
+      "countryCodes": ["be"],
       "tags": {
         "amenity": "bank",
         "brand": "BNP Paribas Fortis",
@@ -751,10 +754,7 @@
       }
     },
     "amenity/bank|BPI": {
-      "matchNames": [
-        "bank of the philippine islands",
-        "bpi family savings bank"
-      ],
+      "matchNames": ["bpi family savings bank"],
       "tags": {
         "amenity": "bank",
         "brand": "BPI",
@@ -1067,20 +1067,6 @@
         "official_name:es": "Banco Agrario de Colombia"
       }
     },
-    "amenity/bank|Banco Agrario de Colombia": {
-      "countryCodes": ["co"],
-      "tags": {
-        "amenity": "bank",
-        "brand": "Banco Agrario de Colombia",
-        "brand:en": "Agrarian Bank of Colombia",
-        "brand:es": "Banco Agrario de Colombia",
-        "brand:wikidata": "Q20013358",
-        "brand:wikipedia": "en:Banco Agrario de Colombia",
-        "name": "Banco Agrario de Colombia",
-        "name:en": "Agrarian Bank of Colombia",
-        "name:es": "Banco Agrario de Colombia"
-      }
-    },
     "amenity/bank|Banco Azteca": {
       "tags": {
         "amenity": "bank",
@@ -1221,6 +1207,7 @@
       }
     },
     "amenity/bank|Banco G&T Continental": {
+      "countryCodes": ["gt", "sv"],
       "tags": {
         "amenity": "bank",
         "brand": "Banco G&T Continental",
@@ -1370,7 +1357,7 @@
       }
     },
     "amenity/bank|Banco Popular": {
-      "countryCodes": ["pr", "us", "vi"],
+      "countryCodes": ["us", "vi"],
       "matchNames": ["popular"],
       "tags": {
         "amenity": "bank",
@@ -1511,6 +1498,7 @@
       }
     },
     "amenity/bank|Banco de Bogotá": {
+      "countryCodes": ["co"],
       "tags": {
         "amenity": "bank",
         "brand": "Banco de Bogotá",
@@ -1541,6 +1529,7 @@
       }
     },
     "amenity/bank|Banco de Desarrollo Banrural": {
+      "countryCodes": ["gt"],
       "tags": {
         "amenity": "bank",
         "brand": "Banco de Desarrollo Banrural",
@@ -1554,6 +1543,7 @@
       }
     },
     "amenity/bank|Banco de Fomento Angola (BFA)": {
+      "countryCodes": ["ao"],
       "tags": {
         "amenity": "bank",
         "brand": "Banco de Fomento Angola (BFA)",
@@ -1576,6 +1566,7 @@
       }
     },
     "amenity/bank|Banco de Venezuela": {
+      "countryCodes": ["ve"],
       "matchNames": ["de venezuela"],
       "tags": {
         "amenity": "bank",
@@ -1635,6 +1626,7 @@
       }
     },
     "amenity/bank|Banco do Brasil": {
+      "countryCodes": ["br"],
       "tags": {
         "amenity": "bank",
         "brand": "Banco do Brasil",
@@ -1694,6 +1686,7 @@
       }
     },
     "amenity/bank|Bangkok Bank": {
+      "countryCodes": ["th"],
       "tags": {
         "amenity": "bank",
         "brand": "Bangkok Bank",
@@ -1713,6 +1706,7 @@
       }
     },
     "amenity/bank|Bank Alfalah": {
+      "countryCodes": ["pk"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank Alfalah",
@@ -1722,6 +1716,7 @@
       }
     },
     "amenity/bank|Bank Austria": {
+      "countryCodes": ["at"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank Austria",
@@ -1771,6 +1766,7 @@
       }
     },
     "amenity/bank|Bank Muamalat": {
+      "countryCodes": ["id", "my"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank Muamalat",
@@ -1810,6 +1806,7 @@
       }
     },
     "amenity/bank|Bank of America": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of America",
@@ -1828,6 +1825,7 @@
       }
     },
     "amenity/bank|Bank of Ceylon": {
+      "countryCodes": ["lk"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of Ceylon",
@@ -1836,16 +1834,8 @@
         "name": "Bank of Ceylon"
       }
     },
-    "amenity/bank|Bank of China": {
-      "tags": {
-        "amenity": "bank",
-        "brand": "Bank of China",
-        "brand:wikidata": "Q790068",
-        "brand:wikipedia": "en:Bank of China",
-        "name": "Bank of China"
-      }
-    },
     "amenity/bank|Bank of Commerce": {
+      "countryCodes": ["ph"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of Commerce",
@@ -1855,6 +1845,7 @@
       }
     },
     "amenity/bank|Bank of Cyprus": {
+      "countryCodes": ["cy", "gr"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of Cyprus",
@@ -1873,6 +1864,7 @@
       }
     },
     "amenity/bank|Bank of Ireland": {
+      "countryCodes": ["gb", "ie"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of Ireland",
@@ -1889,15 +1881,6 @@
         "brand:wikidata": "Q2004304",
         "brand:wikipedia": "en:Bank of Maharashtra",
         "name": "Bank of Maharashtra"
-      }
-    },
-    "amenity/bank|Bank of Montreal": {
-      "tags": {
-        "amenity": "bank",
-        "brand": "Bank of Montreal",
-        "brand:wikidata": "Q806693",
-        "brand:wikipedia": "en:Bank of Montreal",
-        "name": "Bank of Montreal"
       }
     },
     "amenity/bank|Bank of New Zealand": {
@@ -1941,6 +1924,7 @@
       }
     },
     "amenity/bank|Bankinter": {
+      "countryCodes": ["es", "pt"],
       "nomatch": ["amenity/bank|Interbank"],
       "tags": {
         "amenity": "bank",
@@ -2040,6 +2024,7 @@
       }
     },
     "amenity/bank|Bcc": {
+      "countryCodes": ["it"],
       "tags": {"amenity": "bank", "brand": "Bcc", "name": "Bcc"}
     },
     "amenity/bank|Belfius": {
@@ -2115,6 +2100,7 @@
       }
     },
     "amenity/bank|CBAO": {
+      "countryCodes": ["sn"],
       "tags": {
         "amenity": "bank",
         "brand": "CBAO",
@@ -2154,6 +2140,7 @@
       }
     },
     "amenity/bank|CIC": {
+      "countryCodes": ["fr"],
       "tags": {
         "amenity": "bank",
         "brand": "CIC",
@@ -2173,6 +2160,7 @@
       }
     },
     "amenity/bank|CIMB Bank": {
+      "countryCodes": ["my"],
       "tags": {
         "amenity": "bank",
         "brand": "CIMB Bank",
@@ -2202,6 +2190,7 @@
       }
     },
     "amenity/bank|CRDB Bank": {
+      "countryCodes": ["tz"],
       "tags": {"amenity": "bank", "brand": "CRDB Bank", "name": "CRDB Bank"}
     },
     "amenity/bank|Caisse Desjardins": {
@@ -2236,6 +2225,7 @@
       }
     },
     "amenity/bank|Caixa Geral de Depósitos": {
+      "countryCodes": ["es", "fr", "pt"],
       "tags": {
         "amenity": "bank",
         "brand": "Caixa Geral de Depósitos",
@@ -2276,6 +2266,7 @@
       }
     },
     "amenity/bank|Caja Rural": {
+      "countryCodes": ["es"],
       "tags": {
         "amenity": "bank",
         "brand": "Caja Rural",
@@ -2315,6 +2306,7 @@
       }
     },
     "amenity/bank|Canara Bank": {
+      "countryCodes": ["in"],
       "tags": {
         "amenity": "bank",
         "brand": "Canara Bank",
@@ -2471,8 +2463,6 @@
       "tags": {
         "amenity": "bank",
         "brand": "Citizens Bank",
-        "brand:wikidata": "Q25209674",
-        "brand:wikipedia": "en:Citizens Bank (South Bend, Indiana)",
         "name": "Citizens Bank"
       }
     },
@@ -2569,6 +2559,7 @@
       }
     },
     "amenity/bank|Commerzbank": {
+      "countryCodes": ["de"],
       "tags": {
         "amenity": "bank",
         "brand": "Commerzbank",
@@ -2617,6 +2608,7 @@
       }
     },
     "amenity/bank|Credicoop": {
+      "countryCodes": ["ar"],
       "tags": {
         "amenity": "bank",
         "brand": "Credicoop",
@@ -2626,6 +2618,7 @@
       }
     },
     "amenity/bank|Credit Suisse": {
+      "countryCodes": ["ch"],
       "tags": {
         "amenity": "bank",
         "brand": "Credit Suisse",
@@ -2693,6 +2686,7 @@
       }
     },
     "amenity/bank|Crédit du Nord": {
+      "countryCodes": ["fr"],
       "tags": {
         "amenity": "bank",
         "brand": "Crédit du Nord",
@@ -2702,6 +2696,7 @@
       }
     },
     "amenity/bank|Crédito Agrícola": {
+      "countryCodes": ["pt"],
       "tags": {
         "amenity": "bank",
         "brand": "Crédito Agrícola",
@@ -2711,6 +2706,7 @@
       }
     },
     "amenity/bank|Cбербанк": {
+      "countryCodes": ["kz", "ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Cбербанк",
@@ -2720,6 +2716,7 @@
       }
     },
     "amenity/bank|Danske Bank": {
+      "countryCodes": ["dk", "fi", "gb", "lt", "no", "se"],
       "tags": {
         "amenity": "bank",
         "brand": "Danske Bank",
@@ -2814,6 +2811,7 @@
       }
     },
     "amenity/bank|Emirates NBD": {
+      "countryCodes": ["ae"],
       "tags": {
         "amenity": "bank",
         "brand": "Emirates NBD",
@@ -2932,7 +2930,8 @@
         "name": "Eurobank"
       }
     },
-    "amenity/bank|FNB": {
+    "amenity/bank|FNB~(South Africa)": {
+      "countryCodes": ["bw", "mz", "na", "us", "za", "zm"],
       "tags": {
         "amenity": "bank",
         "brand": "FNB",
@@ -2994,7 +2993,7 @@
     },
     "amenity/bank|Fifth Third Bank": {
       "countryCodes": ["us"],
-      "matchNames": ["5/3", "5/3 bank"],
+      "matchNames": ["5/3"],
       "tags": {
         "amenity": "bank",
         "brand": "Fifth Third Bank",
@@ -3005,6 +3004,7 @@
       }
     },
     "amenity/bank|Finansbank": {
+      "countryCodes": ["tr"],
       "tags": {
         "amenity": "bank",
         "brand": "Finansbank",
@@ -3015,7 +3015,6 @@
     },
     "amenity/bank|First Bank~(Western USA)": {
       "countryCodes": ["us"],
-      "matchNames": ["1stbank"],
       "tags": {
         "amenity": "bank",
         "brand": "First Bank",
@@ -3068,7 +3067,7 @@
         "name": "First Midwest Bank"
       }
     },
-    "amenity/bank|First National Bank": {
+    "amenity/bank|First National Bank~(USA)": {
       "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
@@ -3079,6 +3078,7 @@
       }
     },
     "amenity/bank|First State Bank": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "First State Bank",
@@ -3096,9 +3096,11 @@
       }
     },
     "amenity/bank|Fulton Bank": {
+      "countryCodes": ["us"],
       "tags": {"amenity": "bank", "brand": "Fulton Bank", "name": "Fulton Bank"}
     },
     "amenity/bank|GCB Bank": {
+      "countryCodes": ["gh"],
       "tags": {
         "amenity": "bank",
         "brand": "GCB Bank",
@@ -3198,6 +3200,7 @@
       }
     },
     "amenity/bank|Halifax": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "bank",
         "brand": "Halifax",
@@ -3216,6 +3219,7 @@
       }
     },
     "amenity/bank|Handelsbanken": {
+      "countryCodes": ["dk", "fi", "gb", "no", "se"],
       "tags": {
         "amenity": "bank",
         "brand": "Handelsbanken",
@@ -3234,6 +3238,7 @@
       }
     },
     "amenity/bank|Hong Leong Bank": {
+      "countryCodes": ["my"],
       "tags": {
         "amenity": "bank",
         "brand": "Hong Leong Bank",
@@ -3253,6 +3258,7 @@
       }
     },
     "amenity/bank|Huntington Bank": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "Huntington Bank",
@@ -3262,6 +3268,7 @@
       }
     },
     "amenity/bank|HypoVereinsbank": {
+      "countryCodes": ["de"],
       "tags": {
         "amenity": "bank",
         "brand": "HypoVereinsbank",
@@ -3280,6 +3287,7 @@
       }
     },
     "amenity/bank|ICICI Bank": {
+      "countryCodes": ["ca", "gb", "in"],
       "tags": {
         "amenity": "bank",
         "brand": "ICICI Bank",
@@ -3329,6 +3337,7 @@
       }
     },
     "amenity/bank|Indian Bank": {
+      "countryCodes": ["in"],
       "tags": {
         "amenity": "bank",
         "brand": "Indian Bank",
@@ -3338,6 +3347,7 @@
       }
     },
     "amenity/bank|Indian Overseas Bank": {
+      "countryCodes": ["in"],
       "tags": {
         "amenity": "bank",
         "brand": "Indian Overseas Bank",
@@ -3402,10 +3412,14 @@
     "amenity/bank|Janata Bank Limited জনতা ব্যাংক লিমিটেড": {
       "tags": {
         "amenity": "bank",
-        "brand": "Janata Bank Limited জনতা ব্যাংক লিমিটেড",
+        "brand": "জনতা ব্যাংক লিমিটেড",
+        "brand:bn": "জনতা ব্যাংক লিমিটেড",
+        "brand:en": "Janata Bank Limited",
         "brand:wikidata": "Q3347028",
         "brand:wikipedia": "en:Janata Bank",
-        "name": "Janata Bank Limited জনতা ব্যাংক লিমিটেড"
+        "name": "জনতা ব্যাংক লিমিটেড",
+        "name:bn": "জনতা ব্যাংক লিমিটেড",
+        "name:en": "Janata Bank Limited"
       }
     },
     "amenity/bank|Jyske Bank": {
@@ -3429,6 +3443,7 @@
       }
     },
     "amenity/bank|KBC": {
+      "countryCodes": ["be", "ie"],
       "tags": {
         "amenity": "bank",
         "brand": "KBC",
@@ -3438,6 +3453,7 @@
       }
     },
     "amenity/bank|KBZ Bank": {
+      "countryCodes": ["mm"],
       "tags": {
         "amenity": "bank",
         "brand": "KBZ Bank",
@@ -3510,6 +3526,7 @@
       "tags": {"amenity": "bank", "brand": "Kuveyt Türk", "name": "Kuveyt Türk"}
     },
     "amenity/bank|LCL": {
+      "countryCodes": ["fr"],
       "tags": {
         "amenity": "bank",
         "brand": "LCL",
@@ -3519,6 +3536,7 @@
       }
     },
     "amenity/bank|La Banque Postale": {
+      "countryCodes": ["fr"],
       "tags": {
         "amenity": "bank",
         "brand": "La Banque Postale",
@@ -3591,6 +3609,7 @@
       }
     },
     "amenity/bank|Lloyds Bank": {
+      "countryCodes": ["gb", "im"],
       "matchNames": ["lloyds", "lloyds tsb"],
       "tags": {
         "amenity": "bank",
@@ -3601,6 +3620,7 @@
       }
     },
     "amenity/bank|M&T Bank": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "M&T Bank",
@@ -3630,6 +3650,7 @@
       }
     },
     "amenity/bank|Macro": {
+      "countryCodes": ["ar"],
       "tags": {
         "amenity": "bank",
         "brand": "Macro",
@@ -3680,6 +3701,7 @@
       }
     },
     "amenity/bank|MidFirst Bank": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "MidFirst Bank",
@@ -3713,6 +3735,7 @@
       }
     },
     "amenity/bank|Monte dei Paschi di Siena": {
+      "countryCodes": ["it"],
       "tags": {
         "amenity": "bank",
         "brand": "Monte dei Paschi di Siena",
@@ -3722,6 +3745,7 @@
       }
     },
     "amenity/bank|Montepio": {
+      "countryCodes": ["pt"],
       "tags": {
         "amenity": "bank",
         "brand": "Montepio",
@@ -3751,6 +3775,7 @@
       }
     },
     "amenity/bank|NatWest": {
+      "countryCodes": ["gb", "gg"],
       "tags": {
         "amenity": "bank",
         "brand": "NatWest",
@@ -3771,6 +3796,7 @@
       }
     },
     "amenity/bank|Nationwide": {
+      "countryCodes": ["gb"],
       "nomatch": ["office/insurance|Nationwide"],
       "tags": {
         "amenity": "bank",
@@ -3781,6 +3807,7 @@
       }
     },
     "amenity/bank|Navy Federal Credit Union": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "Navy Federal Credit Union",
@@ -3808,6 +3835,7 @@
       }
     },
     "amenity/bank|Novo Banco": {
+      "countryCodes": ["es", "pt"],
       "tags": {
         "amenity": "bank",
         "brand": "Novo Banco",
@@ -3837,6 +3865,7 @@
       }
     },
     "amenity/bank|Oberbank": {
+      "countryCodes": ["at", "cz", "de", "hu"],
       "tags": {
         "amenity": "bank",
         "brand": "Oberbank",
@@ -3846,6 +3875,7 @@
       }
     },
     "amenity/bank|Occidental de Descuento": {
+      "countryCodes": ["ve"],
       "tags": {
         "amenity": "bank",
         "brand": "Occidental de Descuento",
@@ -3920,7 +3950,6 @@
     },
     "amenity/bank|PNB": {
       "countryCodes": ["ph"],
-      "matchNames": ["philippine national bank"],
       "tags": {
         "amenity": "bank",
         "brand": "PNB",
@@ -3931,6 +3960,7 @@
       }
     },
     "amenity/bank|PNC Bank": {
+      "countryCodes": ["us"],
       "matchNames": ["pnc"],
       "tags": {
         "amenity": "bank",
@@ -3941,6 +3971,7 @@
       }
     },
     "amenity/bank|PSBank": {
+      "countryCodes": ["ph"],
       "tags": {
         "amenity": "bank",
         "brand": "PSBank",
@@ -3950,6 +3981,7 @@
       }
     },
     "amenity/bank|Panin Bank": {
+      "countryCodes": ["id"],
       "tags": {
         "amenity": "bank",
         "brand": "Panin Bank",
@@ -3998,6 +4030,7 @@
       }
     },
     "amenity/bank|Piraeus Bank": {
+      "countryCodes": ["bg", "cy", "gr", "ro", "ua"],
       "tags": {
         "amenity": "bank",
         "brand": "Piraeus Bank",
@@ -4071,12 +4104,7 @@
       }
     },
     "amenity/bank|RBC": {
-      "matchNames": [
-        "rbc financial group",
-        "rbc royal bank",
-        "royal bank",
-        "royal bank of canada"
-      ],
+      "matchNames": ["rbc financial group", "rbc royal bank", "royal bank"],
       "tags": {
         "amenity": "bank",
         "brand": "RBC",
@@ -4087,7 +4115,7 @@
       }
     },
     "amenity/bank|RBS": {
-      "matchNames": ["royal bank of scotland"],
+      "countryCodes": ["gb", "je", "ro"],
       "tags": {
         "amenity": "bank",
         "brand": "RBS",
@@ -4110,6 +4138,7 @@
       }
     },
     "amenity/bank|Rabobank": {
+      "countryCodes": ["au", "id", "nl", "nz", "us"],
       "tags": {
         "amenity": "bank",
         "brand": "Rabobank",
@@ -4119,6 +4148,7 @@
       }
     },
     "amenity/bank|Raiffeisen Polbank": {
+      "countryCodes": ["de", "pl"],
       "tags": {
         "amenity": "bank",
         "brand": "Raiffeisen Polbank",
@@ -4150,12 +4180,32 @@
       "tags": {
         "amenity": "bank",
         "brand": "Republic Bank",
+        "name": "Republic Bank"
+      }
+    },
+    "amenity/bank|Republic Bank (Eastern Caribbean)": {
+      "countryCodes": ["bb", "gd", "gy", "tt"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Republic Bank",
         "brand:wikidata": "Q7314386",
         "brand:wikipedia": "en:Republic Bank",
         "name": "Republic Bank"
       }
     },
+    "amenity/bank|Republic Bank (USA)": {
+      "countryCodes": ["us"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Republic Bank",
+        "brand:wikidata": "Q7314387",
+        "brand:wikipedia": "en:Republic Bank & Trust Company",
+        "name": "Republic Bank",
+        "official_name": "Republic Bank & Trust Company"
+      }
+    },
     "amenity/bank|República": {
+      "countryCodes": ["uy"],
       "tags": {"amenity": "bank", "brand": "República", "name": "República"}
     },
     "amenity/bank|S-Pankki": {
@@ -4179,6 +4229,7 @@
       }
     },
     "amenity/bank|SEB": {
+      "countryCodes": ["de", "ee", "lt", "lv", "se"],
       "tags": {
         "amenity": "bank",
         "brand": "SEB",
@@ -4240,6 +4291,7 @@
       }
     },
     "amenity/bank|Santander Totta": {
+      "countryCodes": ["pt"],
       "tags": {
         "amenity": "bank",
         "brand": "Santander Totta",
@@ -4267,6 +4319,7 @@
       }
     },
     "amenity/bank|Security Bank": {
+      "countryCodes": ["ph"],
       "tags": {
         "amenity": "bank",
         "brand": "Security Bank",
@@ -4286,6 +4339,7 @@
       }
     },
     "amenity/bank|Siam Commercial Bank": {
+      "countryCodes": ["th"],
       "tags": {
         "amenity": "bank",
         "brand": "Siam Commercial Bank",
@@ -4305,6 +4359,7 @@
       }
     },
     "amenity/bank|Sicredi": {
+      "countryCodes": ["br"],
       "tags": {
         "amenity": "bank",
         "brand": "Sicredi",
@@ -4342,7 +4397,18 @@
         "name": "Société Générale"
       }
     },
+    "amenity/bank|Société Marseillaise de Crédit": {
+      "countryCodes": ["fr"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Société Marseillaise de Crédit",
+        "brand:wikidata": "Q3488479",
+        "brand:wikipedia": "fr:Société marseillaise de crédit",
+        "name": "Société Marseillaise de Crédit"
+      }
+    },
     "amenity/bank|Sonali Bank": {
+      "countryCodes": ["bd"],
       "matchNames": [
         "sonali bank limited",
         "sonali bank limited সোনালী ব্যাংক লিমিটেড"
@@ -4376,6 +4442,7 @@
       }
     },
     "amenity/bank|Sparda-Bank": {
+      "countryCodes": ["at", "de"],
       "tags": {
         "amenity": "bank",
         "brand": "Sparda-Bank",
@@ -4422,6 +4489,7 @@
       }
     },
     "amenity/bank|Summit Bank": {
+      "countryCodes": ["pk"],
       "tags": {
         "amenity": "bank",
         "brand": "Summit Bank",
@@ -4452,6 +4520,7 @@
       }
     },
     "amenity/bank|Swedbank": {
+      "countryCodes": ["ee", "lt", "lv", "se"],
       "tags": {
         "amenity": "bank",
         "brand": "Swedbank",
@@ -4461,6 +4530,7 @@
       }
     },
     "amenity/bank|Syndicate Bank": {
+      "countryCodes": ["in"],
       "tags": {
         "amenity": "bank",
         "brand": "Syndicate Bank",
@@ -4470,6 +4540,7 @@
       }
     },
     "amenity/bank|TCF Bank": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "bank",
         "brand": "TCF Bank",
@@ -4479,6 +4550,7 @@
       }
     },
     "amenity/bank|TD Bank": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "bank",
         "brand": "TD Bank",
@@ -4498,6 +4570,7 @@
       }
     },
     "amenity/bank|TEB": {
+      "countryCodes": ["tr"],
       "tags": {
         "amenity": "bank",
         "brand": "TEB",
@@ -4507,6 +4580,7 @@
       }
     },
     "amenity/bank|TSB": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "bank",
         "brand": "TSB",
@@ -4516,6 +4590,7 @@
       }
     },
     "amenity/bank|Takarékszövetkezet": {
+      "countryCodes": ["hu"],
       "tags": {
         "amenity": "bank",
         "brand": "Takarékszövetkezet",
@@ -4525,6 +4600,7 @@
       }
     },
     "amenity/bank|Targobank": {
+      "countryCodes": ["de", "es"],
       "tags": {
         "amenity": "bank",
         "brand": "Targobank",
@@ -4534,6 +4610,7 @@
       }
     },
     "amenity/bank|Tatra banka": {
+      "countryCodes": ["sk"],
       "tags": {
         "amenity": "bank",
         "brand": "Tatra banka",
@@ -4571,6 +4648,7 @@
       }
     },
     "amenity/bank|UBI Banca": {
+      "countryCodes": ["it"],
       "tags": {
         "amenity": "bank",
         "brand": "UBI Banca",
@@ -4631,6 +4709,7 @@
       }
     },
     "amenity/bank|Ulster Bank": {
+      "countryCodes": ["gb", "ie"],
       "tags": {
         "amenity": "bank",
         "brand": "Ulster Bank",
@@ -4658,6 +4737,10 @@
         "brand:wikipedia": "en:UniCredit",
         "name": "UniCredit Bank"
       }
+    },
+    "amenity/bank|Unicaja": {
+      "countryCodes": ["es"],
+      "tags": {"amenity": "bank", "brand": "Unicaja", "name": "Unicaja"}
     },
     "amenity/bank|Unicaja Banco": {
       "countryCodes": ["es"],
@@ -4725,6 +4808,7 @@
       }
     },
     "amenity/bank|Veneto Banca": {
+      "countryCodes": ["it"],
       "tags": {
         "amenity": "bank",
         "brand": "Veneto Banca",
@@ -4743,26 +4827,18 @@
         "name": "Vijaya Bank"
       }
     },
-    "amenity/bank|Volksbank": {
-      "tags": {
-        "amenity": "bank",
-        "brand": "Volksbank",
-        "brand:wikidata": "Q695110",
-        "brand:wikipedia": "en:Volksbank",
-        "name": "Volksbank"
-      }
-    },
     "amenity/bank|Volksbank Köln Bonn eG": {
+      "countryCodes": ["de"],
       "tags": {
         "amenity": "bank",
         "brand": "Volksbank Köln Bonn eG",
         "brand:wikidata": "Q41680844",
         "brand:wikipedia": "de:Volksbank Köln Bonn",
-        "name": "Volksbank",
-        "official_name": "Volksbank Köln Bonn eG"
+        "name": "Volksbank Köln Bonn eG"
       }
     },
     "amenity/bank|VÚB": {
+      "countryCodes": ["sk"],
       "tags": {
         "amenity": "bank",
         "brand": "VÚB",
@@ -4782,6 +4858,7 @@
       }
     },
     "amenity/bank|Wells Fargo": {
+      "countryCodes": ["us"],
       "matchNames": ["wells fargo bank"],
       "tags": {
         "amenity": "bank",
@@ -4831,6 +4908,7 @@
       }
     },
     "amenity/bank|Yorkshire Building Society": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "bank",
         "brand": "Yorkshire Building Society",
@@ -4876,6 +4954,17 @@
         "name": "mBank"
       }
     },
+    "amenity/bank|st.george": {
+      "countryCodes": ["au"],
+      "matchNames": ["st.george bank"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "st.george",
+        "brand:wikidata": "Q1606050",
+        "brand:wikipedia": "en:St.George Bank",
+        "name": "st.george"
+      }
+    },
     "amenity/bank|Ålandsbanken": {
       "countryCodes": ["fi"],
       "tags": {
@@ -4887,6 +4976,7 @@
       }
     },
     "amenity/bank|ČSOB": {
+      "countryCodes": ["cz", "sk"],
       "tags": {
         "amenity": "bank",
         "brand": "ČSOB",
@@ -4930,6 +5020,7 @@
       }
     },
     "amenity/bank|Πειραιώς": {
+      "countryCodes": ["gr"],
       "tags": {"amenity": "bank", "brand": "Πειραιώς", "name": "Πειραιώς"}
     },
     "amenity/bank|Τράπεζα Πειραιώς": {
@@ -4947,6 +5038,7 @@
       }
     },
     "amenity/bank|А-Банк": {
+      "countryCodes": ["ua"],
       "tags": {"amenity": "bank", "brand": "А-Банк", "name": "А-Банк"}
     },
     "amenity/bank|Авангард": {
@@ -4959,6 +5051,7 @@
       }
     },
     "amenity/bank|Альфа-Банк": {
+      "countryCodes": ["by", "kz", "ru", "ua"],
       "tags": {
         "amenity": "bank",
         "brand": "Альфа-Банк",
@@ -4972,13 +5065,17 @@
       }
     },
     "amenity/bank|БПС-Сбербанк": {
+      "countryCodes": ["by"],
       "tags": {
         "amenity": "bank",
         "brand": "БПС-Сбербанк",
+        "brand:wikidata": "Q2074915",
+        "brand:wikipedia": "be:БПС-Сбербанк",
         "name": "БПС-Сбербанк"
       }
     },
     "amenity/bank|Банк Дабрабыт": {
+      "countryCodes": ["by"],
       "tags": {
         "amenity": "bank",
         "brand": "Банк Дабрабыт",
@@ -5013,6 +5110,7 @@
       }
     },
     "amenity/bank|Беларусбанк": {
+      "countryCodes": ["by"],
       "tags": {
         "amenity": "bank",
         "brand": "Беларусбанк",
@@ -5046,6 +5144,7 @@
       }
     },
     "amenity/bank|ВТБ": {
+      "countryCodes": ["ru", "ua"],
       "matchNames": ["втб банк москвы"],
       "tags": {
         "amenity": "bank",
@@ -5135,6 +5234,7 @@
       }
     },
     "amenity/bank|ОТП Банк": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "amenity": "bank",
         "brand": "ОТП Банк",
@@ -5193,6 +5293,7 @@
       }
     },
     "amenity/bank|Почта Банк": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Почта Банк",
@@ -5204,6 +5305,7 @@
       }
     },
     "amenity/bank|Пощенска банка": {
+      "countryCodes": ["bg"],
       "tags": {
         "amenity": "bank",
         "brand": "Пощенска банка",
@@ -5234,6 +5336,7 @@
       }
     },
     "amenity/bank|Промсвязьбанк": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Промсвязьбанк",
@@ -5245,6 +5348,7 @@
       }
     },
     "amenity/bank|РНКБ": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "amenity": "bank",
         "brand": "РНКБ",
@@ -5278,6 +5382,7 @@
       }
     },
     "amenity/bank|Росбанк": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Росбанк",
@@ -5289,6 +5394,7 @@
       }
     },
     "amenity/bank|Россельхозбанк": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Россельхозбанк",
@@ -5348,6 +5454,7 @@
       }
     },
     "amenity/bank|Укргазбанк": {
+      "countryCodes": ["ua"],
       "tags": {
         "amenity": "bank",
         "brand": "Укргазбанк",
@@ -5393,6 +5500,7 @@
       }
     },
     "amenity/bank|Хоум Кредит": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "bank",
         "brand": "Хоум Кредит",
@@ -5569,6 +5677,7 @@
       }
     },
     "amenity/bank|بانک صادرات": {
+      "countryCodes": ["ir"],
       "matchNames": ["بانک صادرات ایران", "صادرات"],
       "tags": {
         "amenity": "bank",
@@ -5686,6 +5795,45 @@
         "brand:wikipedia": "en:Post Bank of Iran",
         "name": "پست بانک",
         "name:en": "Post Bank of Iran"
+      }
+    },
+    "amenity/bank|অগ্রণী ব্যাংক লিমিটেড": {
+      "countryCodes": ["bd"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "অগ্রণী ব্যাংক লিমিটেড",
+        "name": "অগ্রণী ব্যাংক লিমিটেড"
+      }
+    },
+    "amenity/bank|গ্রামীণ ব্যাংক": {
+      "countryCodes": ["bd"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "গ্রামীণ ব্যাংক",
+        "name": "গ্রামীণ ব্যাংক"
+      }
+    },
+    "amenity/bank|জনতা ব্যাংক লিমিটেড": {
+      "tags": {
+        "amenity": "bank",
+        "brand": "জনতা ব্যাংক লিমিটেড",
+        "name": "জনতা ব্যাংক লিমিটেড"
+      }
+    },
+    "amenity/bank|বাংলাদেশ কৃষি ব্যাংক": {
+      "countryCodes": ["bd"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "বাংলাদেশ কৃষি ব্যাংক",
+        "name": "বাংলাদেশ কৃষি ব্যাংক"
+      }
+    },
+    "amenity/bank|সোনালী ব্যাংক লিমিটেড": {
+      "countryCodes": ["bd"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "সোনালী ব্যাংক লিমিটেড",
+        "name": "সোনালী ব্যাংক লিমিটেড"
       }
     },
     "amenity/bank|ธนาคารกรุงเทพ": {
@@ -5836,6 +5984,10 @@
         "name:en": "Shanghai Commercial and Savings Bank"
       }
     },
+    "amenity/bank|东亚银行": {
+      "countryCodes": ["cn"],
+      "tags": {"amenity": "bank", "brand": "东亚银行", "name": "东亚银行"}
+    },
     "amenity/bank|中信银行": {
       "countryCodes": ["cn"],
       "tags": {
@@ -5848,6 +6000,7 @@
       }
     },
     "amenity/bank|中国农业银行": {
+      "countryCodes": ["cn"],
       "tags": {
         "amenity": "bank",
         "brand": "中国农业银行",
@@ -5859,6 +6012,7 @@
       }
     },
     "amenity/bank|中国工商银行": {
+      "countryCodes": ["cn"],
       "tags": {
         "amenity": "bank",
         "brand": "中国工商银行",
@@ -5881,7 +6035,20 @@
         "name:en": "China Construction Bank"
       }
     },
+    "amenity/bank|中国民生银行": {
+      "countryCodes": ["cn"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国民生银行",
+        "brand:en": "China Minsheng Bank",
+        "brand:wikidata": "Q911543",
+        "brand:wikipedia": "en:China Minsheng Bank",
+        "name": "中国民生银行",
+        "name:en": "China Minsheng Bank"
+      }
+    },
     "amenity/bank|中国邮政储蓄银行": {
+      "countryCodes": ["cn"],
       "tags": {
         "amenity": "bank",
         "brand": "中国邮政储蓄银行",
@@ -5893,6 +6060,7 @@
       }
     },
     "amenity/bank|中国银行": {
+      "countryCodes": ["cn"],
       "tags": {
         "amenity": "bank",
         "brand": "中国银行",
@@ -5986,6 +6154,7 @@
       }
     },
     "amenity/bank|农业银行": {
+      "countryCodes": ["cn"],
       "tags": {
         "amenity": "bank",
         "brand": "农业银行",
@@ -6115,6 +6284,7 @@
       }
     },
     "amenity/bank|常陽銀行": {
+      "countryCodes": ["jp"],
       "tags": {"amenity": "bank", "brand": "常陽銀行", "name": "常陽銀行"}
     },
     "amenity/bank|建设银行": {
@@ -6161,6 +6331,22 @@
         "brand:wikipedia": "ja:日本銀行",
         "name": "日本銀行",
         "name:en": "Bank of Japan"
+      }
+    },
+    "amenity/bank|東亞銀行": {
+      "countryCodes": ["hk"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "東亞銀行",
+        "brand:en": "Bank of East Asia",
+        "brand:wikidata": "Q806679",
+        "brand:wikipedia": "zh:東亞銀行",
+        "brand:zh-Hans": "东亚银行",
+        "brand:zh-Hant": "東亞銀行",
+        "name": "東亞銀行 BEA",
+        "name:en": "Bank of East Asia",
+        "name:zh-Hans": "东亚银行",
+        "name:zh-Hant": "東亞銀行"
       }
     },
     "amenity/bank|板信商業銀行": {
@@ -6509,6 +6695,7 @@
       }
     },
     "amenity/bicycle_rental|nextbike": {
+      "countryCodes": ["at", "de"],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "nextbike",
@@ -6546,6 +6733,7 @@
       "countryCodes": ["au", "us"],
       "matchNames": [
         "85 cafe",
+        "85 degrees",
         "85 degrees c",
         "85 degrees celsius",
         "85c bakery cafe",
@@ -6558,7 +6746,7 @@
         "brand": "85°C",
         "brand:wikidata": "Q4644852",
         "brand:wikipedia": "en:85C Bakery Cafe",
-        "cuisine": "coffee_shop",
+        "cuisine": "coffee_shop;chinese",
         "name": "85°C",
         "takeaway": "yes"
       }
@@ -6586,6 +6774,17 @@
         "brand:wikipedia": "en:Barista (company)",
         "cuisine": "coffee_shop",
         "name": "Barista",
+        "takeaway": "yes"
+      }
+    },
+    "amenity/cafe|Black Rock Coffee": {
+      "countryCodes": ["us"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Black Rock Coffee",
+        "brand:wikidata": "Q64225934",
+        "cuisine": "coffee_shop",
+        "name": "Black Rock Coffee",
         "takeaway": "yes"
       }
     },
@@ -6656,6 +6855,7 @@
       }
     },
     "amenity/cafe|Cappuccino": {
+      "countryCodes": ["at", "be", "de", "es", "se"],
       "tags": {
         "amenity": "cafe",
         "brand": "Cappuccino",
@@ -6696,6 +6896,7 @@
       }
     },
     "amenity/cafe|Coffee Culture": {
+      "countryCodes": ["ca", "nz", "us"],
       "tags": {
         "amenity": "cafe",
         "brand": "Coffee Culture",
@@ -6705,6 +6906,7 @@
       }
     },
     "amenity/cafe|Coffee Fellows": {
+      "countryCodes": ["de", "lu", "nl"],
       "tags": {
         "amenity": "cafe",
         "brand": "Coffee Fellows",
@@ -6741,6 +6943,7 @@
       }
     },
     "amenity/cafe|Coffee Like": {
+      "countryCodes": ["kz", "ru"],
       "tags": {
         "amenity": "cafe",
         "brand": "Coffee Like",
@@ -6773,6 +6976,7 @@
       }
     },
     "amenity/cafe|Country Style": {
+      "countryCodes": ["ca"],
       "tags": {
         "amenity": "cafe",
         "brand": "Country Style",
@@ -6868,6 +7072,7 @@
       }
     },
     "amenity/cafe|Insomnia": {
+      "countryCodes": ["ie"],
       "tags": {
         "amenity": "cafe",
         "brand": "Insomnia",
@@ -6926,6 +7131,7 @@
       }
     },
     "amenity/cafe|Mikel": {
+      "countryCodes": ["gr"],
       "tags": {
         "amenity": "cafe",
         "brand": "Mikel",
@@ -7021,7 +7227,6 @@
       }
     },
     "amenity/cafe|Starbucks": {
-      "matchNames": ["starbucks coffee"],
       "tags": {
         "amenity": "cafe",
         "brand": "Starbucks",
@@ -7029,6 +7234,7 @@
         "brand:wikipedia": "en:Starbucks",
         "cuisine": "coffee_shop",
         "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
         "takeaway": "yes"
       }
     },
@@ -7070,6 +7276,7 @@
       }
     },
     "amenity/cafe|The Human Bean": {
+      "countryCodes": ["us"],
       "matchNames": ["human bean"],
       "tags": {
         "amenity": "cafe",
@@ -7093,6 +7300,7 @@
       }
     },
     "amenity/cafe|Traveler's Coffee": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "cafe",
         "brand": "Traveler's Coffee",
@@ -7119,6 +7327,7 @@
       }
     },
     "amenity/cafe|Wayne's Coffee": {
+      "countryCodes": ["fi", "no", "se"],
       "tags": {
         "amenity": "cafe",
         "brand": "Wayne's Coffee",
@@ -7179,6 +7388,16 @@
         "takeaway": "yes"
       }
     },
+    "amenity/cafe|Лагуна": {
+      "countryCodes": ["ru", "ua"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Лагуна",
+        "cuisine": "coffee_shop",
+        "name": "Лагуна",
+        "takeaway": "yes"
+      }
+    },
     "amenity/cafe|Лакомка": {
       "tags": {
         "amenity": "cafe",
@@ -7209,6 +7428,7 @@
       }
     },
     "amenity/cafe|Смак": {
+      "countryCodes": ["kz", "ru", "ua", "uz"],
       "matchTags": ["shop/convenience"],
       "tags": {
         "amenity": "cafe",
@@ -7519,6 +7739,7 @@
       }
     },
     "amenity/car_rental|Avis": {
+      "matchNames": ["avis car rental"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Avis",
@@ -7528,31 +7749,36 @@
       }
     },
     "amenity/car_rental|Budget": {
+      "matchNames": ["budget car rental"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Budget",
         "brand:wikidata": "Q1001437",
         "brand:wikipedia": "en:Budget Rent a Car",
-        "name": "Budget"
+        "name": "Budget",
+        "official_name": "Budget Rent a Car"
       }
     },
     "amenity/car_rental|Dollar": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Dollar",
         "brand:wikidata": "Q1235661",
         "brand:wikipedia": "en:Dollar Rent A Car",
-        "name": "Dollar"
+        "name": "Dollar",
+        "official_name": "Dollar Rent A Car"
       }
     },
     "amenity/car_rental|Enterprise": {
-      "matchNames": ["enterprise rent-a-car"],
+      "matchNames": ["enterprise car rental"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Enterprise",
         "brand:wikidata": "Q17085454",
         "brand:wikipedia": "en:Enterprise Rent-A-Car",
-        "name": "Enterprise"
+        "name": "Enterprise",
+        "official_name": "Enterprise Rent-A-Car"
       }
     },
     "amenity/car_rental|Europcar": {
@@ -7565,6 +7791,7 @@
       }
     },
     "amenity/car_rental|Hertz": {
+      "matchNames": ["hertz car rental"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Hertz",
@@ -7583,8 +7810,16 @@
       }
     },
     "amenity/car_rental|National": {
+      "countryCodes": ["ca", "gb", "us"],
       "nomatch": ["amenity/bank|National Bank"],
-      "tags": {"amenity": "car_rental", "brand": "National", "name": "National"}
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "National",
+        "brand:wikidata": "Q1424142",
+        "brand:wikipedia": "en:National Car Rental",
+        "name": "National",
+        "official_name": "National Car Rental"
+      }
     },
     "amenity/car_rental|Sixt": {
       "tags": {
@@ -7596,6 +7831,7 @@
       }
     },
     "amenity/car_rental|Thrifty": {
+      "matchNames": ["thrifty car rental"],
       "tags": {
         "amenity": "car_rental",
         "brand": "Thrifty",
@@ -7605,6 +7841,8 @@
       }
     },
     "amenity/car_rental|U-Haul": {
+      "countryCodes": ["ca", "us"],
+      "matchNames": ["uhaul neighborhood dealer"],
       "tags": {
         "amenity": "car_rental",
         "brand": "U-Haul",
@@ -7692,6 +7930,16 @@
         "name": "Enterprise Car Club"
       }
     },
+    "amenity/car_sharing|Greenwheels": {
+      "countryCodes": ["de", "nl"],
+      "tags": {
+        "amenity": "car_sharing",
+        "brand": "Greenwheels",
+        "brand:wikidata": "Q316782",
+        "brand:wikipedia": "en:Greenwheels",
+        "name": "Greenwheels"
+      }
+    },
     "amenity/car_sharing|Zipcar": {
       "tags": {
         "amenity": "car_sharing",
@@ -7712,7 +7960,18 @@
         "name": "stadtmobil"
       }
     },
+    "amenity/car_sharing|teilAuto": {
+      "countryCodes": ["de"],
+      "tags": {
+        "amenity": "car_sharing",
+        "brand": "teilAuto",
+        "brand:wikidata": "Q2400658",
+        "brand:wikipedia": "de:TeilAuto",
+        "name": "teilAuto"
+      }
+    },
     "amenity/charging_station|Blink": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "charging_station",
         "brand": "Blink",
@@ -7730,6 +7989,7 @@
       }
     },
     "amenity/charging_station|E-WALD": {
+      "countryCodes": ["de"],
       "matchNames": ["e-wald ladestation"],
       "tags": {
         "amenity": "charging_station",
@@ -7759,6 +8019,7 @@
       }
     },
     "amenity/charging_station|bike-energy Ladestation": {
+      "countryCodes": ["at", "ch", "de", "fr", "it"],
       "tags": {
         "amenity": "charging_station",
         "brand": "bike-energy Ladestation",
@@ -7766,6 +8027,7 @@
       }
     },
     "amenity/charging_station|eVgo": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "charging_station",
         "brand": "eVgo",
@@ -7794,6 +8056,7 @@
       }
     },
     "amenity/cinema|AMC": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "cinema",
         "brand": "AMC",
@@ -7835,6 +8098,7 @@
       }
     },
     "amenity/cinema|Cinema City": {
+      "countryCodes": ["cz", "hu", "pl", "ro"],
       "tags": {
         "amenity": "cinema",
         "brand": "Cinema City",
@@ -7885,6 +8149,7 @@
       }
     },
     "amenity/cinema|Cineplanet": {
+      "countryCodes": ["cl", "pe"],
       "tags": {
         "amenity": "cinema",
         "brand": "Cineplanet",
@@ -7897,6 +8162,7 @@
       }
     },
     "amenity/cinema|Cineplexx": {
+      "countryCodes": ["at", "si"],
       "tags": {
         "amenity": "cinema",
         "brand": "Cineplexx",
@@ -7915,12 +8181,34 @@
       }
     },
     "amenity/cinema|Cineworld": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "cinema",
         "brand": "Cineworld",
         "brand:wikidata": "Q5120901",
         "brand:wikipedia": "en:Cineworld",
         "name": "Cineworld"
+      }
+    },
+    "amenity/cinema|Event": {
+      "countryCodes": ["au", "nz"],
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Event",
+        "brand:wikidata": "Q5416698",
+        "brand:wikipedia": "en:Event Cinemas",
+        "name": "Event",
+        "official_name": "Event Cinemas"
+      }
+    },
+    "amenity/cinema|Hoyts": {
+      "countryCodes": ["au", "nz"],
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Hoyts",
+        "brand:wikidata": "Q5922976",
+        "brand:wikipedia": "en:Hoyts",
+        "name": "Hoyts"
       }
     },
     "amenity/cinema|Landmark Theatres": {
@@ -7978,6 +8266,7 @@
       }
     },
     "amenity/cinema|Odeon": {
+      "countryCodes": ["gb", "gr", "ie", "it"],
       "tags": {
         "amenity": "cinema",
         "brand": "Odeon",
@@ -8105,7 +8394,7 @@
     },
     "amenity/clinic|Dialysis Clinic": {
       "countryCodes": ["us"],
-      "matchNames": ["dci", "dialysis clinic inc"],
+      "matchNames": ["dialysis clinic inc"],
       "tags": {
         "amenity": "clinic",
         "brand": "Dialysis Clinic",
@@ -8118,6 +8407,7 @@
       }
     },
     "amenity/clinic|Fresenius Kidney Care": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "clinic",
         "brand": "Fresenius Kidney Care",
@@ -8191,6 +8481,7 @@
       "tags": {"amenity": "dentist", "brand": "Dentix", "name": "Dentix"}
     },
     "amenity/dentist|Gentle Dental": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "dentist",
         "brand": "Gentle Dental",
@@ -8210,14 +8501,12 @@
       }
     },
     "amenity/dentist|Vitaldent": {
+      "countryCodes": ["es", "it"],
       "tags": {"amenity": "dentist", "brand": "Vitaldent", "name": "Vitaldent"}
     },
     "amenity/dentist|Western Dental": {
       "countryCodes": ["us"],
-      "matchNames": [
-        "western dental & orthodontics",
-        "western dental and orthodontics"
-      ],
+      "matchNames": ["western dental and orthodontics"],
       "matchTags": ["healthcare/dentist"],
       "tags": {
         "alt_name": "Western Dental & Orthodontics",
@@ -8371,6 +8660,7 @@
       }
     },
     "amenity/fast_food|Baja Fresh": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Baja Fresh",
@@ -8378,6 +8668,18 @@
         "brand:wikipedia": "en:Baja Fresh",
         "cuisine": "mexican",
         "name": "Baja Fresh",
+        "takeaway": "yes"
+      }
+    },
+    "amenity/fast_food|Barburrito": {
+      "countryCodes": ["gb"],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Barburrito",
+        "brand:wikidata": "Q16983668",
+        "brand:wikipedia": "en:Barburrito",
+        "cuisine": "mexican",
+        "name": "Barburrito",
         "takeaway": "yes"
       }
     },
@@ -8520,6 +8822,18 @@
         "takeaway": "yes"
       }
     },
+    "amenity/fast_food|Burgerville": {
+      "countryCodes": ["us"],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burgerville",
+        "brand:wikidata": "Q4998570",
+        "brand:wikipedia": "en:Burgerville",
+        "cuisine": "burger",
+        "name": "Burgerville",
+        "takeaway": "yes"
+      }
+    },
     "amenity/fast_food|Captain D's": {
       "countryCodes": ["us"],
       "tags": {
@@ -8601,7 +8915,6 @@
       }
     },
     "amenity/fast_food|Chipotle": {
-      "matchNames": ["chipotle mexican grill"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Chipotle",
@@ -8626,6 +8939,7 @@
       }
     },
     "amenity/fast_food|Chowking": {
+      "countryCodes": ["ph"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Chowking",
@@ -8706,6 +9020,7 @@
       }
     },
     "amenity/fast_food|DQ Grill & Chill": {
+      "countryCodes": ["ca", "us"],
       "nomatch": ["amenity/fast_food|Dairy Queen"],
       "tags": {
         "amenity": "fast_food",
@@ -8808,6 +9123,7 @@
       }
     },
     "amenity/fast_food|El Pollo Loco": {
+      "countryCodes": ["mx", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "El Pollo Loco",
@@ -8830,6 +9146,7 @@
       }
     },
     "amenity/fast_food|Extreme Pita": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Extreme Pita",
@@ -8864,7 +9181,6 @@
       }
     },
     "amenity/fast_food|Five Guys": {
-      "matchNames": ["five guys burgers and fries"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Five Guys",
@@ -8877,7 +9193,11 @@
       }
     },
     "amenity/fast_food|Freddy's": {
-      "matchNames": ["freddy's frozen custard & steakburgers"],
+      "countryCodes": ["us"],
+      "matchNames": [
+        "freddys frozen custard & steakburgers",
+        "freddys frozen custard and steakburgers"
+      ],
       "tags": {
         "amenity": "fast_food",
         "brand": "Freddy's",
@@ -8923,7 +9243,6 @@
     },
     "amenity/fast_food|Gold Star Chili": {
       "countryCodes": ["us"],
-      "matchNames": ["gold star"],
       "tags": {
         "alt_name": "Gold Star",
         "amenity": "fast_food",
@@ -8947,7 +9266,21 @@
         "takeaway": "yes"
       }
     },
+    "amenity/fast_food|Great American Cookies": {
+      "countryCodes": ["us"],
+      "matchTags": ["shop/bakery"],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Great American Cookies",
+        "brand:wikidata": "Q5598629",
+        "brand:wikipedia": "en:Great American Cookies",
+        "cuisine": "cookies",
+        "name": "Great American Cookies",
+        "takeaway": "yes"
+      }
+    },
     "amenity/fast_food|Greenwich": {
+      "countryCodes": ["ph"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Greenwich",
@@ -9068,6 +9401,7 @@
       }
     },
     "amenity/fast_food|In-N-Out Burger": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "In-N-Out Burger",
@@ -9113,6 +9447,7 @@
       }
     },
     "amenity/fast_food|Jimmy John's": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Jimmy John's",
@@ -9278,6 +9613,7 @@
       }
     },
     "amenity/fast_food|MOD Pizza": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "MOD Pizza",
@@ -9389,6 +9725,7 @@
       }
     },
     "amenity/fast_food|New York Fries": {
+      "countryCodes": ["ca"],
       "tags": {
         "amenity": "fast_food",
         "brand": "New York Fries",
@@ -9459,7 +9796,6 @@
     },
     "amenity/fast_food|Pal's": {
       "countryCodes": ["us"],
-      "matchNames": ["pals sudden service"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Pal's",
@@ -9467,6 +9803,7 @@
         "brand:wikipedia": "en:Pal's",
         "cuisine": "burger",
         "name": "Pal's",
+        "official_name": "Pal's Sudden Service",
         "takeaway": "yes"
       }
     },
@@ -9495,6 +9832,7 @@
       }
     },
     "amenity/fast_food|Panera Bread": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Panera Bread",
@@ -9519,12 +9857,7 @@
     },
     "amenity/fast_food|Papa Murphy's": {
       "countryCodes": ["ca", "us"],
-      "matchNames": [
-        "papa murphy",
-        "papa murphy pizza",
-        "papa murphys pizza",
-        "papa murphys take n bake pizza"
-      ],
+      "matchNames": ["papa murphy", "papa murphy pizza", "papa murphys pizza"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Papa Murphy's",
@@ -9689,12 +10022,12 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "Pollolandia",
+        "cuisine": "chicken",
         "name": "Pollolandia",
         "takeaway": "yes"
       }
     },
     "amenity/fast_food|Popeyes": {
-      "matchNames": ["popeyes louisiana kitchen"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Popeyes",
@@ -9707,7 +10040,7 @@
       }
     },
     "amenity/fast_food|Potbelly": {
-      "matchNames": ["potbelly sandwich shop", "potbelly sandwich works"],
+      "matchNames": ["potbelly sandwich shop"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Potbelly",
@@ -9720,6 +10053,7 @@
       }
     },
     "amenity/fast_food|Pret A Manger": {
+      "countryCodes": ["gb", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Pret A Manger",
@@ -9730,8 +10064,21 @@
         "takeaway": "yes"
       }
     },
+    "amenity/fast_food|Pretzelmaker": {
+      "countryCodes": ["us"],
+      "matchNames": ["pretzel time"],
+      "matchTags": ["shop/bakery"],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pretzelmaker",
+        "brand:wikidata": "Q7242321",
+        "brand:wikipedia": "en:Pretzelmaker",
+        "cuisine": "pretzel",
+        "name": "Pretzelmaker",
+        "takeaway": "yes"
+      }
+    },
     "amenity/fast_food|Qdoba": {
-      "matchNames": ["qdoba mexican grill"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Qdoba",
@@ -9768,7 +10115,6 @@
     },
     "amenity/fast_food|Raising Cane's": {
       "countryCodes": ["us"],
-      "matchNames": ["raising canes chicken fingers"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Raising Cane's",
@@ -9816,7 +10162,7 @@
     },
     "amenity/fast_food|Rubio's": {
       "countryCodes": ["us"],
-      "matchNames": ["rubios coastal grill", "rubios fresh mexican grill"],
+      "matchNames": ["rubios fresh mexican grill"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Rubio's",
@@ -9853,6 +10199,7 @@
       }
     },
     "amenity/fast_food|Shake Shack": {
+      "countryCodes": ["gb", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Shake Shack",
@@ -9876,6 +10223,7 @@
       }
     },
     "amenity/fast_food|Smashburger": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Smashburger",
@@ -9907,6 +10255,17 @@
         "brand:wikipedia": "en:Sonic Drive-In",
         "cuisine": "burger",
         "name": "Sonic",
+        "takeaway": "yes"
+      }
+    },
+    "amenity/fast_food|Specialty's": {
+      "countryCodes": ["us"],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Specialty's",
+        "brand:wikidata": "Q64339210",
+        "cuisine": "sandwich;bakery",
+        "name": "Specialty's",
         "takeaway": "yes"
       }
     },
@@ -10002,6 +10361,7 @@
       }
     },
     "amenity/fast_food|Taco Del Mar": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Taco Del Mar",
@@ -10013,6 +10373,7 @@
       }
     },
     "amenity/fast_food|Taco John's": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Taco John's",
@@ -10024,6 +10385,7 @@
       }
     },
     "amenity/fast_food|Taco Time": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Taco Time",
@@ -10179,7 +10541,7 @@
       }
     },
     "amenity/fast_food|Which Wich?": {
-      "countryCodes": ["us"],
+      "countryCodes": ["ae", "gb", "gt", "mx", "om", "qa", "sa", "us"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Which Wich?",
@@ -10265,9 +10627,13 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "Γρηγόρης",
+        "brand:el": "Γρηγόρης",
+        "brand:en": "Gregorys",
         "brand:wikidata": "Q62273834",
         "cuisine": "sandwich",
         "name": "Γρηγόρης",
+        "name:el": "Γρηγόρης",
+        "name:en": "Gregorys",
         "takeaway": "yes"
       }
     },
@@ -10276,19 +10642,27 @@
         "amenity": "fast_food",
         "brand": "Бургер Кинг",
         "brand:en": "Burger King",
+        "brand:ru": "Бургер Кинг",
         "brand:wikidata": "Q177054",
         "brand:wikipedia": "en:Burger King",
         "cuisine": "burger",
         "name": "Бургер Кинг",
         "name:en": "Burger King",
+        "name:ru": "Бургер Кинг",
         "takeaway": "yes"
       }
     },
-    "amenity/fast_food|Домино’c Пицца": {
+    "amenity/fast_food|Домино'c Пицца": {
       "tags": {
         "amenity": "fast_food",
-        "brand": "Домино’c Пицца",
-        "name": "Домино’c Пицца",
+        "brand": "Домино'c Пицца",
+        "brand:en": "Domino's Pizza",
+        "brand:ru": "Домино'c Пицца",
+        "brand:wikidata": "Q839466",
+        "brand:wikipedia": "ru:Domino’s Pizza",
+        "name": "Домино'c Пицца",
+        "name:en": "Domino's Pizza",
+        "name:ru": "Домино'c Пицца",
         "takeaway": "yes"
       }
     },
@@ -10297,10 +10671,14 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "Крошка Картошка",
+        "brand:en": "Kroshka Kartoshka",
+        "brand:ru": "Крошка Картошка",
         "brand:wikidata": "Q4241838",
         "brand:wikipedia": "ru:Крошка Картошка",
         "cuisine": "potato",
         "name": "Крошка Картошка",
+        "name:en": "Kroshka Kartoshka",
+        "name:ru": "Крошка Картошка",
         "takeaway": "yes"
       }
     },
@@ -10309,11 +10687,13 @@
         "amenity": "fast_food",
         "brand": "Макдоналдс",
         "brand:en": "McDonald's",
+        "brand:ru": "Макдоналдс",
         "brand:wikidata": "Q38076",
         "brand:wikipedia": "en:McDonald's",
         "cuisine": "burger",
         "name": "Макдоналдс",
         "name:en": "McDonald's",
+        "name:ru": "Макдоналдс",
         "takeaway": "yes"
       }
     },
@@ -10322,11 +10702,13 @@
         "amenity": "fast_food",
         "brand": "Папа Джонс",
         "brand:en": "Papa John's",
+        "brand:ru": "Папа Джонс",
         "brand:wikidata": "Q2759586",
         "brand:wikipedia": "ru:Papa John’s",
         "cuisine": "pizza",
         "name": "Папа Джонс",
         "name:en": "Papa John's",
+        "name:ru": "Папа Джонс",
         "takeaway": "yes"
       }
     },
@@ -10335,9 +10717,13 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "Робин Сдобин",
+        "brand:en": "Robins Dobin",
+        "brand:ru": "Робин Сдобин",
         "brand:wikidata": "Q62273880",
         "cuisine": "burger",
         "name": "Робин Сдобин",
+        "name:en": "Robins Dobin",
+        "name:ru": "Робин Сдобин",
         "takeaway": "yes"
       }
     },
@@ -10346,9 +10732,13 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "Русский Аппетит",
+        "brand:en": "Russkiy Appetit",
+        "brand:ru": "Русский Аппетит",
         "brand:wikidata": "Q62086063",
         "cuisine": "sandwich;salad;regional",
         "name": "Русский Аппетит",
+        "name:en": "Russkiy Appetit",
+        "name:ru": "Русский Аппетит",
         "takeaway": "yes"
       }
     },
@@ -10358,11 +10748,13 @@
         "amenity": "fast_food",
         "brand": "Стардог!s",
         "brand:en": "Stardog!s",
+        "brand:ru": "Стардог!s",
         "brand:wikidata": "Q4439856",
         "brand:wikipedia": "ru:Стардогс",
         "cuisine": "sausage",
         "name": "Стардог!s",
         "name:en": "Stardog!s",
+        "name:ru": "Стардог!s",
         "takeaway": "yes"
       }
     },
@@ -10373,11 +10765,13 @@
         "amenity": "fast_food",
         "brand": "Суши Wok",
         "brand:en": "Sushi Wok",
+        "brand:ru": "Суши Wok",
         "brand:wikidata": "Q25444754",
         "brand:wikipedia": "uk:Суши Wok (мережа магазинів)",
         "cuisine": "asian",
         "name": "Суши Wok",
         "name:en": "Sushi Wok",
+        "name:ru": "Суши Wok",
         "takeaway": "yes"
       }
     },
@@ -10388,11 +10782,13 @@
         "amenity": "fast_food",
         "brand": "Теремок",
         "brand:en": "Teremok",
+        "brand:ru": "Теремок",
         "brand:wikidata": "Q4455593",
         "brand:wikipedia": "ru:Теремок (сеть быстрого питания)",
         "cuisine": "crepe;russian",
         "name": "Теремок",
         "name:en": "Teremok",
+        "name:ru": "Теремок",
         "takeaway": "yes"
       }
     },
@@ -10940,11 +11336,13 @@
         "amenity": "fast_food",
         "brand": "麥當勞",
         "brand:en": "McDonald's",
+        "brand:lzh": "麥當勞",
         "brand:wikidata": "Q38076",
         "brand:wikipedia": "zh_classical:麥當勞",
         "cuisine": "burger",
         "name": "麥當勞",
         "name:en": "McDonald's",
+        "name:lzh": "麥當勞",
         "takeaway": "yes"
       }
     },
@@ -10956,9 +11354,11 @@
         "brand:en": "McDonald's",
         "brand:wikidata": "Q38076",
         "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
         "cuisine": "burger",
         "name": "麦当劳",
         "name:en": "McDonald's",
+        "name:zh": "麦当劳",
         "takeaway": "yes"
       }
     },
@@ -10995,13 +11395,19 @@
       "tags": {
         "amenity": "fast_food",
         "brand": "맥도날드",
+        "brand:en": "McDonald's",
         "brand:ko": "맥도날드",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "ko:맥도날드",
+        "cuisine": "burger",
         "name": "맥도날드",
+        "name:en": "McDonald's",
         "name:ko": "맥도날드",
         "takeaway": "yes"
       }
     },
     "amenity/fuel|1-2-3": {
+      "countryCodes": ["dk", "pl"],
       "tags": {
         "amenity": "fuel",
         "brand": "1-2-3",
@@ -11114,6 +11520,7 @@
       }
     },
     "amenity/fuel|Api": {
+      "countryCodes": ["it"],
       "tags": {
         "amenity": "fuel",
         "brand": "Api",
@@ -11241,6 +11648,7 @@
       }
     },
     "amenity/fuel|BP": {
+      "matchNames": ["BP Gas Station"],
       "nomatch": ["shop/convenience|BP Shop"],
       "tags": {
         "amenity": "fuel",
@@ -11426,6 +11834,7 @@
       }
     },
     "amenity/fuel|Classic": {
+      "countryCodes": ["de"],
       "tags": {"amenity": "fuel", "brand": "Classic", "name": "Classic"}
     },
     "amenity/fuel|Co-op~(Canada)": {
@@ -11459,6 +11868,7 @@
       }
     },
     "amenity/fuel|Conoco": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fuel",
         "brand": "Conoco",
@@ -11549,7 +11959,7 @@
       }
     },
     "amenity/fuel|Delta~(Panama & Costa Rica)": {
-      "countryCodes": ["cr", "pr"],
+      "countryCodes": ["cr", "us"],
       "tags": {
         "amenity": "fuel",
         "brand": "Delta",
@@ -11641,6 +12051,7 @@
       }
     },
     "amenity/fuel|Eni": {
+      "countryCodes": ["at", "ch", "fr", "it"],
       "tags": {
         "amenity": "fuel",
         "brand": "Eni",
@@ -11680,6 +12091,7 @@
       }
     },
     "amenity/fuel|Exxon": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "fuel",
         "brand": "Exxon",
@@ -11699,6 +12111,7 @@
       }
     },
     "amenity/fuel|Fas Gas": {
+      "countryCodes": ["ca"],
       "matchNames": ["fas gas plus"],
       "tags": {
         "amenity": "fuel",
@@ -11846,7 +12259,7 @@
       }
     },
     "amenity/fuel|HP": {
-      "matchNames": ["hindustan petroleum", "hp petrol pump"],
+      "matchNames": ["hp petrol pump"],
       "tags": {
         "amenity": "fuel",
         "brand": "Hindustan Petroleum",
@@ -11929,6 +12342,7 @@
       }
     },
     "amenity/fuel|Indian Oil Petrol Pump": {
+      "countryCodes": ["in"],
       "tags": {
         "amenity": "fuel",
         "brand": "Indian Oil Petrol Pump",
@@ -12042,6 +12456,7 @@
       }
     },
     "amenity/fuel|Kwik Fill": {
+      "countryCodes": ["us"],
       "tags": {"amenity": "fuel", "brand": "Kwik Fill", "name": "Kwik Fill"}
     },
     "amenity/fuel|Kwik Trip": {
@@ -12148,6 +12563,7 @@
       }
     },
     "amenity/fuel|Marathon": {
+      "matchNames": ["Marathon Gas"],
       "nomatch": ["shop/convenience|Marathon"],
       "tags": {
         "amenity": "fuel",
@@ -12169,6 +12585,7 @@
       }
     },
     "amenity/fuel|Maxol": {
+      "countryCodes": ["gb", "ie"],
       "tags": {
         "amenity": "fuel",
         "brand": "Maxol",
@@ -12288,6 +12705,7 @@
       }
     },
     "amenity/fuel|OKQ8": {
+      "countryCodes": ["se"],
       "tags": {
         "amenity": "fuel",
         "brand": "OKQ8",
@@ -12435,7 +12853,7 @@
     },
     "amenity/fuel|Petro": {
       "countryCodes": ["ca", "us"],
-      "matchNames": ["petro stopping center", "petro stopping centers"],
+      "matchNames": ["petro stopping center"],
       "tags": {
         "alt_name": "Petro Stopping Centers",
         "amenity": "fuel",
@@ -12484,6 +12902,7 @@
       }
     },
     "amenity/fuel|Petroecuador": {
+      "countryCodes": ["ec"],
       "tags": {
         "amenity": "fuel",
         "brand": "Petroecuador",
@@ -12549,6 +12968,7 @@
       }
     },
     "amenity/fuel|Petronor": {
+      "countryCodes": ["es"],
       "tags": {
         "amenity": "fuel",
         "brand": "Petronor",
@@ -12884,6 +13304,7 @@
       }
     },
     "amenity/fuel|Slovnaft": {
+      "countryCodes": ["cz", "pl", "sk"],
       "tags": {
         "amenity": "fuel",
         "brand": "Slovnaft",
@@ -12936,6 +13357,7 @@
       }
     },
     "amenity/fuel|St1": {
+      "countryCodes": ["fi", "se"],
       "tags": {
         "amenity": "fuel",
         "brand": "St1",
@@ -13100,6 +13522,9 @@
         "name": "Tesco"
       }
     },
+    "amenity/fuel|Tesoro": {
+      "tags": {"amenity": "fuel", "brand": "Tesoro", "name": "Tesoro"}
+    },
     "amenity/fuel|Texaco": {
       "nomatch": ["shop/convenience|Texaco"],
       "tags": {
@@ -13151,6 +13576,7 @@
       }
     },
     "amenity/fuel|TotalErg": {
+      "countryCodes": ["it"],
       "tags": {
         "amenity": "fuel",
         "brand": "TotalErg",
@@ -13181,7 +13607,7 @@
     },
     "amenity/fuel|UDF Fuel": {
       "countryCodes": ["us"],
-      "matchNames": ["udf", "udf fuels", "united dairy farmers"],
+      "matchNames": ["udf fuels", "united dairy farmers"],
       "nomatch": ["shop/convenience|United Dairy Farmers"],
       "tags": {
         "amenity": "fuel",
@@ -13573,6 +13999,7 @@
       }
     },
     "amenity/fuel|ТНК": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "amenity": "fuel",
         "brand": "ТНК",
@@ -13657,6 +14084,7 @@
       }
     },
     "amenity/fuel|ادنوك": {
+      "countryCodes": ["ae"],
       "tags": {
         "amenity": "fuel",
         "brand": "ادنوك",
@@ -13782,6 +14210,16 @@
         "name:ja": "ゼネラル"
       }
     },
+    "amenity/fuel|モービル": {
+      "countryCodes": ["jp"],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "モービル",
+        "brand:ja": "モービル",
+        "name": "モービル",
+        "name:ja": "モービル"
+      }
+    },
     "amenity/fuel|中国石化": {
       "countryCodes": ["cn"],
       "matchNames": ["中国石化 Sinopec"],
@@ -13805,6 +14243,9 @@
         "name": "中国石油",
         "name:en": "PetroChina"
       }
+    },
+    "amenity/fuel|全國加油站": {
+      "tags": {"amenity": "fuel", "brand": "全國加油站", "name": "全國加油站"}
     },
     "amenity/fuel|出光": {
       "countryCodes": ["jp"],
@@ -13867,6 +14308,18 @@
         "name": "Ben & Jerry's"
       }
     },
+    "amenity/ice_cream|Bruster's Ice Cream": {
+      "countryCodes": ["us"],
+      "matchNames": ["brusters"],
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Bruster's Ice Cream",
+        "brand:wikidata": "Q4979810",
+        "brand:wikipedia": "en:Bruster's Ice Cream",
+        "cuisine": "ice_cream",
+        "name": "Bruster's Ice Cream"
+      }
+    },
     "amenity/ice_cream|Cold Stone Creamery": {
       "matchNames": ["cold stone"],
       "tags": {
@@ -13925,9 +14378,13 @@
       }
     },
     "amenity/ice_cream|La Michoacana": {
+      "countryCodes": ["mx"],
+      "matchNames": ["paleteria la michoacana"],
       "tags": {
         "amenity": "ice_cream",
         "brand": "La Michoacana",
+        "brand:wikidata": "Q17118857",
+        "brand:wikipedia": "en:Paletería La Michoacana",
         "name": "La Michoacana"
       }
     },
@@ -13952,7 +14409,6 @@
         "in",
         "jp",
         "kw",
-        "pr",
         "qa",
         "sa",
         "us"
@@ -13970,7 +14426,6 @@
     "amenity/ice_cream|Ralph's Italian Ices": {
       "countryCodes": ["us"],
       "matchNames": [
-        "ralphs famous italian ices",
         "ralphs famous italian ices & ice cream",
         "ralphs famous italian ices and ice cream",
         "ralphs italian ice",
@@ -14030,7 +14485,6 @@
     },
     "amenity/kindergarten|KinderCare": {
       "countryCodes": ["us"],
-      "matchNames": ["kindercare learning center"],
       "tags": {
         "after_school": "yes",
         "alt_name": "KinderCare Learning Center",
@@ -14057,6 +14511,15 @@
         "brand:wikidata": "Q3062276",
         "brand:wikipedia": "fr:Express Union",
         "name": "Express Union"
+      }
+    },
+    "amenity/money_transfer|MoneyGram": {
+      "tags": {
+        "amenity": "money_transfer",
+        "brand": "MoneyGram",
+        "brand:wikidata": "Q1944412",
+        "brand:wikipedia": "en:MoneyGram",
+        "name": "MoneyGram"
       }
     },
     "amenity/money_transfer|Orange Money": {
@@ -14397,6 +14860,7 @@
       }
     },
     "amenity/pharmacy|Dr. Max": {
+      "countryCodes": ["cz", "pl", "sk"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Dr. Max",
@@ -14505,6 +14969,7 @@
       }
     },
     "amenity/pharmacy|Farmacia Benavides": {
+      "countryCodes": ["mx"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Farmacia Benavides",
@@ -14515,6 +14980,7 @@
       }
     },
     "amenity/pharmacy|Farmacia Familiei": {
+      "countryCodes": ["md"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Farmacia Familiei",
@@ -14787,6 +15253,7 @@
       }
     },
     "amenity/pharmacy|Lloyds Pharmacy": {
+      "countryCodes": ["be", "gb", "ie", "im"],
       "matchNames": ["lloyds"],
       "tags": {
         "amenity": "pharmacy",
@@ -14927,6 +15394,7 @@
       }
     },
     "amenity/pharmacy|Pharmaprix": {
+      "countryCodes": ["ca"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Pharmaprix",
@@ -15112,6 +15580,7 @@
       }
     },
     "amenity/pharmacy|Słoneczna": {
+      "countryCodes": ["pl"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Słoneczna",
@@ -15121,7 +15590,6 @@
     },
     "amenity/pharmacy|TGP": {
       "countryCodes": ["ph"],
-      "matchNames": ["the generics pharmacy"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "The Generics Pharmacy",
@@ -15176,7 +15644,7 @@
       }
     },
     "amenity/pharmacy|Walgreens": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchNames": ["walgreens pharmacy"],
       "nomatch": ["shop/chemist|Walgreens"],
       "tags": {
@@ -15228,7 +15696,6 @@
       }
     },
     "amenity/pharmacy|Ziko Apteka": {
-      "matchNames": ["ziko"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Ziko Apteka",
@@ -15308,6 +15775,7 @@
       }
     },
     "amenity/pharmacy|Живика": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Живика",
@@ -15324,6 +15792,7 @@
       }
     },
     "amenity/pharmacy|Зеленая аптека": {
+      "countryCodes": ["by"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Зеленая аптека",
@@ -15340,6 +15809,7 @@
       }
     },
     "amenity/pharmacy|Классика": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Классика",
@@ -15389,6 +15859,7 @@
       }
     },
     "amenity/pharmacy|Невис": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Невис",
@@ -15479,6 +15950,7 @@
       }
     },
     "amenity/pharmacy|Социальная аптека": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Социальная аптека",
@@ -15487,6 +15959,7 @@
       }
     },
     "amenity/pharmacy|Столички": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Столички",
@@ -15495,6 +15968,7 @@
       }
     },
     "amenity/pharmacy|Фармакопейка": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Фармакопейка",
@@ -15528,6 +16002,7 @@
       }
     },
     "amenity/pharmacy|Центральная аптека": {
+      "countryCodes": ["by", "kz", "ru", "ua", "uz"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Центральная аптека",
@@ -15858,7 +16333,7 @@
       }
     },
     "amenity/post_box|USPS": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "nomatch": ["amenity/post_office|USPS"],
       "tags": {
         "amenity": "post_box",
@@ -15914,6 +16389,7 @@
       }
     },
     "amenity/post_office|Chilexpress": {
+      "countryCodes": ["cl"],
       "tags": {
         "amenity": "post_office",
         "brand": "Chilexpress",
@@ -16143,7 +16619,7 @@
       }
     },
     "amenity/post_office|United States Post Office": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchNames": [
         "united states postal service",
         "us post office",
@@ -16313,7 +16789,7 @@
     },
     "amenity/prep_school|Sylvan": {
       "countryCodes": ["us"],
-      "matchNames": ["sylvan learning", "sylvan learning center"],
+      "matchNames": ["sylvan learning"],
       "tags": {
         "alt_name": "Sylvan Learning Center",
         "amenity": "prep_school",
@@ -16368,7 +16844,6 @@
         "applebees grill and bar",
         "applebees neighborhood bar & grill",
         "applebees neighborhood bar and grill",
-        "applebees neighborhood grill & bar",
         "applebees neighborhood grill and bar"
       ],
       "tags": {
@@ -16382,6 +16857,7 @@
       }
     },
     "amenity/restaurant|Autogrill": {
+      "countryCodes": ["at", "es", "fr", "it"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Autogrill",
@@ -16392,7 +16868,7 @@
     },
     "amenity/restaurant|BJ's": {
       "countryCodes": ["us"],
-      "matchNames": ["bjs restaurant & brewhouse"],
+      "matchNames": ["bjs restaurant and brewhouse"],
       "tags": {
         "amenity": "restaurant",
         "brand": "BJ's",
@@ -16471,7 +16947,7 @@
       }
     },
     "amenity/restaurant|Bonanza Steakhouse": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchNames": ["bonanza"],
       "tags": {
         "amenity": "restaurant",
@@ -16503,8 +16979,7 @@
       }
     },
     "amenity/restaurant|Bravo": {
-      "countryCodes": ["pr", "us"],
-      "matchNames": ["bravo cucina italiana"],
+      "countryCodes": ["us"],
       "nomatch": ["shop/supermarket|Bravo"],
       "tags": {
         "alt_name": "Bravo Cucina Italiana",
@@ -16516,8 +16991,7 @@
       }
     },
     "amenity/restaurant|Brio": {
-      "countryCodes": ["pr", "us"],
-      "matchNames": ["brio tuscan grille"],
+      "countryCodes": ["us"],
       "tags": {
         "alt_name": "Brio Tuscan Grille",
         "amenity": "restaurant",
@@ -16600,6 +17074,7 @@
       }
     },
     "amenity/restaurant|Carluccio's": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Carluccio's",
@@ -16632,6 +17107,17 @@
         "official_name": "Cheddar's Scratch Kitchen"
       }
     },
+    "amenity/restaurant|Cheeburger Cheeburger": {
+      "countryCodes": ["ca", "sa", "us"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheeburger Cheeburger",
+        "brand:wikidata": "Q5089247",
+        "brand:wikipedia": "en:Cheeburger Cheeburger",
+        "cuisine": "burger",
+        "name": "Cheeburger Cheeburger"
+      }
+    },
     "amenity/restaurant|Chevys": {
       "countryCodes": ["us"],
       "tags": {
@@ -16645,7 +17131,7 @@
       }
     },
     "amenity/restaurant|Chili's": {
-      "matchNames": ["chili's grill & bar", "chili's grill and bar"],
+      "matchNames": ["chili's grill and bar"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Chili's",
@@ -16668,7 +17154,8 @@
       }
     },
     "amenity/restaurant|Chuck E. Cheese's": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
+      "matchNames": ["chuck e cheese"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Chuck E. Cheese's",
@@ -16701,6 +17188,17 @@
         "operator": "Landry's",
         "operator:wikidata": "Q3217105",
         "operator:wikipedia": "en:Landry's, Inc."
+      }
+    },
+    "amenity/restaurant|Coast to Coast": {
+      "countryCodes": ["gb"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Coast to Coast",
+        "brand:wikidata": "Q22000729",
+        "brand:wikipedia": "en:Coast to Coast (restaurant)",
+        "cuisine": "american",
+        "name": "Coast to Coast"
       }
     },
     "amenity/restaurant|Cosmo": {
@@ -16811,6 +17309,16 @@
         "name": "East Side Mario's"
       }
     },
+    "amenity/restaurant|Eat'n Park": {
+      "countryCodes": ["us"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand:wikidata": "Q5331211",
+        "brand:wikipedia": "en:Eat'n Park",
+        "cuisine": "american",
+        "name": "Eat'n Park"
+      }
+    },
     "amenity/restaurant|Famous Dave's": {
       "countryCodes": ["us"],
       "matchNames": ["famous daves bbq"],
@@ -16867,6 +17375,7 @@
       }
     },
     "amenity/restaurant|Freshii": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Freshii",
@@ -17035,6 +17544,7 @@
       }
     },
     "amenity/restaurant|IHOP": {
+      "matchNames": ["international house of pancakes"],
       "tags": {
         "amenity": "restaurant",
         "brand": "IHOP",
@@ -17056,6 +17566,7 @@
       }
     },
     "amenity/restaurant|Il Giardino": {
+      "countryCodes": ["de", "fr", "it", "nl"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Il Giardino",
@@ -17174,6 +17685,16 @@
         "cuisine": "pizza",
         "name": "LaRosa's Pizzeria",
         "takeaway": "yes"
+      }
+    },
+    "amenity/restaurant|Legal Sea Foods": {
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Legal Sea Foods",
+        "brand:wikidata": "Q6517417",
+        "brand:wikipedia": "en:Legal Sea Foods",
+        "cuisine": "seafood",
+        "name": "Legal Sea Foods"
       }
     },
     "amenity/restaurant|Lemongrass": {
@@ -17311,15 +17832,19 @@
       }
     },
     "amenity/restaurant|Montana's": {
+      "countryCodes": ["ca"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Montana's",
-        "name": "Montana's"
+        "brand:wikidata": "Q17022490",
+        "brand:wikipedia": "en:Montana's BBQ & Bar",
+        "cuisine": "barbecue",
+        "name": "Montana's",
+        "official_name": "Montana's BBQ & Bar"
       }
     },
     "amenity/restaurant|Mountain Mike's": {
       "countryCodes": ["us"],
-      "matchNames": ["mountain mike's pizza"],
       "tags": {
         "alt_name": "Mountain Mike's Pizza",
         "amenity": "restaurant",
@@ -17386,8 +17911,10 @@
       "tags": {
         "amenity": "restaurant",
         "brand": "Old Chicago",
+        "brand:wikidata": "Q64411347",
         "cuisine": "pizza",
-        "name": "Old Chicago"
+        "name": "Old Chicago",
+        "official_name": "Old Chicago Pizza & Taproom"
       }
     },
     "amenity/restaurant|Old Wild West": {
@@ -17572,7 +18099,7 @@
       }
     },
     "amenity/restaurant|Ponderosa Steakhouse": {
-      "countryCodes": ["ae", "eg", "pr", "qa", "tw", "us"],
+      "countryCodes": ["ae", "eg", "qa", "tw", "us"],
       "matchNames": ["ponderosa"],
       "tags": {
         "amenity": "restaurant",
@@ -17616,6 +18143,7 @@
       }
     },
     "amenity/restaurant|Red Robin": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Red Robin",
@@ -17759,6 +18287,7 @@
       }
     },
     "amenity/restaurant|Steak 'n Shake": {
+      "countryCodes": ["us"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Steak 'n Shake",
@@ -17812,8 +18341,8 @@
       }
     },
     "amenity/restaurant|The Cheesecake Factory": {
-      "matchNames": ["cheesecake factory"],
       "tags": {
+        "alt_name": "Cheesecake Factory",
         "amenity": "restaurant",
         "brand": "The Cheesecake Factory",
         "brand:wikidata": "Q1045842",
@@ -17823,6 +18352,7 @@
       }
     },
     "amenity/restaurant|The Keg": {
+      "countryCodes": ["ca", "us"],
       "matchNames": ["keg"],
       "tags": {
         "amenity": "restaurant",
@@ -17834,8 +18364,8 @@
       }
     },
     "amenity/restaurant|The Melting Pot": {
-      "matchNames": ["melting pot"],
       "tags": {
+        "alt_name": "Melting Pot",
         "amenity": "restaurant",
         "brand": "The Melting Pot",
         "brand:wikidata": "Q7750948",
@@ -17983,6 +18513,7 @@
       }
     },
     "amenity/restaurant|Zizzi": {
+      "countryCodes": ["gb"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Zizzi",
@@ -17996,6 +18527,7 @@
       "tags": {"amenity": "restaurant", "brand": "Евразия", "name": "Евразия"}
     },
     "amenity/restaurant|Планета Суши": {
+      "countryCodes": ["ru"],
       "tags": {
         "amenity": "restaurant",
         "brand": "Планета Суши",
@@ -18387,6 +18919,7 @@
       }
     },
     "amenity/restaurant|木曽路": {
+      "countryCodes": ["jp"],
       "tags": {
         "amenity": "restaurant",
         "brand": "木曽路",
@@ -18404,6 +18937,7 @@
         "brand:en": "Yonghe Soy Milk",
         "brand:wikidata": "Q11131335",
         "brand:wikipedia": "zh:永和豆漿",
+        "cuisine": "chinese;breakfast",
         "name": "永和豆漿",
         "name:en": "Yonghe Soy Milk"
       }
@@ -18483,7 +19017,6 @@
       "countryCodes": ["us"],
       "matchNames": ["american legion"],
       "tags": {
-        "alt_name": "American Legion Hall",
         "amenity": "social_centre",
         "brand": "American Legion",
         "brand:wikidata": "Q468865",
@@ -18494,7 +19027,7 @@
     },
     "amenity/social_centre|Eagles Lodge": {
       "countryCodes": ["us"],
-      "matchNames": ["aeries lodge", "foe", "fraternal order of eagles"],
+      "matchNames": ["aeries", "eagles", "foe"],
       "tags": {
         "alt_name": "Aeries Lodge",
         "amenity": "social_centre",
@@ -18507,7 +19040,7 @@
     },
     "amenity/social_centre|Elks Lodge": {
       "countryCodes": ["us"],
-      "matchNames": ["benevolent and protective order of elks", "bpoe", "elks"],
+      "matchNames": ["bpoe", "elks"],
       "tags": {
         "amenity": "social_centre",
         "brand": "Benevolent and Protective Order of Elks",
@@ -18519,9 +19052,8 @@
     },
     "amenity/social_centre|Moose Lodge": {
       "countryCodes": ["bm", "ca", "us"],
-      "matchNames": ["loyal order of moose"],
+      "matchNames": ["moose"],
       "tags": {
-        "alt_name": "Moose Lodge",
         "amenity": "social_centre",
         "brand": "Loyal Order of Moose",
         "brand:wikidata": "Q6908585",
@@ -18531,12 +19063,7 @@
       }
     },
     "amenity/social_centre|Odd Fellows Hall": {
-      "matchNames": [
-        "independent order of odd fellows",
-        "ioof",
-        "odd fellow",
-        "odd fellows"
-      ],
+      "matchNames": ["ioof", "odd fellow", "odd fellows"],
       "tags": {
         "amenity": "social_centre",
         "brand": "Independent Order of Odd Fellows",
@@ -18544,6 +19071,44 @@
         "brand:wikipedia": "en:Independent Order of Odd Fellows",
         "name": "Odd Fellows Hall",
         "official_name": "Independent Order of Odd Fellows"
+      }
+    },
+    "amenity/vehicle_inspection|Autosur": {
+      "countryCodes": ["fr"],
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "brand": "Autosur",
+        "brand:wikidata": "Q64224807",
+        "name": "Autosur"
+      }
+    },
+    "amenity/vehicle_inspection|Autovision": {
+      "countryCodes": ["fr"],
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "brand": "Autovision",
+        "brand:wikidata": "Q64224842",
+        "name": "Autovision"
+      }
+    },
+    "amenity/vehicle_inspection|Dekra": {
+      "countryCodes": ["de", "fr"],
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "brand": "Dekra",
+        "brand:wikidata": "Q383711",
+        "brand:wikipedia": "en:Dekra",
+        "name": "Dekra",
+        "official_name": "Dekra Automotive"
+      }
+    },
+    "amenity/vehicle_inspection|Sécuritest": {
+      "countryCodes": ["fr"],
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "brand": "Sécuritest",
+        "brand:wikidata": "Q64224992",
+        "name": "Sécuritest"
       }
     },
     "amenity/vending_machine|Amazon Locker": {
@@ -18558,6 +19123,7 @@
       }
     },
     "amenity/vending_machine|Automat ŚKUP": {
+      "countryCodes": ["pl"],
       "tags": {
         "amenity": "vending_machine",
         "brand": "Automat ŚKUP",
@@ -18786,6 +19352,21 @@
         "name": "Fastsigns"
       }
     },
+    "healthcare/blood_donation|Australian Red Cross Blood Service": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "Australian Red Cross",
+        "brand:wikidata": "Q4824610",
+        "brand:wikipedia": "en:Australian Red Cross",
+        "donation:compensation": "no",
+        "healthcare": "blood_donation",
+        "name": "Australian Red Cross Blood Service",
+        "operator": "Australian Red Cross Blood Service",
+        "operator:wikidata": "Q4824602",
+        "operator:wikipedia": "en:Australian Red Cross Blood Service",
+        "short_name": "Blood Service"
+      }
+    },
     "healthcare/clinic|ZoomCare": {
       "countryCodes": ["us"],
       "tags": {
@@ -18825,7 +19406,7 @@
       }
     },
     "healthcare/counselling|WW Studio": {
-      "matchNames": ["weight watchers", "ww"],
+      "matchNames": ["ww"],
       "matchTags": [
         "amenity/doctors",
         "amenity/weight_clinic",
@@ -18913,6 +19494,16 @@
         "sport": "yoga"
       }
     },
+    "leisure/fitness_centre|Crunch Fitness": {
+      "countryCodes": ["au", "ca", "us"],
+      "tags": {
+        "brand": "Crunch Fitness",
+        "brand:wikidata": "Q5190093",
+        "brand:wikipedia": "en:Crunch Fitness",
+        "leisure": "fitness_centre",
+        "name": "Crunch Fitness"
+      }
+    },
     "leisure/fitness_centre|Curves": {
       "tags": {
         "brand": "Curves",
@@ -18920,6 +19511,15 @@
         "brand:wikipedia": "en:Curves International",
         "leisure": "fitness_centre",
         "name": "Curves"
+      }
+    },
+    "leisure/fitness_centre|F45 Training": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "F45 Training",
+        "brand:wikidata": "Q64390973",
+        "leisure": "fitness_centre",
+        "name": "F45 Training"
       }
     },
     "leisure/fitness_centre|Fitness First": {
@@ -18995,7 +19595,7 @@
       }
     },
     "leisure/fitness_centre|Planet Fitness": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Planet Fitness",
         "brand:wikidata": "Q7201095",
@@ -19035,6 +19635,7 @@
     "leisure/playground|McDonald's PlayPlace": {
       "matchNames": ["mcdonald's"],
       "tags": {
+        "access": "customers",
         "brand": "McDonald's",
         "brand:wikidata": "Q38076",
         "brand:wikipedia": "en:McDonald's",
@@ -19116,6 +19717,7 @@
       }
     },
     "office/estate_agent|Guy Hoquet": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Guy Hoquet",
         "brand:wikidata": "Q25383970",
@@ -19188,6 +19790,7 @@
       }
     },
     "office/insurance|Aviva": {
+      "countryCodes": ["fr", "ie", "pl"],
       "tags": {
         "brand": "Aviva",
         "brand:wikidata": "Q791179",
@@ -19279,12 +19882,22 @@
         "official_name": "Mutuelles du Mans Assurances"
       }
     },
+    "office/insurance|Macif": {
+      "countryCodes": ["fr"],
+      "tags": {
+        "brand": "Macif",
+        "brand:wikidata": "Q3331021",
+        "brand:wikipedia": "fr:Mutuelle assurance des commerçants et industriels de France et des cadres et des salariés de l'industrie et du commerce",
+        "name": "Macif",
+        "office": "insurance"
+      }
+    },
     "office/insurance|Maif": {
       "countryCodes": ["fr"],
       "tags": {
         "brand": "Maif",
         "brand:wikidata": "Q3331029",
-        "brand:wikipedia": "fr:Mutuelle d'assurance des instituteurs de France",
+        "brand:wikipedia": "fr:Maif",
         "name": "Maif",
         "office": "insurance",
         "official_name": "Mutuelle d'assurance des instituteurs de France"
@@ -19336,7 +19949,6 @@
     },
     "office/tax_advisor|Block Advisors": {
       "countryCodes": ["us"],
-      "matchTags": ["office/accountant"],
       "tags": {
         "brand": "Block Advisors",
         "brand:wikidata": "Q64166231",
@@ -19345,8 +19957,8 @@
       }
     },
     "office/tax_advisor|H&R Block": {
-      "countryCodes": ["au", "ca", "in", "pr", "us"],
-      "matchTags": ["office/accountant"],
+      "countryCodes": ["au", "ca", "in", "us"],
+      "matchTags": ["shop/tax"],
       "tags": {
         "brand": "H&R Block",
         "brand:wikidata": "Q5627799",
@@ -19357,21 +19969,17 @@
     },
     "office/tax_advisor|Jackson Hewitt": {
       "countryCodes": ["us"],
-      "matchNames": ["jackson hewitt tax service"],
-      "matchTags": ["office/accountant"],
       "tags": {
-        "alt_name": "Jackson Hewitt Tax Service",
         "brand": "Jackson Hewitt",
         "brand:wikidata": "Q6117132",
         "brand:wikipedia": "en:Jackson Hewitt",
         "name": "Jackson Hewitt",
-        "office": "tax_advisor"
+        "office": "tax_advisor",
+        "official_name": "Jackson Hewitt Tax Service"
       }
     },
     "office/tax_advisor|Liberty Tax": {
       "countryCodes": ["us"],
-      "matchNames": ["liberty tax service"],
-      "matchTags": ["office/accountant"],
       "tags": {
         "alt_name": "Liberty Tax Service",
         "brand": "Liberty Tax",
@@ -19689,6 +20297,7 @@
       }
     },
     "shop/baby_goods|Babies R Us": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Babies R Us",
         "brand:wikidata": "Q17232036",
@@ -19752,7 +20361,6 @@
     "shop/bag|Coach": {
       "countryCodes": ["ca", "us"],
       "matchNames": ["coach new york", "coach ny"],
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Coach",
         "brand:wikidata": "Q727697",
@@ -19869,6 +20477,17 @@
         "brand:wikipedia": "en:Birds Bakery",
         "name": "Birds",
         "official_name": "Birds Bakery",
+        "shop": "bakery"
+      }
+    },
+    "shop/bakery|Breadtop": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "Breadtop",
+        "brand:wikidata": "Q4959217",
+        "brand:wikipedia": "en:Breadtop",
+        "cuisine": "chinese",
+        "name": "Breadtop",
         "shop": "bakery"
       }
     },
@@ -20167,6 +20786,17 @@
         "shop": "bakery"
       }
     },
+    "shop/bakery|Paris Baguette~(worldwide)": {
+      "countryCodes": ["sg", "us", "vn"],
+      "matchNames": ["paris baguette cafe"],
+      "nomatch": ["shop/bakery|巴黎贝甜", "shop/bakery|파리바게뜨"],
+      "tags": {
+        "brand": "Paris Baguette",
+        "brand:wikidata": "Q62605260",
+        "name": "Paris Baguette",
+        "shop": "bakery"
+      }
+    },
     "shop/bakery|Paul": {
       "tags": {
         "brand": "Paul",
@@ -20285,6 +20915,21 @@
       "countryCodes": ["ua"],
       "tags": {"brand": "Кулиничі", "name": "Кулиничі", "shop": "bakery"}
     },
+    "shop/bakery|巴黎贝甜~(China)": {
+      "countryCodes": ["cn"],
+      "matchNames": ["paris baguette", "paris baguette cafe", "巴黎貝甜"],
+      "nomatch": ["shop/bakery|Paris Baguette", "shop/bakery|파리바게뜨"],
+      "tags": {
+        "brand": "巴黎贝甜",
+        "brand:en": "Paris Baguette",
+        "brand:wikidata": "Q62605260",
+        "brand:zh": "巴黎贝甜",
+        "name": "巴黎贝甜",
+        "name:en": "Paris Baguette",
+        "name:zh": "巴黎贝甜",
+        "shop": "bakery"
+      }
+    },
     "shop/bakery|뚜레쥬르": {
       "countryCodes": ["kr"],
       "matchNames": ["뚜레주르"],
@@ -20300,32 +20945,31 @@
         "shop": "bakery"
       }
     },
-    "shop/bakery|파리바게뜨": {
+    "shop/bakery|파리바게뜨~(South Korea)": {
       "countryCodes": ["kr"],
+      "matchNames": ["paris baguette", "paris baguette cafe", "파리바게트"],
+      "nomatch": ["shop/bakery|Paris Baguette", "shop/bakery|巴黎贝甜"],
       "tags": {
+        "alt_name:ko": "파리바게트",
         "brand": "파리바게뜨",
+        "brand:en": "Paris Baguette",
         "brand:ko": "파리바게뜨",
+        "brand:wikidata": "Q62605260",
         "name": "파리바게뜨",
+        "name:en": "Paris Baguette",
         "name:ko": "파리바게뜨",
         "shop": "bakery"
       }
     },
-    "shop/bakery|파리바게트": {
-      "countryCodes": ["kr"],
+    "shop/beauty|Benefit Brow Bar": {
+      "countryCodes": ["us"],
+      "matchNames": ["benefit", "ulta brow bar"],
       "tags": {
-        "brand": "파리바게트",
-        "brand:ko": "파리바게트",
-        "name": "파리바게트",
-        "name:ko": "파리바게트",
-        "shop": "bakery"
-      }
-    },
-    "shop/beauty|Bath & Body Works": {
-      "tags": {
-        "brand": "Bath & Body Works",
-        "brand:wikidata": "Q810773",
-        "brand:wikipedia": "en:Bath & Body Works",
-        "name": "Bath & Body Works",
+        "beauty": "eyebrow;eyelash;waxing",
+        "brand": "Benefit",
+        "brand:wikidata": "Q2895769",
+        "brand:wikipedia": "en:Benefit Cosmetics",
+        "name": "Benefit Brow Bar",
         "shop": "beauty"
       }
     },
@@ -20348,6 +20992,7 @@
       }
     },
     "shop/beauty|Hollywood Nails": {
+      "countryCodes": ["de", "gb", "us"],
       "tags": {
         "beauty": "nails",
         "brand": "Hollywood Nails",
@@ -20365,15 +21010,26 @@
         "shop": "beauty"
       }
     },
-    "shop/beauty|Ulta Beauty": {
+    "shop/beauty|Sola Salons": {
       "countryCodes": ["us"],
-      "matchNames": ["ulta"],
+      "matchNames": ["sola", "sola salon studios"],
       "tags": {
-        "beauty": "cosmetics;eyebrow;eyelash;hair;skin_care;supplies;waxing",
+        "beauty": "hair;nails;skin_care;massage",
+        "brand": "Sola Salons",
+        "brand:wikidata": "Q64337426",
+        "name": "Sola Salons",
+        "shop": "beauty"
+      }
+    },
+    "shop/beauty|The Skin Bar at Ulta Beauty": {
+      "countryCodes": ["us"],
+      "tags": {
+        "alt_name": "Ulta Skin Bar",
+        "beauty": "skin_care",
         "brand": "Ulta Beauty",
         "brand:wikidata": "Q7880076",
         "brand:wikipedia": "en:Ulta Beauty",
-        "name": "Ulta Beauty",
+        "name": "The Skin Bar at Ulta Beauty",
         "shop": "beauty"
       }
     },
@@ -20386,6 +21042,15 @@
         "brand:wikipedia": "en:Yves Rocher (company)",
         "name": "Yves Rocher",
         "shop": "beauty"
+      }
+    },
+    "shop/bed|Casper": {
+      "tags": {
+        "brand": "Casper",
+        "brand:wikidata": "Q20539294",
+        "brand:wikipedia": "en:Casper Sleep",
+        "name": "Casper",
+        "shop": "bed"
       }
     },
     "shop/bed|Dreams": {
@@ -20819,6 +21484,17 @@
         "shop": "books"
       }
     },
+    "shop/books|Indigo": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "alt_name": "!ndigo",
+        "brand": "Indigo",
+        "brand:wikidata": "Q2477358",
+        "brand:wikipedia": "en:Indigo Books and Music",
+        "name": "Indigo",
+        "shop": "books"
+      }
+    },
     "shop/books|Mondadori": {
       "countryCodes": ["it"],
       "tags": {
@@ -21159,7 +21835,7 @@
       }
     },
     "shop/car_parts|Advance Auto Parts": {
-      "countryCodes": ["ca", "pr", "us", "vi"],
+      "countryCodes": ["ca", "us", "vi"],
       "tags": {
         "brand": "Advance Auto Parts",
         "brand:wikidata": "Q4686051",
@@ -21169,7 +21845,7 @@
       }
     },
     "shop/car_parts|AutoZone": {
-      "countryCodes": ["br", "mx", "pr", "us"],
+      "countryCodes": ["br", "mx", "us"],
       "tags": {
         "brand": "AutoZone",
         "brand:wikidata": "Q4826087",
@@ -21346,7 +22022,6 @@
       }
     },
     "shop/car_repair|BestDrive": {
-      "countryCodes": ["cz", "fr", "sk"],
       "tags": {
         "brand": "BestDrive",
         "brand:wikidata": "Q63057183",
@@ -21412,17 +22087,8 @@
         "shop": "car_repair"
       }
     },
-    "shop/car_repair|Dekra": {
-      "countryCodes": ["de", "fr"],
-      "tags": {
-        "brand": "Dekra",
-        "brand:wikidata": "Q383711",
-        "brand:wikipedia": "en:Dekra",
-        "name": "Dekra",
-        "shop": "car_repair"
-      }
-    },
     "shop/car_repair|Euromaster": {
+      "countryCodes": ["ch", "de", "es", "fi", "fr", "nl", "pt"],
       "tags": {
         "brand": "Euromaster",
         "brand:wikidata": "Q3060668",
@@ -21443,7 +22109,6 @@
     },
     "shop/car_repair|Firestone": {
       "countryCodes": ["ca", "cl", "us"],
-      "matchNames": ["firestone complete auto care"],
       "tags": {
         "brand": "Firestone",
         "brand:wikidata": "Q420837",
@@ -21535,6 +22200,7 @@
         "brand:wikidata": "Q6810159",
         "brand:wikipedia": "en:Meineke Car Care Centers",
         "name": "Meineke",
+        "official_name": "Meineke Car Care Center",
         "shop": "car_repair"
       }
     },
@@ -21589,7 +22255,7 @@
       }
     },
     "shop/car_repair|Pep Boys": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Pep Boys",
         "brand:wikidata": "Q3375007",
@@ -21713,7 +22379,6 @@
     },
     "shop/car_repair|Valvoline": {
       "countryCodes": ["us"],
-      "matchNames": ["valvoline instant oil change"],
       "tags": {
         "brand": "Valvoline",
         "brand:wikidata": "Q7912852",
@@ -22188,7 +22853,7 @@
       }
     },
     "shop/charity|The Salvation Army": {
-      "countryCodes": ["au", "ca", "gb", "pr", "us"],
+      "countryCodes": ["au", "ca", "gb", "us"],
       "matchNames": ["salvation army"],
       "tags": {
         "brand": "The Salvation Army",
@@ -22199,6 +22864,7 @@
       }
     },
     "shop/chemist|101 Drogerie": {
+      "countryCodes": ["sk"],
       "tags": {
         "brand": "101 Drogerie",
         "name": "101 Drogerie",
@@ -22267,13 +22933,6 @@
     "shop/chemist|Hebe": {
       "tags": {"brand": "Hebe", "name": "Hebe", "shop": "chemist"}
     },
-    "shop/chemist|Holland & Barrett": {
-      "tags": {
-        "brand": "Holland & Barrett",
-        "name": "Holland & Barrett",
-        "shop": "chemist"
-      }
-    },
     "shop/chemist|Kruidvat": {
       "tags": {
         "brand": "Kruidvat",
@@ -22315,11 +22974,15 @@
         "shop": "chemist"
       }
     },
+    "shop/chemist|Savers": {
+      "tags": {"brand": "Savers", "name": "Savers", "shop": "chemist"}
+    },
     "shop/chemist|Superdrug": {
       "nomatch": ["amenity/pharmacy|Superdrug"],
       "tags": {"brand": "Superdrug", "name": "Superdrug", "shop": "chemist"}
     },
     "shop/chemist|Teta": {
+      "countryCodes": ["cz", "sk"],
       "tags": {
         "brand": "Teta",
         "brand:wikidata": "Q20860823",
@@ -22342,7 +23005,7 @@
       }
     },
     "shop/chemist|Walgreens": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchNames": ["walgreens pharmacy"],
       "tags": {
         "brand": "Walgreens",
@@ -22392,6 +23055,7 @@
       }
     },
     "shop/chemist|Бытовая химия": {
+      "countryCodes": ["by", "ru", "ua"],
       "tags": {
         "brand": "Бытовая химия",
         "name": "Бытовая химия",
@@ -22402,9 +23066,11 @@
       "tags": {"brand": "Мила", "name": "Мила", "shop": "chemist"}
     },
     "shop/chemist|Новэкс": {
+      "countryCodes": ["ru"],
       "tags": {"brand": "Новэкс", "name": "Новэкс", "shop": "chemist"}
     },
     "shop/chemist|Остров чистоты": {
+      "countryCodes": ["by"],
       "tags": {
         "brand": "Остров чистоты",
         "name": "Остров чистоты",
@@ -22438,8 +23104,15 @@
       "tags": {"brand": "丁丁藥局", "name": "丁丁藥局", "shop": "chemist"}
     },
     "shop/chemist|屈臣氏": {
+      "countryCodes": ["cn", "hk", "tw"],
       "nomatch": ["amenity/pharmacy|屈臣氏"],
-      "tags": {"brand": "屈臣氏", "name": "屈臣氏", "shop": "chemist"}
+      "tags": {
+        "brand": "屈臣氏",
+        "brand:wikidata": "Q7974785",
+        "brand:wikipedia": "zh:屈臣氏",
+        "name": "屈臣氏",
+        "shop": "chemist"
+      }
     },
     "shop/chemist|康是美": {
       "countryCodes": ["tw"],
@@ -22462,6 +23135,7 @@
       }
     },
     "shop/chocolate|Godiva Chocolatier": {
+      "countryCodes": ["us"],
       "matchNames": ["godiva"],
       "tags": {
         "brand": "Godiva Chocolatier",
@@ -22528,6 +23202,7 @@
       }
     },
     "shop/clothes|Accessorize": {
+      "countryCodes": ["gb", "it", "ru"],
       "tags": {
         "brand": "Accessorize",
         "brand:wikidata": "Q3069980",
@@ -22556,6 +23231,16 @@
         "brand:wikipedia": "en:Aéropostale (clothing)",
         "clothes": "men;women",
         "name": "Aeropostale",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|AllSaints": {
+      "countryCodes": ["gb"],
+      "tags": {
+        "brand": "AllSaints",
+        "brand:wikidata": "Q4728473",
+        "brand:wikipedia": "en:AllSaints",
+        "name": "AllSaints",
         "shop": "clothes"
       }
     },
@@ -22610,6 +23295,17 @@
         "brand:wikidata": "Q2860764",
         "brand:wikipedia": "en:Ardene",
         "name": "Ardene",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Aritzia": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "brand": "Aritzia",
+        "brand:wikidata": "Q4791147",
+        "brand:wikipedia": "en:Aritzia",
+        "clothes": "women",
+        "name": "Aritzia",
         "shop": "clothes"
       }
     },
@@ -22668,11 +23364,22 @@
       }
     },
     "shop/clothes|Big Star": {
+      "countryCodes": ["by", "pl"],
       "tags": {
         "brand": "Big Star",
         "brand:wikidata": "Q9171569",
         "brand:wikipedia": "pl:Big Star Limited",
         "name": "Big Star",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Billabong": {
+      "tags": {
+        "brand": "Billabong",
+        "brand:wikidata": "Q862718",
+        "brand:wikipedia": "en:Billabong (clothing)",
+        "clothes": "men;women",
+        "name": "Billabong",
         "shop": "clothes"
       }
     },
@@ -22732,6 +23439,15 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Brunello Cucinelli": {
+      "tags": {
+        "brand": "Brunello Cucinelli",
+        "brand:wikidata": "Q3645582",
+        "brand:wikipedia": "en:Brunello Cucinelli",
+        "name": "Brunello Cucinelli",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Buckle": {
       "countryCodes": ["us"],
       "tags": {
@@ -22760,12 +23476,13 @@
         "brand": "Burberry",
         "brand:wikidata": "Q390107",
         "brand:wikipedia": "en:Burberry",
+        "clothes": "men;women",
         "name": "Burberry",
         "shop": "clothes"
       }
     },
     "shop/clothes|Burlington Coat Factory": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Burlington Coat Factory",
         "brand:wikidata": "Q4999220",
@@ -22849,12 +23566,22 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Canada Goose": {
+      "tags": {
+        "brand": "Canada Goose",
+        "brand:wikidata": "Q2988422",
+        "brand:wikipedia": "en:Canada Goose",
+        "name": "Canada Goose",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Carhartt": {
       "countryCodes": ["gb", "us"],
       "tags": {
         "brand": "Carhartt",
         "brand:wikidata": "Q527877",
         "brand:wikipedia": "en:Carhartt",
+        "clothes": "workwear",
         "name": "Carhartt",
         "shop": "clothes"
       }
@@ -22873,6 +23600,7 @@
       }
     },
     "shop/clothes|Carter's": {
+      "matchNames": ["carters babies and kids"],
       "tags": {
         "brand": "Carter's",
         "brand:wikidata": "Q5047083",
@@ -22916,6 +23644,15 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Chanel": {
+      "tags": {
+        "brand": "Chanel",
+        "brand:wikidata": "Q218115",
+        "brand:wikipedia": "en:Chanel",
+        "name": "Chanel",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Charles Vögele": {
       "countryCodes": ["at", "be", "ch", "de", "hu", "nl"],
       "matchNames": ["vögele"],
@@ -22934,6 +23671,17 @@
         "brand:wikidata": "Q5086126",
         "brand:wikipedia": "en:Charlotte Russe (clothing retailer)",
         "name": "Charlotte Russe",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Charming Charlie": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Charming Charlie",
+        "brand:wikidata": "Q16829286",
+        "brand:wikipedia": "en:Charming Charlie",
+        "clothes": "women",
+        "name": "Charming Charlie",
         "shop": "clothes"
       }
     },
@@ -23034,12 +23782,12 @@
       }
     },
     "shop/clothes|David's Bridal": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "David's Bridal",
         "brand:wikidata": "Q5230388",
         "brand:wikipedia": "en:David's Bridal",
-        "clothes": "bridal",
+        "clothes": "wedding",
         "name": "David's Bridal",
         "shop": "clothes"
       }
@@ -23076,6 +23824,15 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Dior": {
+      "tags": {
+        "brand": "Dior",
+        "brand:wikidata": "Q542767",
+        "brand:wikipedia": "en:Christian Dior (fashion house)",
+        "name": "Dior",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Diverse": {
       "countryCodes": ["pl"],
       "tags": {
@@ -23083,6 +23840,29 @@
         "brand:wikidata": "Q11694298",
         "brand:wikipedia": "pl:Diverse",
         "name": "Diverse",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Dolce & Gabbana": {
+      "matchNames": [
+        "d&g",
+        "dolce & gabana",
+        "dolce & gabanna",
+        "dolce & gabbanna",
+        "dolce and gabana",
+        "dolce and gabanna",
+        "dolce and gabbana",
+        "dolce and gabbanna",
+        "dolce y gabana",
+        "dolce y gabanna",
+        "dolce y gabbana",
+        "dolce y gabbanna"
+      ],
+      "tags": {
+        "brand": "Dolce & Gabbana",
+        "brand:wikidata": "Q214480",
+        "brand:wikipedia": "en:Dolce & Gabbana",
+        "name": "Dolce & Gabbana",
         "shop": "clothes"
       }
     },
@@ -23145,6 +23925,17 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Ermenegildo Zegna": {
+      "matchNames": ["zegna"],
+      "tags": {
+        "brand": "Ermenegildo Zegna",
+        "brand:wikidata": "Q1355904",
+        "brand:wikipedia": "en:Ermenegildo Zegna",
+        "clothes": "men",
+        "name": "Ermenegildo Zegna",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Ernsting's family": {
       "countryCodes": ["at", "de"],
       "tags": {
@@ -23173,6 +23964,14 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Everything But Water": {
+      "tags": {
+        "brand": "Everything But Water",
+        "clothes": "swimwear",
+        "name": "Everything But Water",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Express": {
       "nomatch": ["shop/convenience|Express"],
       "tags": {
@@ -23190,6 +23989,15 @@
         "brand:wikidata": "Q5437186",
         "brand:wikipedia": "en:Fat Face",
         "name": "Fat Face",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Fendi": {
+      "tags": {
+        "brand": "Fendi",
+        "brand:wikidata": "Q926575",
+        "brand:wikipedia": "en:Fendi",
+        "name": "Fendi",
         "shop": "clothes"
       }
     },
@@ -23320,6 +24128,18 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Haggar": {
+      "countryCodes": ["us"],
+      "matchNames": ["haggar clothing"],
+      "tags": {
+        "alt_name": "Haggar Clothing Co.",
+        "brand": "Haggar",
+        "brand:wikidata": "Q5638669",
+        "brand:wikipedia": "en:Haggar Clothing",
+        "name": "Haggar",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Hallhuber": {
       "countryCodes": ["at", "ch", "de", "lu", "nl"],
       "tags": {
@@ -23341,8 +24161,17 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Hermès": {
+      "nomatch": ["amenity/post_office|Hermes Paketshop"],
+      "tags": {
+        "brand": "Hermès",
+        "brand:wikidata": "Q843887",
+        "brand:wikipedia": "en:Hermès",
+        "name": "Hermès",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Hollister": {
-      "matchNames": ["hollister co"],
       "tags": {
         "brand": "Hollister",
         "brand:wikidata": "Q1257477",
@@ -23379,11 +24208,23 @@
       "tags": {"brand": "Humana", "name": "Humana", "shop": "clothes"}
     },
     "shop/clothes|Hunkemöller": {
+      "countryCodes": ["at", "be", "de", "dk", "es", "lu", "nl"],
       "tags": {
         "brand": "Hunkemöller",
         "brand:wikidata": "Q2604175",
         "brand:wikipedia": "en:Hunkemöller",
         "name": "Hunkemöller",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Indochino": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "brand": "Indochino",
+        "brand:wikidata": "Q64448127",
+        "brand:wikipedia": "en:Indochino",
+        "clothes": "suits",
+        "name": "Indochino",
         "shop": "clothes"
       }
     },
@@ -23405,6 +24246,16 @@
         "brand:wikipedia": "en:J.Crew",
         "clothes": "men;women;children",
         "name": "J.Crew",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|J.Jill": {
+      "tags": {
+        "brand": "J.Jill",
+        "brand:wikidata": "Q64448268",
+        "brand:wikipedia": "en:J.Jill",
+        "clothes": "women",
+        "name": "J.Jill",
         "shop": "clothes"
       }
     },
@@ -23434,6 +24285,18 @@
         "brand:wikidata": "Q6115814",
         "brand:wikipedia": "en:Jack Wills",
         "name": "Jack Wills",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Janie & Jack": {
+      "countryCodes": ["ca", "us"],
+      "matchNames": ["janie and jack"],
+      "tags": {
+        "brand": "Janie & Jack",
+        "brand:wikidata": "Q64449634",
+        "brand:wikipedia": "en:Janie & Jack",
+        "clothes": "children",
+        "name": "Janie & Jack",
         "shop": "clothes"
       }
     },
@@ -23485,13 +24348,22 @@
         "shop": "clothes"
       }
     },
-    "shop/clothes|Jos. A. Bank": {
+    "shop/clothes|JoS. A. Bank": {
       "countryCodes": ["us"],
+      "matchNames": ["joseph a bank"],
       "tags": {
-        "brand": "Jos. A. Bank",
+        "brand": "JoS. A. Bank",
         "brand:wikidata": "Q6204078",
         "brand:wikipedia": "en:JoS. A. Bank Clothiers",
-        "name": "Jos. A. Bank",
+        "name": "JoS. A. Bank",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Johnny Was": {
+      "tags": {
+        "brand": "Johnny Was",
+        "clothes": "women",
+        "name": "Johnny Was",
         "shop": "clothes"
       }
     },
@@ -23507,7 +24379,14 @@
     },
     "shop/clothes|Jules": {
       "countryCodes": ["be", "fr", "it"],
-      "tags": {"brand": "Jules", "name": "Jules", "shop": "clothes"}
+      "tags": {
+        "brand": "Jules",
+        "brand:wikidata": "Q3188386",
+        "brand:wikipedia": "fr:Jules (enseigne)",
+        "clothes": "men",
+        "name": "Jules",
+        "shop": "clothes"
+      }
     },
     "shop/clothes|Justice": {
       "countryCodes": ["ca", "us"],
@@ -23537,6 +24416,13 @@
         "brand:wikidata": "Q6375797",
         "brand:wikipedia": "en:Kate Spade New York",
         "name": "Kate Spade New York",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Kendra Scott": {
+      "tags": {
+        "brand": "Kendra Scott",
+        "name": "Kendra Scott",
         "shop": "clothes"
       }
     },
@@ -23633,6 +24519,7 @@
       }
     },
     "shop/clothes|Loft": {
+      "matchNames": ["ann taylor loft"],
       "tags": {
         "brand": "Loft",
         "brand:wikidata": "Q62075137",
@@ -23641,6 +24528,15 @@
         "operator": "Ann Inc.",
         "operator:wikidata": "Q4766699",
         "operator:wikipedia": "en:Ann Inc.",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Loro Piana": {
+      "tags": {
+        "brand": "Loro Piana",
+        "brand:wikidata": "Q1686544",
+        "brand:wikipedia": "en:Loro Piana",
+        "name": "Loro Piana",
         "shop": "clothes"
       }
     },
@@ -23653,9 +24549,28 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Lowes": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "Lowes",
+        "brand:wikidata": "Q6693996",
+        "brand:wikipedia": "en:Lowes Menswear",
+        "name": "Lowes",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Lucky Brand": {
+      "matchNames": ["lucky brand jeans"],
+      "tags": {
+        "brand": "Lucky Brand",
+        "brand:wikidata": "Q6697865",
+        "brand:wikipedia": "en:Lucky Brand Jeans",
+        "name": "Lucky Brand",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Lululemon": {
       "countryCodes": ["au", "ca", "us"],
-      "matchNames": ["lululemon athletica"],
       "tags": {
         "brand": "Lululemon",
         "brand:wikidata": "Q6702957",
@@ -23679,6 +24594,9 @@
     "shop/clothes|MS Mode": {
       "countryCodes": ["be", "de", "fr", "lu", "nl"],
       "tags": {"brand": "MS Mode", "name": "MS Mode", "shop": "clothes"}
+    },
+    "shop/clothes|Mackage": {
+      "tags": {"brand": "Mackage", "name": "Mackage", "shop": "clothes"}
     },
     "shop/clothes|Madewell": {
       "countryCodes": ["us"],
@@ -23739,15 +24657,6 @@
         "shop": "clothes"
       }
     },
-    "shop/clothes|Marks & Spencer": {
-      "tags": {
-        "brand": "Marks & Spencer",
-        "brand:wikidata": "Q714491",
-        "brand:wikipedia": "en:Marks & Spencer",
-        "name": "Marks & Spencer",
-        "shop": "clothes"
-      }
-    },
     "shop/clothes|Massimo Dutti": {
       "tags": {
         "brand": "Massimo Dutti",
@@ -23792,6 +24701,7 @@
       "tags": {
         "brand": "Men's Wearhouse",
         "brand:wikidata": "Q57405513",
+        "brand:wikipedia": "en:Men's Wearhouse",
         "clothes": "suits",
         "name": "Men's Wearhouse",
         "shop": "clothes"
@@ -23925,7 +24835,6 @@
       }
     },
     "shop/clothes|Nike": {
-      "matchTags": ["shop/shoes", "shop/sports"],
       "tags": {
         "brand": "Nike",
         "brand:wikidata": "Q483915",
@@ -24153,6 +25062,8 @@
     "shop/clothes|Polo Ralph Lauren": {
       "tags": {
         "brand": "Polo Ralph Lauren",
+        "brand:wikidata": "Q1641437",
+        "brand:wikipedia": "en:Ralph Lauren Corporation",
         "name": "Polo Ralph Lauren",
         "shop": "clothes"
       }
@@ -24185,11 +25096,10 @@
       }
     },
     "shop/clothes|Puma": {
-      "matchTags": ["shop/shoes", "shop/sports"],
       "nomatch": ["amenity/fuel|Puma"],
       "tags": {
         "brand": "Puma",
-        "brand:wikidata": "Q7203029",
+        "brand:wikidata": "Q157064",
         "brand:wikipedia": "en:Puma (brand)",
         "name": "Puma",
         "shop": "clothes"
@@ -24209,7 +25119,6 @@
       }
     },
     "shop/clothes|Reebok": {
-      "matchTags": ["shop/shoes", "shop/sports"],
       "tags": {
         "brand": "Reebok",
         "brand:wikidata": "Q466183",
@@ -24247,9 +25156,19 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Robert Graham": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Robert Graham",
+        "brand:wikidata": "Q18390679",
+        "brand:wikipedia": "en:Robert Graham (fashion brand)",
+        "clothes": "men",
+        "name": "Robert Graham",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Ross": {
       "countryCodes": ["us"],
-      "matchNames": ["ross dress for less"],
       "tags": {
         "brand": "Ross",
         "brand:wikidata": "Q3442791",
@@ -24257,6 +25176,17 @@
         "name": "Ross",
         "official_name": "Ross Dress for Less",
         "shop": "clothes"
+      }
+    },
+    "shop/clothes|Saint Laurent": {
+      "tags": {
+        "alt_name": "Yves Saint Laurent",
+        "brand": "Saint Laurent",
+        "brand:wikidata": "Q2282172",
+        "brand:wikipedia": "en:Yves Saint Laurent (brand)",
+        "name": "Saint Laurent",
+        "shop": "clothes",
+        "short_name": "YSL"
       }
     },
     "shop/clothes|Sandro": {
@@ -24310,6 +25240,17 @@
         "operator": "Benetton Group",
         "operator:wikidata": "Q817139",
         "operator:wikipedia": "en:Benetton Group",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Spanx": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Spanx",
+        "brand:wikidata": "Q1932886",
+        "brand:wikipedia": "en:Spanx",
+        "clothes": "underwear",
+        "name": "Spanx",
         "shop": "clothes"
       }
     },
@@ -24409,7 +25350,7 @@
       }
     },
     "shop/clothes|TJ Maxx": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "TJ Maxx",
         "brand:wikidata": "Q10860683",
@@ -24513,11 +25454,21 @@
         "brand:wikidata": "Q30716262",
         "brand:wikipedia": "en:The Walking Company",
         "name": "The Walking Company",
-        "shop": "shoes"
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|Tillys": {
+      "countryCodes": ["tr"],
+      "tags": {
+        "brand": "Tillys",
+        "brand:wikidata": "Q7802889",
+        "brand:wikipedia": "en:Tillys",
+        "clothes": "children;men;women",
+        "name": "Tillys",
+        "shop": "clothes"
       }
     },
     "shop/clothes|Timberland": {
-      "matchTags": ["shop/shoes"],
       "tags": {
         "brand": "Timberland",
         "brand:wikidata": "Q1539185",
@@ -24577,6 +25528,15 @@
         "shop": "clothes"
       }
     },
+    "shop/clothes|Tory Burch": {
+      "tags": {
+        "brand": "Tory Burch",
+        "brand:wikidata": "Q19988222",
+        "brand:wikipedia": "en:Tory Burch (company)",
+        "name": "Tory Burch",
+        "shop": "clothes"
+      }
+    },
     "shop/clothes|Triumph": {
       "tags": {
         "brand": "Triumph",
@@ -24593,6 +25553,16 @@
         "brand:wikidata": "Q24233998",
         "brand:wikipedia": "en:Truworths",
         "name": "Truworths",
+        "shop": "clothes"
+      }
+    },
+    "shop/clothes|UNTUCKit": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "brand": "UNTUCKit",
+        "brand:wikidata": "Q28207006",
+        "brand:wikipedia": "en:Untuckit",
+        "name": "UNTUCKit",
         "shop": "clothes"
       }
     },
@@ -24950,6 +25920,7 @@
       }
     },
     "shop/coffee|Tchibo": {
+      "countryCodes": ["at", "ch", "cz", "de", "pl", "sk"],
       "matchTags": ["shop/convenience"],
       "tags": {
         "brand": "Tchibo",
@@ -24995,6 +25966,7 @@
       }
     },
     "shop/confectionery|Hussel": {
+      "countryCodes": ["at", "de"],
       "tags": {
         "brand": "Hussel",
         "brand:wikidata": "Q17123688",
@@ -25013,7 +25985,20 @@
         "shop": "confectionery"
       }
     },
+    "shop/confectionery|Kilwins": {
+      "countryCodes": ["us"],
+      "matchTags": ["amenity/ice_cream"],
+      "tags": {
+        "brand": "Kilwins",
+        "brand:wikidata": "Q38250832",
+        "brand:wikipedia": "en:Kilwins",
+        "cuisine": "chocolate;ice_cream;popcorn",
+        "name": "Kilwins",
+        "shop": "confectionery"
+      }
+    },
     "shop/confectionery|Rocky Mountain Chocolate Factory": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Rocky Mountain Chocolate Factory",
         "brand:wikidata": "Q7355878",
@@ -25023,6 +26008,8 @@
       }
     },
     "shop/confectionery|See's Candies": {
+      "countryCodes": ["us"],
+      "matchNames": ["sees candy"],
       "tags": {
         "brand": "See's Candies",
         "brand:wikidata": "Q2103510",
@@ -25032,9 +26019,11 @@
       }
     },
     "shop/confectionery|T. SN": {
+      "countryCodes": ["ec"],
       "tags": {"brand": "T. SN", "name": "T. SN", "shop": "confectionery"}
     },
     "shop/confectionery|Thorntons": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Thorntons",
         "brand:wikidata": "Q683102",
@@ -25068,6 +26057,7 @@
       }
     },
     "shop/confectionery|不二家": {
+      "countryCodes": ["jp"],
       "tags": {"brand": "不二家", "name": "不二家", "shop": "confectionery"}
     },
     "shop/convenience|24 часа": {
@@ -25129,7 +26119,7 @@
       }
     },
     "shop/convenience|Aibė": {
-      "countryCodes": ["lt", "lv"],
+      "countryCodes": ["lt"],
       "tags": {
         "brand": "Aibė",
         "brand:wikidata": "Q1022952",
@@ -25188,6 +26178,7 @@
       }
     },
     "shop/convenience|BP Shop": {
+      "countryCodes": ["au", "ch", "fr", "gb", "us"],
       "nomatch": ["amenity/fuel|BP"],
       "tags": {
         "brand": "BP Shop",
@@ -25450,10 +26441,8 @@
       "countryCodes": ["us"],
       "tags": {
         "brand": "ExtraMile",
+        "brand:wikidata": "Q64224605",
         "name": "ExtraMile",
-        "operator": "Chevron",
-        "operator:wikidata": "Q319642",
-        "operator:wikipedia": "en:Chevron Corporation",
         "shop": "convenience"
       }
     },
@@ -25811,7 +26800,7 @@
     },
     "shop/convenience|NewDays": {
       "countryCodes": ["jp"],
-      "matchNames": ["newdays ミニ", "ニューデイズ"],
+      "matchNames": ["newdays ミニ"],
       "tags": {
         "alt_name": "ニューデイズ",
         "brand": "NewDays",
@@ -26012,6 +27001,16 @@
         "shop": "convenience"
       }
     },
+    "shop/convenience|Shell": {
+      "nomatch": ["amenity/fuel|Shell", "amenity/fuel|Shell Express"],
+      "tags": {
+        "brand": "Shell",
+        "brand:wikidata": "Q154950",
+        "brand:wikipedia": "en:Royal Dutch Shell",
+        "name": "Shell",
+        "shop": "convenience"
+      }
+    },
     "shop/convenience|Shell Select": {
       "nomatch": ["amenity/fuel|Shell", "amenity/fuel|Shell Express"],
       "tags": {
@@ -26198,7 +27197,6 @@
     },
     "shop/convenience|United Dairy Farmers": {
       "countryCodes": ["us"],
-      "matchNames": ["udf"],
       "matchTags": ["amenity/ice_cream", "shop/ice_cream"],
       "nomatch": ["amenity/fuel|United Dairy Farmers"],
       "tags": {
@@ -26913,6 +27911,7 @@
       }
     },
     "shop/copyshop|Epicier": {
+      "countryCodes": ["ma"],
       "tags": {"brand": "Epicier", "name": "Epicier", "shop": "copyshop"}
     },
     "shop/copyshop|FedEx Office": {
@@ -26930,6 +27929,25 @@
     "shop/copyshop|Photocopie": {
       "tags": {"brand": "Photocopie", "name": "Photocopie", "shop": "copyshop"}
     },
+    "shop/cosmetics|Aveda": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Aveda",
+        "brand:wikidata": "Q4827965",
+        "brand:wikipedia": "en:Aveda",
+        "name": "Aveda",
+        "shop": "cosmetics"
+      }
+    },
+    "shop/cosmetics|Bath & Body Works": {
+      "tags": {
+        "brand": "Bath & Body Works",
+        "brand:wikidata": "Q810773",
+        "brand:wikipedia": "en:Bath & Body Works",
+        "name": "Bath & Body Works",
+        "shop": "cosmetics"
+      }
+    },
     "shop/cosmetics|Eva": {
       "countryCodes": ["ru", "ua"],
       "tags": {"brand": "Eva", "name": "Eva", "shop": "cosmetics"}
@@ -26946,7 +27964,7 @@
       }
     },
     "shop/cosmetics|Kiehl's": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
       "matchNames": ["kiehl's since 1851"],
       "tags": {
         "brand": "Kiehl's",
@@ -26977,7 +27995,6 @@
     },
     "shop/cosmetics|MAC Cosmetics": {
       "countryCodes": ["ca", "de", "us"],
-      "matchNames": ["mac"],
       "tags": {
         "brand": "MAC Cosmetics",
         "brand:wikidata": "Q2624442",
@@ -27012,9 +28029,21 @@
       }
     },
     "shop/cosmetics|Rituals": {
+      "countryCodes": ["be", "ch", "de", "es", "gb", "nl", "se"],
       "tags": {"brand": "Rituals", "name": "Rituals", "shop": "cosmetics"}
     },
+    "shop/cosmetics|Saje": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "brand": "Saje",
+        "brand:wikidata": "Q44631749",
+        "brand:wikipedia": "en:Saje Natural Wellness",
+        "name": "Saje",
+        "shop": "cosmetics"
+      }
+    },
     "shop/cosmetics|Sephora": {
+      "matchTags": ["shop/perfumery"],
       "tags": {
         "brand": "Sephora",
         "brand:wikidata": "Q2408041",
@@ -27024,7 +28053,7 @@
       }
     },
     "shop/cosmetics|The Body Shop": {
-      "matchTags": ["shop/beauty", "shop/chemist"],
+      "matchTags": ["shop/chemist"],
       "tags": {
         "brand": "The Body Shop",
         "brand:wikidata": "Q837851",
@@ -27033,11 +28062,30 @@
         "shop": "cosmetics"
       }
     },
+    "shop/cosmetics|Ulta Beauty": {
+      "countryCodes": ["us"],
+      "matchNames": ["ulta"],
+      "tags": {
+        "brand": "Ulta Beauty",
+        "brand:wikidata": "Q7880076",
+        "brand:wikipedia": "en:Ulta Beauty",
+        "name": "Ulta Beauty",
+        "shop": "cosmetics"
+      }
+    },
     "shop/cosmetics|Vente de Cosmétique": {
       "countryCodes": ["ci"],
       "tags": {
         "brand": "Vente de Cosmétique",
         "name": "Vente de Cosmétique",
+        "shop": "cosmetics"
+      }
+    },
+    "shop/cosmetics|bareMinerals": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "bareMinerals",
+        "name": "bareMinerals",
         "shop": "cosmetics"
       }
     },
@@ -27213,6 +28261,16 @@
         "shop": "country_store"
       }
     },
+    "shop/craft|A.C. Moore": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "A.C. Moore",
+        "brand:wikidata": "Q4647066",
+        "brand:wikipedia": "en:A.C. Moore",
+        "name": "A.C. Moore",
+        "shop": "craft"
+      }
+    },
     "shop/craft|Hobby Lobby": {
       "countryCodes": ["in", "us"],
       "tags": {
@@ -27379,6 +28437,16 @@
         "shop": "department_store"
       }
     },
+    "shop/department_store|David Jones": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "David Jones",
+        "brand:wikidata": "Q5235753",
+        "brand:wikipedia": "en:David Jones Limited",
+        "name": "David Jones",
+        "shop": "department_store"
+      }
+    },
     "shop/department_store|Debenhams": {
       "tags": {
         "brand": "Debenhams",
@@ -27440,6 +28508,7 @@
       }
     },
     "shop/department_store|Gordmans": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Gordmans",
         "brand:wikidata": "Q5584725",
@@ -27477,7 +28546,7 @@
       }
     },
     "shop/department_store|JCPenney": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "JCPenney",
         "brand:wikidata": "Q920037",
@@ -27519,7 +28588,7 @@
       }
     },
     "shop/department_store|Kmart~(USA)": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchTags": ["shop/supermarket"],
       "nomatch": ["shop/department_store|Kmart~(Australia)"],
       "tags": {
@@ -27532,7 +28601,6 @@
     },
     "shop/department_store|Kohl's": {
       "countryCodes": ["us"],
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Kohl's",
         "brand:wikidata": "Q967265",
@@ -27573,6 +28641,7 @@
       }
     },
     "shop/department_store|Macy's": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Macy's",
         "brand:wikidata": "Q629269",
@@ -27582,6 +28651,7 @@
       }
     },
     "shop/department_store|Marks & Spencer": {
+      "matchNames": ["marks and spencer"],
       "tags": {
         "brand": "Marks & Spencer",
         "brand:wikidata": "Q714491",
@@ -27591,12 +28661,24 @@
       }
     },
     "shop/department_store|Marshalls": {
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Marshalls",
         "brand:wikidata": "Q15903261",
         "brand:wikipedia": "en:Marshalls",
         "name": "Marshalls",
+        "shop": "department_store"
+      }
+    },
+    "shop/department_store|Muji": {
+      "tags": {
+        "brand": "Muji",
+        "brand:en": "Muji",
+        "brand:jp": "無印良品",
+        "brand:wikidata": "Q708789",
+        "brand:wikipedia": "en:Muji",
+        "name": "Muji",
+        "name:en": "Muji",
+        "name:jp": "無印良品",
         "shop": "department_store"
       }
     },
@@ -27621,7 +28703,7 @@
       }
     },
     "shop/department_store|Nordstrom": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Nordstrom",
         "brand:wikidata": "Q174310",
@@ -27642,7 +28724,6 @@
     },
     "shop/department_store|París": {
       "countryCodes": ["cl", "pe"],
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "París",
         "brand:wikidata": "Q20812805",
@@ -27673,6 +28754,7 @@
       }
     },
     "shop/department_store|Saks Off 5th": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Saks Off 5th",
         "brand:wikidata": "Q2723882",
@@ -27700,7 +28782,6 @@
       }
     },
     "shop/department_store|Stein Mart": {
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Stein Mart",
         "brand:wikidata": "Q7606770",
@@ -27787,6 +28868,7 @@
       }
     },
     "shop/department_store|Épicerie": {
+      "countryCodes": ["ma"],
       "tags": {
         "brand": "Épicerie",
         "name": "Épicerie",
@@ -27818,6 +28900,20 @@
         "name": "東急ハンズ",
         "name:en": "Tokyu Hands",
         "name:ja": "東急ハンズ",
+        "shop": "department_store"
+      }
+    },
+    "shop/department_store|無印良品": {
+      "countryCodes": ["jp", "tw"],
+      "tags": {
+        "brand": "無印良品",
+        "brand:en": "Muji",
+        "brand:jp": "無印良品",
+        "brand:wikidata": "Q708789",
+        "brand:wikipedia": "jp:無印良品",
+        "name": "無印良品",
+        "name:en": "Muji",
+        "name:jp": "無印良品",
         "shop": "department_store"
       }
     },
@@ -27872,6 +28968,7 @@
       }
     },
     "shop/doityourself|Brico": {
+      "countryCodes": ["be", "fr", "it"],
       "tags": {
         "brand": "Brico",
         "brand:wikidata": "Q2510786",
@@ -27881,6 +28978,7 @@
       }
     },
     "shop/doityourself|Brico Dépôt": {
+      "countryCodes": ["fr", "ro"],
       "tags": {
         "brand": "Brico Dépôt",
         "brand:wikidata": "Q2889702",
@@ -27890,6 +28988,7 @@
       }
     },
     "shop/doityourself|Bricoman": {
+      "countryCodes": ["fr", "it", "pl"],
       "tags": {
         "brand": "Bricoman",
         "brand:wikidata": "Q2925142",
@@ -27899,6 +28998,7 @@
       }
     },
     "shop/doityourself|Bricomarché": {
+      "countryCodes": ["fr", "pl", "pt"],
       "tags": {
         "brand": "Bricomarché",
         "brand:wikidata": "Q2925147",
@@ -27908,6 +29008,7 @@
       }
     },
     "shop/doityourself|Bricorama": {
+      "countryCodes": ["es", "fr"],
       "tags": {
         "brand": "Bricorama",
         "brand:wikidata": "Q2925146",
@@ -27936,6 +29037,7 @@
       }
     },
     "shop/doityourself|Chausson Matériaux": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Chausson Matériaux",
         "name": "Chausson Matériaux",
@@ -27943,6 +29045,7 @@
       }
     },
     "shop/doityourself|Clas Ohlson": {
+      "countryCodes": ["fi", "no", "se"],
       "tags": {
         "brand": "Clas Ohlson",
         "brand:wikidata": "Q3356220",
@@ -27961,6 +29064,7 @@
       }
     },
     "shop/doityourself|Gamma": {
+      "countryCodes": ["be", "nl"],
       "tags": {
         "brand": "Gamma",
         "brand:wikidata": "Q2294120",
@@ -27970,6 +29074,7 @@
       }
     },
     "shop/doityourself|Gedimat": {
+      "countryCodes": ["fr"],
       "tags": {"brand": "Gedimat", "name": "Gedimat", "shop": "doityourself"}
     },
     "shop/doityourself|Globus Baumarkt": {
@@ -28037,6 +29142,7 @@
       }
     },
     "shop/doityourself|Homebase": {
+      "countryCodes": ["gb", "ie"],
       "tags": {
         "brand": "Homebase",
         "brand:wikidata": "Q9293447",
@@ -28055,6 +29161,7 @@
       }
     },
     "shop/doityourself|Hubo": {
+      "countryCodes": ["be", "nl"],
       "tags": {
         "brand": "Hubo",
         "brand:wikidata": "Q3142153",
@@ -28093,6 +29200,7 @@
       }
     },
     "shop/doityourself|Lowe's": {
+      "countryCodes": ["ca", "mx", "us"],
       "matchNames": ["lowes home improvement"],
       "tags": {
         "brand": "Lowe's",
@@ -28103,6 +29211,7 @@
       }
     },
     "shop/doityourself|Menards": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Menards",
         "brand:wikidata": "Q1639897",
@@ -28112,6 +29221,7 @@
       }
     },
     "shop/doityourself|Mr.Bricolage": {
+      "countryCodes": ["be", "fr"],
       "tags": {
         "brand": "Mr.Bricolage",
         "brand:wikidata": "Q3141657",
@@ -28130,9 +29240,11 @@
       }
     },
     "shop/doityourself|Point P": {
+      "countryCodes": ["fr"],
       "tags": {"brand": "Point P", "name": "Point P", "shop": "doityourself"}
     },
     "shop/doityourself|Praktiker": {
+      "countryCodes": ["bg", "gr", "hu", "ro"],
       "tags": {
         "brand": "Praktiker",
         "brand:wikidata": "Q680214",
@@ -28172,6 +29284,7 @@
       }
     },
     "shop/doityourself|Screwfix": {
+      "countryCodes": ["de", "gb"],
       "tags": {
         "brand": "Screwfix",
         "brand:wikidata": "Q7439115",
@@ -28209,8 +29322,7 @@
       }
     },
     "shop/doityourself|The Home Depot": {
-      "countryCodes": ["ca", "mx", "pr", "us"],
-      "matchNames": ["home depot"],
+      "countryCodes": ["ca", "mx", "us"],
       "tags": {
         "alt_name": "Home Depot",
         "brand": "The Home Depot",
@@ -28242,6 +29354,7 @@
       }
     },
     "shop/doityourself|Weldom": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Weldom",
         "brand:wikidata": "Q16683226",
@@ -28271,6 +29384,7 @@
       }
     },
     "shop/doityourself|Леруа Мерлен": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "brand": "Леруа Мерлен",
         "brand:en": "Leroy Merlin",
@@ -28282,6 +29396,7 @@
       }
     },
     "shop/doityourself|Мастер": {
+      "countryCodes": ["by", "kz", "ru", "ua"],
       "tags": {"brand": "Мастер", "name": "Мастер", "shop": "doityourself"}
     },
     "shop/doityourself|カインズホーム": {
@@ -28335,6 +29450,7 @@
       }
     },
     "shop/doors|Юркас": {
+      "countryCodes": ["by"],
       "tags": {"brand": "Юркас", "name": "Юркас", "shop": "doors"}
     },
     "shop/dry_cleaning|5àsec": {
@@ -28415,10 +29531,12 @@
       }
     },
     "shop/electronics|BCC": {
+      "countryCodes": ["nl"],
       "nomatch": ["amenity/bank|Bcc"],
       "tags": {"brand": "BCC", "name": "BCC", "shop": "electronics"}
     },
     "shop/electronics|Batteries Plus Bulbs": {
+      "countryCodes": ["us"],
       "matchNames": ["batteries plus"],
       "tags": {
         "brand": "Batteries Plus Bulbs",
@@ -28492,6 +29610,7 @@
       "tags": {"brand": "DNS", "name": "DNS", "shop": "electronics"}
     },
     "shop/electronics|Darty": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Darty",
         "brand:wikidata": "Q3117381",
@@ -28511,6 +29630,7 @@
       }
     },
     "shop/electronics|Elgiganten": {
+      "countryCodes": ["dk", "se"],
       "tags": {
         "brand": "Elgiganten",
         "brand:wikidata": "Q17050121",
@@ -28538,6 +29658,7 @@
       }
     },
     "shop/electronics|Gigantti": {
+      "countryCodes": ["fi"],
       "tags": {
         "brand": "Gigantti",
         "brand:wikidata": "Q42512186",
@@ -28607,6 +29728,7 @@
       }
     },
     "shop/electronics|Maplin": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Maplin",
         "brand:wikidata": "Q6754124",
@@ -28635,6 +29757,7 @@
       }
     },
     "shop/electronics|Medimax": {
+      "countryCodes": ["de"],
       "tags": {
         "brand": "Medimax",
         "brand:wikidata": "Q62872450",
@@ -28666,6 +29789,7 @@
       }
     },
     "shop/electronics|Power": {
+      "countryCodes": ["dk", "fi", "no"],
       "tags": {"brand": "Power", "name": "Power", "shop": "electronics"}
     },
     "shop/electronics|RTV Euro AGD": {
@@ -28725,6 +29849,16 @@
         "shop": "electronics"
       }
     },
+    "shop/electronics|The Good Guys": {
+      "countryCodes": ["au"],
+      "tags": {
+        "brand": "The Good Guys",
+        "brand:wikidata": "Q7737217",
+        "brand:wikipedia": "en:The Good Guys (Australian company)",
+        "name": "The Good Guys",
+        "shop": "electronics"
+      }
+    },
     "shop/electronics|The Source": {
       "countryCodes": ["ca"],
       "tags": {
@@ -28736,6 +29870,7 @@
       }
     },
     "shop/electronics|Trony": {
+      "countryCodes": ["it"],
       "tags": {"brand": "Trony", "name": "Trony", "shop": "electronics"}
     },
     "shop/electronics|Unieuro": {
@@ -28755,6 +29890,16 @@
         "brand:wikidata": "Q10394039",
         "brand:wikipedia": "pt:Worten",
         "name": "Worten",
+        "shop": "electronics"
+      }
+    },
+    "shop/electronics|b8ta": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "b8ta",
+        "brand:wikidata": "Q55604609",
+        "brand:wikipedia": "en:B8ta",
+        "name": "b8ta",
         "shop": "electronics"
       }
     },
@@ -28781,9 +29926,11 @@
       }
     },
     "shop/electronics|Эксперт": {
+      "countryCodes": ["ru"],
       "tags": {"brand": "Эксперт", "name": "Эксперт", "shop": "electronics"}
     },
     "shop/electronics|Эльдорадо": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "brand": "Эльдорадо",
         "brand:wikidata": "Q4531492",
@@ -28932,6 +30079,68 @@
         "shop": "fabric"
       }
     },
+    "shop/fashion_accessories|Brighton Collectibles": {
+      "countryCodes": ["us"],
+      "matchNames": ["brighton"],
+      "tags": {
+        "brand": "Brighton Collectibles",
+        "brand:wikidata": "Q4967623",
+        "brand:wikipedia": "en:Brighton Collectibles",
+        "name": "Brighton Collectibles",
+        "shop": "fashion_accessories"
+      }
+    },
+    "shop/fashion_accessories|Bvlgari": {
+      "matchNames": ["bulgari"],
+      "tags": {
+        "brand": "Bulgari",
+        "brand:wikidata": "Q752515",
+        "brand:wikipedia": "en:Bulgari",
+        "name": "Bvlgari",
+        "shop": "fashion_accessories"
+      }
+    },
+    "shop/fashion_accessories|Jimmy Choo": {
+      "tags": {
+        "brand": "Jimmy Choo",
+        "brand:wikidata": "Q5213855",
+        "brand:wikipedia": "en:Jimmy Choo Ltd",
+        "name": "Jimmy Choo",
+        "shop": "fashion_accessories"
+      }
+    },
+    "shop/fashion_accessories|Prada": {
+      "tags": {
+        "brand": "Prada",
+        "brand:wikidata": "Q193136",
+        "brand:wikipedia": "en:Prada",
+        "name": "Prada",
+        "shop": "fashion_accessories"
+      }
+    },
+    "shop/fashion_accessories|Salvatore Ferragamo": {
+      "tags": {
+        "brand": "Salvatore Ferragamo",
+        "brand:wikidata": "Q3946053",
+        "brand:wikipedia": "en:Salvatore Ferragamo S.p.A.",
+        "name": "Salvatore Ferragamo",
+        "shop": "fashion_accessories"
+      }
+    },
+    "shop/fashion_accessories|Van Cleef & Arpels": {
+      "matchNames": [
+        "van cleef & arples",
+        "van cleef and arpels",
+        "van cleef and arples"
+      ],
+      "tags": {
+        "brand": "Van Cleef & Arpels",
+        "brand:wikidata": "Q2708181",
+        "brand:wikipedia": "en:Van Cleef & Arpels",
+        "name": "Van Cleef & Arpels",
+        "shop": "fashion_accessories"
+      }
+    },
     "shop/florist|Blume 2000": {
       "countryCodes": ["de"],
       "tags": {
@@ -28977,6 +30186,7 @@
       "tags": {"brand": "Мосцветторг", "name": "Мосцветторг", "shop": "florist"}
     },
     "shop/frozen_food|Picard": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Picard",
         "brand:wikidata": "Q3382454",
@@ -28987,7 +30197,6 @@
     },
     "shop/funeral_directors|PFG": {
       "countryCodes": ["fr"],
-      "matchNames": ["pompes funèbres générales"],
       "tags": {
         "brand": "PFG",
         "brand:wikidata": "Q3396087",
@@ -29007,6 +30216,7 @@
       }
     },
     "shop/funeral_directors|Roc-Eclerc": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Roc-Eclerc",
         "brand:wikidata": "Q62558102",
@@ -29140,6 +30350,7 @@
       "tags": {"brand": "Casa", "name": "Casa", "shop": "furniture"}
     },
     "shop/furniture|Conforama": {
+      "countryCodes": ["ch", "es", "fr", "it"],
       "tags": {
         "brand": "Conforama",
         "brand:wikidata": "Q541134",
@@ -29149,6 +30360,7 @@
       }
     },
     "shop/furniture|Crate & Barrel": {
+      "countryCodes": ["us"],
       "matchNames": ["crate and barrel"],
       "tags": {
         "brand": "Crate & Barrel",
@@ -29193,6 +30405,27 @@
         "brand:wikidata": "Q1389184",
         "brand:wikipedia": "fr:Fly (entreprise)",
         "name": "Fly",
+        "shop": "furniture"
+      }
+    },
+    "shop/furniture|Freedom": {
+      "countryCodes": ["au"],
+      "matchNames": ["freedom furniture"],
+      "tags": {
+        "brand": "Freedom",
+        "brand:wikidata": "Q5500546",
+        "brand:wikipedia": "en:Freedom Furniture",
+        "name": "Freedom",
+        "shop": "furniture"
+      }
+    },
+    "shop/furniture|HSL": {
+      "countryCodes": ["gb"],
+      "tags": {
+        "brand": "HSL",
+        "brand:wikidata": "Q64284324",
+        "name": "HSL",
+        "official_name": "High Seat Limited",
         "shop": "furniture"
       }
     },
@@ -29250,6 +30483,7 @@
       "tags": {"brand": "Kwantum", "name": "Kwantum", "shop": "furniture"}
     },
     "shop/furniture|La-Z-Boy": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "La-Z-Boy",
         "brand:wikidata": "Q6391583",
@@ -29262,6 +30496,16 @@
       "tags": {
         "brand": "Leen Bakker",
         "name": "Leen Bakker",
+        "shop": "furniture"
+      }
+    },
+    "shop/furniture|LoveSac": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "LoveSac",
+        "brand:wikidata": "Q6690181",
+        "brand:wikipedia": "en:LoveSac",
+        "name": "LoveSac",
         "shop": "furniture"
       }
     },
@@ -29351,6 +30595,7 @@
       }
     },
     "shop/furniture|The Brick": {
+      "countryCodes": ["ca"],
       "tags": {
         "brand": "The Brick",
         "brand:wikidata": "Q7720000",
@@ -29382,6 +30627,7 @@
       "tags": {"brand": "İstikbal", "name": "İstikbal", "shop": "furniture"}
     },
     "shop/furniture|Много мебели": {
+      "countryCodes": ["ru"],
       "tags": {
         "brand": "Много мебели",
         "name": "Много мебели",
@@ -29510,6 +30756,16 @@
         "shop": "gift"
       }
     },
+    "shop/gift|Edible Arrangements": {
+      "countryCodes": ["ca", "us"],
+      "tags": {
+        "brand": "Edible Arrangements",
+        "brand:wikidata": "Q5337996",
+        "brand:wikipedia": "en:Edible Arrangements",
+        "name": "Edible Arrangements",
+        "shop": "gift"
+      }
+    },
     "shop/gift|Hallmark": {
       "countryCodes": ["ca", "gb", "us"],
       "matchTags": ["shop/stationery"],
@@ -29593,6 +30849,7 @@
       }
     },
     "shop/hairdresser|First Choice Haircutters": {
+      "countryCodes": ["ca"],
       "tags": {
         "brand": "First Choice Haircutters",
         "brand:wikidata": "Q5452622",
@@ -29658,6 +30915,7 @@
     "shop/hairdresser|Jean Louis David": {
       "tags": {
         "brand": "Jean Louis David",
+        "brand:wikidata": "Q64445174",
         "name": "Jean Louis David",
         "shop": "hairdresser"
       }
@@ -29667,6 +30925,7 @@
       "tags": {"brand": "Kirpykla", "name": "Kirpykla", "shop": "hairdresser"}
     },
     "shop/hairdresser|Klier": {
+      "countryCodes": ["at", "cz", "de", "sk"],
       "tags": {
         "brand": "Klier",
         "brand:wikidata": "Q1465159",
@@ -29709,6 +30968,7 @@
       }
     },
     "shop/hairdresser|Sport Clips": {
+      "matchNames": ["sport clips haircuts"],
       "tags": {
         "brand": "Sport Clips",
         "brand:wikidata": "Q7579310",
@@ -29734,10 +30994,22 @@
       }
     },
     "shop/hairdresser|Tchip": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Tchip",
         "brand:wikidata": "Q62871250",
         "name": "Tchip",
+        "shop": "hairdresser"
+      }
+    },
+    "shop/hairdresser|The Salon at Ulta Beauty": {
+      "countryCodes": ["us"],
+      "tags": {
+        "alt_name": "Ulta Salon",
+        "brand": "Ulta Beauty",
+        "brand:wikidata": "Q7880076",
+        "brand:wikipedia": "en:Ulta Beauty",
+        "name": "The Salon at Ulta Beauty",
         "shop": "hairdresser"
       }
     },
@@ -29850,6 +31122,13 @@
       "tags": {"brand": "Хозяин", "name": "Хозяин", "shop": "hardware"}
     },
     "shop/health_food|Holland & Barrett": {
+      "matchNames": ["holland and barrett"],
+      "matchTags": [
+        "shop/chemist",
+        "shop/health",
+        "shop/herbalist",
+        "shop/supermarket"
+      ],
       "tags": {
         "brand": "Holland & Barrett",
         "brand:wikidata": "Q5880870",
@@ -29877,6 +31156,7 @@
       }
     },
     "shop/hearing_aids|Beter Horen": {
+      "countryCodes": ["nl"],
       "tags": {
         "brand": "Beter Horen",
         "name": "Beter Horen",
@@ -29951,6 +31231,16 @@
         "shop": "hobby"
       }
     },
+    "shop/houseware|At Home": {
+      "countryCodes": ["us"],
+      "matchNames": ["garden ridge"],
+      "tags": {
+        "brand": "At Home (store)",
+        "brand:wikidata": "Q5522290",
+        "name": "At Home",
+        "shop": "houseware"
+      }
+    },
     "shop/houseware|Bed Bath & Beyond": {
       "matchNames": ["bed bath and beyond"],
       "matchTags": ["shop/department_store"],
@@ -30010,6 +31300,7 @@
       }
     },
     "shop/houseware|Le Creuset": {
+      "matchTags": ["shop/kitchen"],
       "tags": {
         "brand": "Le Creuset",
         "brand:wikidata": "Q555861",
@@ -30103,6 +31394,7 @@
       "matchTags": [
         "shop/department_store",
         "shop/furniture",
+        "shop/interior_decoration",
         "shop/supermarket"
       ],
       "tags": {
@@ -30158,6 +31450,7 @@
       }
     },
     "shop/interior_decoration|HomeSense": {
+      "countryCodes": ["ca"],
       "matchTags": [
         "shop/department_store",
         "shop/furniture",
@@ -30270,7 +31563,17 @@
         "shop": "jewelry"
       }
     },
+    "shop/jewelry|David Yurman": {
+      "tags": {
+        "brand": "David Yurman",
+        "brand:wikidata": "Q5241390",
+        "brand:wikipedia": "en:David Yurman",
+        "name": "David Yurman",
+        "shop": "jewelry"
+      }
+    },
     "shop/jewelry|Ernest Jones": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Ernest Jones",
         "brand:wikidata": "Q5393358",
@@ -30290,6 +31593,7 @@
       }
     },
     "shop/jewelry|H Samuel": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "H Samuel",
         "brand:wikidata": "Q5628558",
@@ -30308,6 +31612,7 @@
       }
     },
     "shop/jewelry|James Avery Jewelry": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "James Avery Jewelry",
         "brand:wikidata": "Q6129024",
@@ -30350,6 +31655,7 @@
       }
     },
     "shop/jewelry|PNJ": {
+      "countryCodes": ["vn"],
       "tags": {
         "brand": "PNJ",
         "brand:wikidata": "Q61129183",
@@ -30377,12 +31683,8 @@
       }
     },
     "shop/jewelry|Tiffany & Company": {
-      "matchNames": [
-        "tiffany",
-        "tiffany & co",
-        "tiffany and company",
-        "tiffany's"
-      ],
+      "countryCodes": ["us"],
+      "matchNames": ["tiffany", "tiffany and company", "tiffany's"],
       "tags": {
         "brand": "Tiffany & Company",
         "brand:wikidata": "Q1066858",
@@ -30392,16 +31694,28 @@
         "shop": "jewelry"
       }
     },
+    "shop/jewelry|Warren James": {
+      "tags": {
+        "brand": "Warren James",
+        "name": "Warren James",
+        "shop": "jewelry"
+      }
+    },
     "shop/jewelry|Адамас": {
       "countryCodes": ["ru"],
       "tags": {
         "brand": "Адамас",
+        "brand:en": "Adamas",
+        "brand:ru": "Адамас",
         "brand:wikidata": "Q62393709",
         "name": "Адамас",
+        "name:en": "Adamas",
+        "name:ru": "Адамас",
         "shop": "jewelry"
       }
     },
     "shop/jewelry|Золотая мечта": {
+      "countryCodes": ["by"],
       "tags": {
         "brand": "Золотая мечта",
         "name": "Золотая мечта",
@@ -30419,6 +31733,7 @@
       }
     },
     "shop/kiosk|Narvesen": {
+      "countryCodes": ["lt", "lv", "no"],
       "tags": {
         "brand": "Narvesen",
         "brand:wikidata": "Q6514414",
@@ -30438,6 +31753,7 @@
       }
     },
     "shop/kiosk|R-Kioski": {
+      "countryCodes": ["fi"],
       "tags": {
         "brand": "R-Kioski",
         "brand:wikidata": "Q1571400",
@@ -30457,6 +31773,7 @@
       }
     },
     "shop/kiosk|Tisak": {
+      "countryCodes": ["hr"],
       "tags": {
         "brand": "Tisak",
         "brand:wikidata": "Q12643627",
@@ -30523,6 +31840,10 @@
         "shop": "kitchen"
       }
     },
+    "shop/mall|Westfield": {
+      "countryCodes": ["au"],
+      "tags": {"brand": "Westfield", "name": "Westfield", "shop": "mall"}
+    },
     "shop/massage|Massage Envy": {
       "countryCodes": ["us"],
       "matchNames": ["massage envy spa"],
@@ -30564,7 +31885,8 @@
       }
     },
     "shop/mobile_phone|AT&T": {
-      "countryCodes": ["mx", "pr", "us"],
+      "countryCodes": ["mx", "us"],
+      "matchNames": ["att mobile", "att mobility", "att wireless"],
       "tags": {
         "brand": "AT&T",
         "brand:wikidata": "Q298594",
@@ -30575,6 +31897,7 @@
     },
     "shop/mobile_phone|Bell": {
       "countryCodes": ["ca"],
+      "matchNames": ["bell mobile", "bell mobility", "bell wireless"],
       "tags": {
         "brand": "Bell",
         "brand:wikidata": "Q2894594",
@@ -30594,7 +31917,7 @@
       }
     },
     "shop/mobile_phone|Boost Mobile": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Boost Mobile",
         "brand:wikidata": "Q4943790",
@@ -30758,8 +32081,8 @@
       "countryCodes": ["cz", "de", "gb", "ie", "sk"],
       "tags": {
         "brand": "O2",
-        "brand:wikidata": "Q7072246",
-        "brand:wikipedia": "en:O2 (Ireland)",
+        "brand:wikidata": "Q1759255",
+        "brand:wikipedia": "en:Telefónica Europe",
         "name": "O2",
         "shop": "mobile_phone"
       }
@@ -30960,7 +32283,7 @@
       }
     },
     "shop/mobile_phone|Verizon Wireless": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "matchNames": ["verizon"],
       "tags": {
         "brand": "Verizon Wireless",
@@ -31098,6 +32421,7 @@
       }
     },
     "shop/mobile_phone|НА'СВЯЗИ": {
+      "countryCodes": ["by"],
       "tags": {"brand": "НА'СВЯЗИ", "name": "НА'СВЯЗИ", "shop": "mobile_phone"}
     },
     "shop/mobile_phone|Связной": {
@@ -31176,6 +32500,26 @@
         "shop": "mobile_phone"
       }
     },
+    "shop/money_lender|ACE Cash Express": {
+      "countryCodes": ["us"],
+      "matchNames": ["ace"],
+      "tags": {
+        "brand": "ACE Cash Express",
+        "brand:wikidata": "Q24260962",
+        "name": "ACE Cash Express",
+        "shop": "money_lender"
+      }
+    },
+    "shop/money_lender|California Check Cashing Stores": {
+      "countryCodes": ["us"],
+      "matchNames": ["california check cashing"],
+      "tags": {
+        "brand": "California Check Cashing Stores",
+        "brand:wikidata": "Q64390932",
+        "name": "California Check Cashing Stores",
+        "shop": "money_lender"
+      }
+    },
     "shop/money_lender|Cash Store": {
       "countryCodes": ["us"],
       "tags": {
@@ -31196,6 +32540,7 @@
       }
     },
     "shop/money_lender|Money Mart": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Money Mart",
         "brand:wikidata": "Q6899166",
@@ -31272,6 +32617,7 @@
       }
     },
     "shop/music|HMV": {
+      "countryCodes": ["ca", "gb"],
       "tags": {
         "brand": "HMV",
         "brand:wikidata": "Q10854572",
@@ -31291,6 +32637,7 @@
       }
     },
     "shop/musical_instrument|Guitar Center": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Guitar Center",
         "brand:wikidata": "Q3622794",
@@ -31316,6 +32663,7 @@
       }
     },
     "shop/newsagent|Inmedio": {
+      "countryCodes": ["hu", "pl", "ro"],
       "tags": {"brand": "Inmedio", "name": "Inmedio", "shop": "newsagent"}
     },
     "shop/newsagent|Kolporter": {
@@ -31371,6 +32719,7 @@
       }
     },
     "shop/newsagent|WHSmith": {
+      "countryCodes": ["gb"],
       "matchTags": ["shop/books", "shop/kiosk"],
       "tags": {
         "brand": "WHSmith",
@@ -31419,6 +32768,7 @@
       }
     },
     "shop/newsagent|Первая полоса": {
+      "countryCodes": ["ru"],
       "tags": {
         "brand": "Первая полоса",
         "brand:wikidata": "Q62736412",
@@ -31467,7 +32817,8 @@
       }
     },
     "shop/nutrition_supplements|The Vitamin Shoppe": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
+      "matchTags": ["shop/chemist"],
       "tags": {
         "brand": "The Vitamin Shoppe",
         "brand:wikidata": "Q7772938",
@@ -31502,19 +32853,20 @@
         "brand:wikidata": "Q4742504",
         "brand:wikipedia": "en:America's Best Contacts & Eyeglasses",
         "name": "America's Best Contacts & Eyeglasses",
-        "shop": "optician"
+        "shop": "optician",
+        "short_name": "America's Best"
       }
     },
     "shop/optician|Apollo-Optik": {
       "countryCodes": ["de"],
-      "matchNames": ["apollo"],
       "nomatch": ["amenity/pharmacy|Apollo Pharmacy"],
       "tags": {
         "brand": "Apollo-Optik",
         "brand:wikidata": "Q618940",
         "brand:wikipedia": "de:Apollo-Optik",
         "name": "Apollo-Optik",
-        "shop": "optician"
+        "shop": "optician",
+        "short_name": "Apollo"
       }
     },
     "shop/optician|Atol": {
@@ -31533,18 +32885,19 @@
         "brand:wikidata": "Q4944037",
         "brand:wikipedia": "en:Boots Opticians",
         "name": "Boots Opticians",
-        "shop": "optician"
+        "shop": "optician",
+        "short_name": "Boots"
       }
     },
     "shop/optician|Clarkson Eyecare": {
       "countryCodes": ["us"],
-      "matchNames": ["clarkson"],
       "tags": {
         "brand": "Clarkson Eyecare",
         "brand:wikidata": "Q64027001",
         "healthcare": "optometrist",
         "name": "Clarkson Eyecare",
-        "shop": "optician"
+        "shop": "optician",
+        "short_name": "Clarkson"
       }
     },
     "shop/optician|Die Brille": {
@@ -31662,6 +33015,7 @@
       }
     },
     "shop/optician|Lissac": {
+      "countryCodes": ["fr"],
       "tags": {
         "brand": "Lissac",
         "brand:wikidata": "Q63102559",
@@ -31701,12 +33055,30 @@
         "shop": "optician"
       }
     },
+    "shop/optician|Oliver Peoples": {
+      "tags": {
+        "brand": "Oliver Peoples",
+        "brand:wikidata": "Q7087746",
+        "brand:wikipedia": "en:Oliver Peoples",
+        "name": "Oliver Peoples",
+        "shop": "optician"
+      }
+    },
     "shop/optician|Optic 2000": {
       "tags": {
         "brand": "Optic 2000",
         "brand:wikidata": "Q3354445",
         "brand:wikipedia": "fr:Optic 2000",
         "name": "Optic 2000",
+        "shop": "optician"
+      }
+    },
+    "shop/optician|Optical Center": {
+      "tags": {
+        "brand": "Optical Center",
+        "brand:wikidata": "Q3354448",
+        "brand:wikipedia": "fr:Optical Center",
+        "name": "Optical Center",
         "shop": "optician"
       }
     },
@@ -31718,14 +33090,14 @@
         "shop": "optician"
       }
     },
-    "shop/optician|Pearle": {
-      "matchNames": ["pearle vision"],
+    "shop/optician|Pearle Vision": {
       "tags": {
-        "brand": "Pearle",
+        "brand": "Pearle Vision",
         "brand:wikidata": "Q2231148",
         "brand:wikipedia": "en:Pearle Vision",
-        "name": "Pearle",
-        "shop": "optician"
+        "name": "Pearle Vision",
+        "shop": "optician",
+        "short_name": "Pearle"
       }
     },
     "shop/optician|Silmäasema": {
@@ -31738,6 +33110,14 @@
         "shop": "optician"
       }
     },
+    "shop/optician|Solstice Sunglasses": {
+      "tags": {
+        "brand": "Solstice Sunglasses",
+        "name": "Solstice Sunglasses",
+        "shop": "optician",
+        "short_name": "Solstice"
+      }
+    },
     "shop/optician|Specsavers": {
       "tags": {
         "brand": "Specsavers",
@@ -31748,6 +33128,7 @@
       }
     },
     "shop/optician|Sunglass Hut": {
+      "matchTags": ["shop/sunglasses"],
       "tags": {
         "brand": "Sunglass Hut",
         "brand:wikidata": "Q136311",
@@ -31897,6 +33278,17 @@
         "shop": "outdoor"
       }
     },
+    "shop/outdoor|Gander Outdoors": {
+      "countryCodes": ["us"],
+      "matchNames": ["gander mountain"],
+      "tags": {
+        "brand": "Gander Outdoors",
+        "brand:wikidata": "Q64357426",
+        "brand:wikipedia": "en:Gander Outdoors",
+        "name": "Gander Outdoors",
+        "shop": "outdoor"
+      }
+    },
     "shop/outdoor|Jack Wolfskin": {
       "countryCodes": ["ch", "de", "fr"],
       "matchTags": ["shop/clothes"],
@@ -31970,6 +33362,7 @@
       }
     },
     "shop/paint|Benjamin Moore": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Benjamin Moore",
         "brand:wikidata": "Q4889038",
@@ -31997,6 +33390,7 @@
       }
     },
     "shop/paint|National Paints": {
+      "countryCodes": ["ae", "qa"],
       "tags": {
         "brand": "National Paints",
         "brand:wikidata": "Q62073521",
@@ -32005,7 +33399,7 @@
       }
     },
     "shop/paint|Sherwin-Williams": {
-      "matchNames": ["sherwin-williams paints"],
+      "matchNames": ["sherwin williams paint store", "sherwin williams paints"],
       "tags": {
         "brand": "Sherwin-Williams",
         "brand:wikidata": "Q48881",
@@ -32015,6 +33409,7 @@
       }
     },
     "shop/party|Party City": {
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "Party City",
         "brand:wikidata": "Q7140896",
@@ -32091,6 +33486,7 @@
       "tags": {"brand": "Скарбниця", "name": "Скарбниця", "shop": "pawnbroker"}
     },
     "shop/perfumery|Douglas": {
+      "countryCodes": ["at", "ch", "de", "es", "it", "nl", "pl"],
       "matchTags": ["shop/beauty", "shop/chemist", "shop/cosmetics"],
       "tags": {
         "brand": "Douglas",
@@ -32151,6 +33547,7 @@
       }
     },
     "shop/pet|Faunatar": {
+      "countryCodes": ["fi"],
       "tags": {
         "brand": "Faunatar",
         "brand:wikidata": "Q11859415",
@@ -32160,6 +33557,7 @@
       }
     },
     "shop/pet|Fressnapf": {
+      "countryCodes": ["at", "ch", "de", "hu", "lu"],
       "tags": {
         "brand": "Fressnapf",
         "brand:wikidata": "Q875796",
@@ -32178,6 +33576,7 @@
       }
     },
     "shop/pet|Maxi Zoo": {
+      "countryCodes": ["be", "ch", "dk", "fr", "ie", "it", "pl"],
       "tags": {
         "brand": "Maxi Zoo",
         "brand:wikidata": "Q875796",
@@ -32197,6 +33596,7 @@
       }
     },
     "shop/pet|Musti ja Mirri": {
+      "countryCodes": ["fi"],
       "tags": {
         "brand": "Musti ja Mirri",
         "brand:wikidata": "Q11883558",
@@ -32244,7 +33644,7 @@
       }
     },
     "shop/pet|PetSmart": {
-      "countryCodes": ["ca", "pr", "us"],
+      "countryCodes": ["ca", "us"],
       "tags": {
         "brand": "PetSmart",
         "brand:wikidata": "Q3307147",
@@ -32254,7 +33654,7 @@
       }
     },
     "shop/pet|Petco": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Petco",
         "brand:wikidata": "Q7171798",
@@ -32284,6 +33684,7 @@
       }
     },
     "shop/pet|Pets at Home": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Pets at Home",
         "brand:wikidata": "Q7179258",
@@ -32294,7 +33695,6 @@
     },
     "shop/pet|Unleashed": {
       "countryCodes": ["us"],
-      "matchNames": ["unleashed by petco"],
       "tags": {
         "alt_name": "Unleashed by Petco",
         "brand": "Unleashed",
@@ -32383,6 +33783,16 @@
         "shop": "shoes"
       }
     },
+    "shop/shoes|Allen Edmonds": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Allen Edmonds",
+        "brand:wikidata": "Q4731627",
+        "brand:wikipedia": "en:Allen Edmonds",
+        "name": "Allen Edmonds",
+        "shop": "shoes"
+      }
+    },
     "shop/shoes|André": {
       "countryCodes": ["fr"],
       "tags": {
@@ -32462,6 +33872,13 @@
         "brand": "Chaussea",
         "brand:wikidata": "Q62082044",
         "name": "Chaussea",
+        "shop": "shoes"
+      }
+    },
+    "shop/shoes|Christian Louboutin": {
+      "tags": {
+        "brand": "Christian Louboutin",
+        "name": "Christian Louboutin",
         "shop": "shoes"
       }
     },
@@ -32579,6 +33996,16 @@
         "shop": "shoes"
       }
     },
+    "shop/shoes|G.H. Bass & Co.": {
+      "countryCodes": ["uk", "us"],
+      "tags": {
+        "brand": "G.H. Bass & Co.",
+        "brand:wikidata": "Q16993893",
+        "brand:wikipedia": "en:G.H. Bass & Co.",
+        "name": "G.H. Bass & Co.",
+        "shop": "shoes"
+      }
+    },
     "shop/shoes|Gabor": {
       "countryCodes": ["de", "it"],
       "tags": {
@@ -32629,6 +34056,7 @@
     },
     "shop/shoes|Johnston & Murphy": {
       "countryCodes": ["ca", "us"],
+      "matchNames": ["johnston and murphy"],
       "tags": {
         "brand": "Johnston & Murphy",
         "brand:wikidata": "Q6268615",
@@ -32836,7 +34264,7 @@
       }
     },
     "shop/shoes|Shoe Carnival": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Shoe Carnival",
         "brand:wikidata": "Q7500007",
@@ -32866,6 +34294,7 @@
       }
     },
     "shop/shoes|Skechers": {
+      "matchNames": ["sketchers"],
       "tags": {
         "brand": "Skechers",
         "brand:wikidata": "Q2945643",
@@ -32889,6 +34318,15 @@
         "shop": "shoes"
       }
     },
+    "shop/shoes|Steve Madden": {
+      "tags": {
+        "brand": "Steve Madden",
+        "brand:wikidata": "Q25352034",
+        "brand:wikipedia": "en:Steve Madden (company)",
+        "name": "Steve Madden",
+        "shop": "shoes"
+      }
+    },
     "shop/shoes|Stride Rite": {
       "countryCodes": ["us"],
       "tags": {
@@ -32896,6 +34334,13 @@
         "brand:wikidata": "Q2356171",
         "brand:wikipedia": "en:Stride Rite Corporation",
         "name": "Stride Rite",
+        "shop": "shoes"
+      }
+    },
+    "shop/shoes|Stuart Weitzman": {
+      "tags": {
+        "brand": "Stuart Weitzman",
+        "name": "Stuart Weitzman",
         "shop": "shoes"
       }
     },
@@ -32932,7 +34377,6 @@
       }
     },
     "shop/shoes|Vans": {
-      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Vans",
         "brand:wikidata": "Q1135366",
@@ -33009,7 +34453,6 @@
       }
     },
     "shop/sports|Adidas": {
-      "matchTags": ["shop/clothes", "shop/shoes"],
       "tags": {
         "brand": "Adidas",
         "brand:wikidata": "Q3895",
@@ -33040,6 +34483,7 @@
     },
     "shop/sports|Big 5 Sporting Goods": {
       "countryCodes": ["us"],
+      "matchNames": ["big 5"],
       "tags": {
         "brand": "Big 5 Sporting Goods",
         "brand:wikidata": "Q4904902",
@@ -33069,6 +34513,7 @@
     },
     "shop/sports|Dick's Sporting Goods": {
       "countryCodes": ["us"],
+      "matchNames": ["dicks"],
       "tags": {
         "brand": "Dick's Sporting Goods",
         "brand:wikidata": "Q5272601",
@@ -33079,7 +34524,6 @@
     },
     "shop/sports|Finish Line": {
       "countryCodes": ["us"],
-      "matchTags": ["shop/clothes", "shop/shoes"],
       "tags": {
         "brand": "Finish Line",
         "brand:wikidata": "Q5450341",
@@ -33149,11 +34593,22 @@
     },
     "shop/sports|Modell’s Sporting Goods": {
       "countryCodes": ["us"],
+      "matchNames": ["modells"],
       "tags": {
         "brand": "Modell’s Sporting Goods",
         "brand:wikidata": "Q3317844",
         "brand:wikipedia": "en:Modell's Sporting Goods",
         "name": "Modell’s Sporting Goods",
+        "shop": "sports"
+      }
+    },
+    "shop/sports|Peloton": {
+      "countryCodes": ["ca", "uk", "us"],
+      "tags": {
+        "brand": "Peloton",
+        "brand:wikidata": "Q56276186",
+        "brand:wikipedia": "en:Peloton (company)",
+        "name": "Peloton",
         "shop": "sports"
       }
     },
@@ -33178,6 +34633,7 @@
       }
     },
     "shop/sports|Sport Chek": {
+      "countryCodes": ["ca"],
       "tags": {"brand": "Sport Chek", "name": "Sport Chek", "shop": "sports"}
     },
     "shop/sports|Sporting Life": {
@@ -33253,6 +34709,7 @@
       }
     },
     "shop/stationery|Buffetti": {
+      "countryCodes": ["it"],
       "tags": {"brand": "Buffetti", "name": "Buffetti", "shop": "stationery"}
     },
     "shop/stationery|Bureau Vallée": {
@@ -33276,6 +34733,7 @@
       }
     },
     "shop/stationery|Office Depot": {
+      "matchTags": ["shop/office_supplies"],
       "tags": {
         "brand": "Office Depot",
         "brand:wikidata": "Q1337797",
@@ -33285,6 +34743,7 @@
       }
     },
     "shop/stationery|OfficeMax": {
+      "countryCodes": ["mx", "nz", "us"],
       "tags": {
         "brand": "OfficeMax",
         "brand:wikidata": "Q7079111",
@@ -33323,11 +34782,22 @@
       }
     },
     "shop/stationery|Paperchase": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Paperchase",
         "brand:wikidata": "Q7132739",
         "brand:wikipedia": "en:Paperchase",
         "name": "Paperchase",
+        "shop": "stationery"
+      }
+    },
+    "shop/stationery|Papyrus": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Papyrus",
+        "brand:wikidata": "Q28222692",
+        "brand:wikipedia": "en:Papyrus (company)",
+        "name": "Papyrus",
         "shop": "stationery"
       }
     },
@@ -33364,7 +34834,7 @@
       }
     },
     "shop/storage_rental|Extra Space Storage": {
-      "countryCodes": ["pr", "us"],
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Extra Space Storage",
         "brand:wikidata": "Q5422162",
@@ -33374,6 +34844,8 @@
       }
     },
     "shop/storage_rental|Public Storage": {
+      "countryCodes": ["ca", "us"],
+      "matchTags": ["shop/storage_units"],
       "tags": {
         "brand": "Public Storage",
         "brand:wikidata": "Q1156045",
@@ -33397,7 +34869,7 @@
       "matchNames": ["99 ranch", "ranch 99"],
       "tags": {
         "brand": "99 Ranch Market",
-        "brand:wikidata": "Q3600279",
+        "brand:wikidata": "Q4646307",
         "brand:wikipedia": "en:99 Ranch Market",
         "cuisine": "asian",
         "name": "99 Ranch Market",
@@ -33488,6 +34960,7 @@
     },
     "shop/supermarket|Albertsons": {
       "countryCodes": ["us"],
+      "matchNames": ["albertsons supermarket"],
       "tags": {
         "brand": "Albertsons",
         "brand:wikidata": "Q4712282",
@@ -33613,6 +35086,7 @@
       }
     },
     "shop/supermarket|BM": {
+      "countryCodes": ["es"],
       "tags": {
         "brand": "BM",
         "brand:wikidata": "Q62073462",
@@ -33842,8 +35316,9 @@
         "shop": "supermarket"
       }
     },
-    "shop/supermarket|Cargills Food City": {
+    "shop/supermarket|Cargills Food City~(Sri Lanka)": {
       "countryCodes": ["lk"],
+      "nomatch": ["shop/supermarket|Food City~(USA)"],
       "tags": {
         "brand": "Cargills Food City",
         "brand:wikidata": "Q58353955",
@@ -33871,6 +35346,7 @@
       }
     },
     "shop/supermarket|Carrefour City": {
+      "countryCodes": ["be", "fr"],
       "matchTags": ["shop/convenience"],
       "tags": {
         "brand": "Carrefour City",
@@ -33938,6 +35414,7 @@
       "tags": {"brand": "Centra", "name": "Centra", "shop": "supermarket"}
     },
     "shop/supermarket|Centre Commercial E. Leclerc": {
+      "countryCodes": ["fr", "pl"],
       "tags": {
         "brand": "Centre Commercial E. Leclerc",
         "brand:wikidata": "Q1273376",
@@ -34035,11 +35512,11 @@
       }
     },
     "shop/supermarket|Comercial Mexicana": {
-      "countryCodes": ["mx", "us"],
+      "countryCodes": ["mx"],
       "tags": {
         "brand": "Comercial Mexicana",
         "brand:wikidata": "Q2985173",
-        "brand:wikipedia": "en:Comercial Mexicana",
+        "brand:wikipedia": "es:Comercial Mexicana",
         "name": "Comercial Mexicana",
         "shop": "supermarket"
       }
@@ -34272,6 +35749,7 @@
       }
     },
     "shop/supermarket|Despensa Familiar": {
+      "countryCodes": ["gt", "hn", "sv"],
       "tags": {
         "brand": "Despensa Familiar",
         "brand:wikidata": "Q61994849",
@@ -34351,6 +35829,7 @@
       }
     },
     "shop/supermarket|Dunnes Stores": {
+      "countryCodes": ["gb", "ie"],
       "tags": {
         "brand": "Dunnes Stores",
         "brand:wikidata": "Q1266203",
@@ -34554,6 +36033,7 @@
       }
     },
     "shop/supermarket|Food 4 Less": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Food 4 Less",
         "brand:wikidata": "Q5465282",
@@ -34571,11 +36051,13 @@
         "shop": "supermarket"
       }
     },
-    "shop/supermarket|Food City": {
+    "shop/supermarket|Food City~(USA)": {
+      "countryCodes": ["us"],
+      "nomatch": ["shop/supermarket|Cargills Food City~(Sri Lanka)"],
       "tags": {
         "brand": "Food City",
-        "brand:wikidata": "Q5465306",
-        "brand:wikipedia": "en:Food City (Canada)",
+        "brand:wikidata": "Q16981107",
+        "brand:wikipedia": "en:Food City (K-VA-T)",
         "name": "Food City",
         "shop": "supermarket"
       }
@@ -34590,7 +36072,7 @@
         "shop": "supermarket"
       }
     },
-    "shop/supermarket|FoodLand~(US)": {
+    "shop/supermarket|FoodLand~(USA)": {
       "countryCodes": ["us"],
       "nomatch": [
         "shop/supermarket|Foodland~(Australia)",
@@ -34621,7 +36103,7 @@
       "nomatch": [
         "shop/supermarket|Foodland~(Canada)",
         "shop/supermarket|Foodland~(Hawaii)",
-        "shop/supermarket|Foodland~(US)"
+        "shop/supermarket|Foodland~(USA)"
       ],
       "tags": {
         "brand": "Foodland",
@@ -34636,7 +36118,7 @@
       "nomatch": [
         "shop/supermarket|Foodland~(Australia)",
         "shop/supermarket|Foodland~(Hawaii)",
-        "shop/supermarket|Foodland~(US)"
+        "shop/supermarket|Foodland~(USA)"
       ],
       "tags": {
         "brand": "Foodland",
@@ -34651,7 +36133,7 @@
       "nomatch": [
         "shop/supermarket|Foodland~(Australia)",
         "shop/supermarket|Foodland~(Canada)",
-        "shop/supermarket|Foodland~(US)"
+        "shop/supermarket|Foodland~(USA)"
       ],
       "tags": {
         "brand": "Foodland",
@@ -34671,6 +36153,13 @@
         "shop": "supermarket"
       }
     },
+    "shop/supermarket|Four Square": {
+      "tags": {
+        "brand": "Four Square",
+        "name": "Four Square",
+        "shop": "supermarket"
+      }
+    },
     "shop/supermarket|Fred Meyer": {
       "countryCodes": ["us"],
       "matchTags": ["shop/department_store"],
@@ -34679,6 +36168,15 @@
         "brand:wikidata": "Q5495932",
         "brand:wikipedia": "en:Fred Meyer",
         "name": "Fred Meyer",
+        "shop": "supermarket"
+      }
+    },
+    "shop/supermarket|Fresh": {
+      "tags": {
+        "brand": "Fresh",
+        "brand:wikidata": "Q50737403",
+        "brand:wikipedia": "sk:Fresh",
+        "name": "Fresh",
         "shop": "supermarket"
       }
     },
@@ -34812,6 +36310,7 @@
         "brand:wikidata": "Q5609934",
         "brand:wikipedia": "en:Grocery Outlet",
         "name": "Grocery Outlet",
+        "official_name": "Grocery Outlet Bargain Market",
         "shop": "supermarket"
       }
     },
@@ -34874,7 +36373,6 @@
     },
     "shop/supermarket|HalpaHalli": {
       "countryCodes": ["ee", "fi", "ru"],
-      "matchNames": ["Halpa-Halli"],
       "tags": {
         "brand": "HalpaHalli",
         "brand:wikidata": "Q11861256",
@@ -35020,6 +36518,7 @@
       }
     },
     "shop/supermarket|IGA": {
+      "countryCodes": ["au", "ca", "us"],
       "tags": {
         "brand": "IGA",
         "brand:wikidata": "Q3146662",
@@ -35156,6 +36655,7 @@
       }
     },
     "shop/supermarket|Kaufland": {
+      "countryCodes": ["bg", "cz", "de", "hr", "pl", "ro", "sk"],
       "tags": {
         "brand": "Kaufland",
         "brand:wikidata": "Q685967",
@@ -35171,6 +36671,16 @@
         "brand:wikidata": "Q6412065",
         "brand:wikipedia": "en:King Soopers",
         "name": "King Soopers",
+        "shop": "supermarket"
+      }
+    },
+    "shop/supermarket|Kings": {
+      "countryCodes": ["us"],
+      "tags": {
+        "brand": "Kings",
+        "brand:wikidata": "Q6412914",
+        "brand:wikipedia": "en:Kings Food Markets",
+        "name": "Kings",
         "shop": "supermarket"
       }
     },
@@ -35218,6 +36728,32 @@
         "brand:wikidata": "Q6135985",
         "brand:wikipedia": "es:La Anónima",
         "name": "La Anónima",
+        "shop": "supermarket"
+      }
+    },
+    "shop/supermarket|La Comer": {
+      "countryCodes": ["mx"],
+      "tags": {
+        "brand": "La Comer",
+        "brand:wikidata": "Q26765126",
+        "brand:wikipedia": "es:La Comer",
+        "name": "La Comer",
+        "shop": "supermarket"
+      }
+    },
+    "shop/supermarket|La Michoacana Meat Market": {
+      "countryCodes": ["us"],
+      "matchNames": ["la michoacana"],
+      "tags": {
+        "brand": "La Michoacana Meat Market",
+        "brand:en": "La Michoacana Meat Market",
+        "brand:es": "La Michoacana",
+        "brand:wikidata": "Q6463872",
+        "brand:wikipedia": "en:La Michoacana Meat Market",
+        "cuisine": "latin_american",
+        "name": "La Michoacana Meat Market",
+        "name:en": "La Michoacana Meat Market",
+        "name:es": "La Michoacana",
         "shop": "supermarket"
       }
     },
@@ -36241,6 +37777,7 @@
       }
     },
     "shop/supermarket|Save-A-Lot": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Save-A-Lot",
         "brand:wikidata": "Q7427972",
@@ -36457,6 +37994,7 @@
       }
     },
     "shop/supermarket|Stop & Shop": {
+      "countryCodes": ["us"],
       "matchNames": ["stop and shop"],
       "tags": {
         "brand": "Stop & Shop",
@@ -36722,6 +38260,7 @@
         "brand:wikidata": "Q7825137",
         "brand:wikipedia": "en:Tops Friendly Markets",
         "name": "Tops",
+        "official_name": "Tops Friendly Markets",
         "shop": "supermarket"
       }
     },
@@ -37029,10 +38568,12 @@
       "countryCodes": ["gr"],
       "tags": {
         "brand": "ΑΒ Βασιλόπουλος",
+        "brand:el": "ΑΒ Βασιλόπουλος",
         "brand:en": "AB Vassilopoulos",
         "brand:wikidata": "Q4721807",
         "brand:wikipedia": "el:Άλφα Βήτα Βασιλόπουλος",
         "name": "ΑΒ Βασιλόπουλος",
+        "name:el": "ΑΒ Βασιλόπουλος",
         "name:en": "AB Vassilopoulos",
         "shop": "supermarket"
       }
@@ -37041,10 +38582,12 @@
       "countryCodes": ["gr"],
       "tags": {
         "brand": "Γαλαξίας",
+        "brand:el": "Γαλαξίας",
         "brand:en": "Galaxias",
         "brand:wikidata": "Q5518063",
         "brand:wikipedia": "el:Γαλαξίας (σούπερ μάρκετ)",
         "name": "Γαλαξίας",
+        "name:el": "Γαλαξίας",
         "name:en": "Galaxias",
         "shop": "supermarket"
       }
@@ -37053,10 +38596,12 @@
       "countryCodes": ["gr"],
       "tags": {
         "brand": "Μασούτης",
+        "brand:el": "Μασούτης",
         "brand:en": "Masoutis",
         "brand:wikidata": "Q6783887",
         "brand:wikipedia": "en:Masoutis",
         "name": "Μασούτης",
+        "name:el": "Μασούτης",
         "name:en": "Masoutis",
         "shop": "supermarket"
       }
@@ -37065,10 +38610,12 @@
       "countryCodes": ["gr"],
       "tags": {
         "brand": "Σκλαβενίτης",
+        "brand:el": "Σκλαβενίτης",
         "brand:en": "Sklavenitis",
         "brand:wikidata": "Q7536037",
         "brand:wikipedia": "el:Σκλαβενίτης",
         "name": "Σκλαβενίτης",
+        "name:el": "Σκλαβενίτης",
         "name:en": "Sklavenitis",
         "shop": "supermarket"
       }
@@ -37122,6 +38669,7 @@
       }
     },
     "shop/supermarket|Ашан": {
+      "countryCodes": ["ru", "ua"],
       "tags": {
         "brand": "Ашан",
         "brand:en": "Auchan",
@@ -37133,6 +38681,7 @@
       }
     },
     "shop/supermarket|Байрам": {
+      "countryCodes": ["ru"],
       "tags": {"brand": "Байрам", "name": "Байрам", "shop": "supermarket"}
     },
     "shop/supermarket|Брусничка": {
@@ -37229,6 +38778,7 @@
       }
     },
     "shop/supermarket|Евроопт": {
+      "countryCodes": ["by"],
       "matchNames": ["евроопт market"],
       "matchTags": ["shop/convenience"],
       "tags": {
@@ -37244,6 +38794,7 @@
       }
     },
     "shop/supermarket|Евроопт Super": {
+      "countryCodes": ["by"],
       "tags": {
         "brand": "Евроопт Super",
         "name": "Евроопт Super",
@@ -37251,6 +38802,7 @@
       }
     },
     "shop/supermarket|Караван": {
+      "countryCodes": ["ru", "ua"],
       "tags": {"brand": "Караван", "name": "Караван", "shop": "supermarket"}
     },
     "shop/supermarket|Карусель": {
@@ -37269,6 +38821,7 @@
       "tags": {"brand": "Квартал", "name": "Квартал", "shop": "supermarket"}
     },
     "shop/supermarket|Кировский": {
+      "countryCodes": ["ru"],
       "matchTags": ["shop/convenience"],
       "tags": {
         "brand": "Кировский",
@@ -37327,6 +38880,7 @@
       }
     },
     "shop/supermarket|Магнит у дома": {
+      "countryCodes": ["ru"],
       "tags": {
         "brand": "Магнит у дома",
         "name": "Магнит у дома",
@@ -37357,6 +38911,7 @@
       }
     },
     "shop/supermarket|Мираторг": {
+      "countryCodes": ["ru"],
       "tags": {"brand": "Мираторг", "name": "Мираторг", "shop": "supermarket"}
     },
     "shop/supermarket|Монетка": {
@@ -37445,6 +39000,7 @@
       }
     },
     "shop/supermarket|Рублёвский": {
+      "countryCodes": ["by"],
       "tags": {
         "brand": "Рублёвский",
         "name": "Рублёвский",
@@ -37831,6 +39387,7 @@
       }
     },
     "shop/supermarket|頂好超市": {
+      "countryCodes": ["tw"],
       "tags": {
         "brand": "頂好超市",
         "brand:en": "Wellcome",
@@ -38089,7 +39646,6 @@
     "shop/trade|84 Lumber": {
       "countryCodes": ["us"],
       "matchNames": ["84", "eighty-four lumber"],
-      "matchTags": ["shop/doityourself", "shop/hardware"],
       "tags": {
         "brand": "84 Lumber",
         "brand:wikidata": "Q4644779",
@@ -38100,8 +39656,7 @@
       }
     },
     "shop/trade|Fastenal": {
-      "countryCodes": ["ca", "pa", "pr", "us"],
-      "matchTags": ["shop/doityourself", "shop/hardware"],
+      "countryCodes": ["ca", "pa", "us"],
       "tags": {
         "brand": "Fastenal",
         "brand:wikidata": "Q3067119",
@@ -38113,7 +39668,6 @@
     "shop/trade|Grainger": {
       "countryCodes": ["ca", "us"],
       "matchNames": ["granger", "w. w. grainger"],
-      "matchTags": ["shop/doityourself", "shop/hardware"],
       "tags": {
         "brand": "Grainger",
         "brand:wikidata": "Q1627894",
@@ -38238,6 +39792,7 @@
       }
     },
     "shop/travel_agency|Thomson": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Thomson",
         "brand:wikidata": "Q7795876",
@@ -38368,6 +39923,7 @@
       }
     },
     "shop/variety_store|B&M Bargains": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "B&M Bargains",
         "brand:wikidata": "Q4836931",
@@ -38384,6 +39940,9 @@
         "name": "Big Bazar",
         "shop": "variety_store"
       }
+    },
+    "shop/variety_store|D9300": {
+      "tags": {"brand": "D9300", "name": "D9300", "shop": "variety_store"}
     },
     "shop/variety_store|Dollar General": {
       "countryCodes": ["us"],
@@ -38455,6 +40014,7 @@
       }
     },
     "shop/variety_store|Five Below": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Five Below",
         "brand:wikidata": "Q5455836",
@@ -38464,6 +40024,7 @@
       }
     },
     "shop/variety_store|Fix Price": {
+      "countryCodes": ["by", "ru"],
       "tags": {
         "brand": "Fix Price",
         "brand:wikidata": "Q4038791",
@@ -38543,6 +40104,7 @@
       }
     },
     "shop/variety_store|Roses": {
+      "countryCodes": ["us"],
       "tags": {
         "brand": "Roses",
         "brand:wikidata": "Q7368644",
@@ -38764,6 +40326,24 @@
         "shop": "watches"
       }
     },
+    "shop/watches|Omega": {
+      "tags": {
+        "brand": "Omega",
+        "brand:wikidata": "Q659224",
+        "brand:wikipedia": "en:Omega SA",
+        "name": "Omega",
+        "shop": "watches"
+      }
+    },
+    "shop/watches|Rolex": {
+      "tags": {
+        "brand": "Rolex",
+        "brand:wikidata": "Q62288",
+        "brand:wikipedia": "en:Rolex",
+        "name": "Rolex",
+        "shop": "watches"
+      }
+    },
     "shop/watches|Swatch": {
       "matchTags": ["shop/jewelry"],
       "tags": {
@@ -38775,6 +40355,7 @@
       }
     },
     "shop/wholesale|BJ's Wholesale Club": {
+      "countryCodes": ["us"],
       "matchTags": ["shop/department_store"],
       "tags": {
         "brand": "BJ's Wholesale Club",
@@ -38902,7 +40483,7 @@
       }
     },
     "tourism/hotel|Comfort Inn": {
-      "countryCodes": ["ca", "gb", "pr", "us"],
+      "countryCodes": ["ca", "gb", "us"],
       "nomatch": ["tourism/hotel|Comfort Suites"],
       "tags": {
         "brand": "Comfort Inn",
@@ -38960,6 +40541,7 @@
       }
     },
     "tourism/hotel|Days Inn": {
+      "countryCodes": ["ca", "gb", "us"],
       "tags": {
         "brand": "Days Inn",
         "brand:wikidata": "Q1047239",
@@ -39020,11 +40602,7 @@
       }
     },
     "tourism/hotel|Hampton": {
-      "matchNames": [
-        "hampton inn",
-        "hampton inn & suites",
-        "hampton inn and suites"
-      ],
+      "matchNames": ["hampton inn & suites", "hampton inn and suites"],
       "tags": {
         "alt_name": "Hampton Inn",
         "brand": "Hampton",
@@ -39044,6 +40622,7 @@
       }
     },
     "tourism/hotel|Hilton Garden Inn": {
+      "countryCodes": ["ca", "mx", "us"],
       "tags": {
         "brand": "Hilton Garden Inn",
         "brand:wikidata": "Q1162859",
@@ -39235,6 +40814,7 @@
       }
     },
     "tourism/hotel|Premier Inn": {
+      "countryCodes": ["gb"],
       "tags": {
         "brand": "Premier Inn",
         "brand:wikidata": "Q2108626",
@@ -39332,6 +40912,7 @@
       }
     },
     "tourism/hotel|Staybridge Suites": {
+      "countryCodes": ["ca", "gb", "us"],
       "tags": {
         "brand": "Staybridge Suites",
         "brand:wikidata": "Q7605116",
