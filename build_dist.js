@@ -61,6 +61,8 @@ function buildJSON() {
             out[k][v][n].countryCodes = obj.countryCodes;
         }
 
+        delete obj.tags['brand:wikidata']
+        delete obj.tags['brand:wikipedia']
         out[k][v][n].tags = obj.tags;
     });
 
