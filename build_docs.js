@@ -249,9 +249,12 @@ function generateCountryPage(tree, dict, k, v, countryCode) {
 <a class="nav" href="../index-${countryCode}.html">↑ Back to top</a>
 `;
     body += instructionsHTML(k, v);
-    body += entryListAsHTML(entriesForTagWithinCountry(dict, k, v, countryCode));
+    entries = entriesForTagWithinCountry(dict, k, v, countryCode);
+    body += entryListAsHTML(entries);
 
-    writeHTML(`./docs/${tree}/${k}/${v}-${countryCode}.html`, prefixHTML(`/${k}/${v}/${countryCode}`, '../../style.css'), body);
+    if (entries !== []){
+        writeHTML(`./docs/${tree}/${k}/${v}-${countryCode}.html`, prefixHTML(`/${k}/${v}/${countryCode}`, '../../style.css'), body);
+    }
 }
 
 function entriesForTagWithinCountry(dict, k, v, countryCode) {
