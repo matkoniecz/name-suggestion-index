@@ -51,6 +51,16 @@
       "shop": "department_store"
     }
   },
+  "shop/department_store|Bloomingdale's": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Bloomingdale's",
+      "brand:wikidata": "Q283383",
+      "brand:wikipedia": "en:Bloomingdale's",
+      "name": "Bloomingdale's",
+      "shop": "department_store"
+    }
+  },
   "shop/department_store|Canadian Tire": {
     "countryCodes": ["ca"],
     "matchTags": ["shop/doityourself"],
@@ -105,6 +115,7 @@
     }
   },
   "shop/department_store|Debenhams": {
+    "countryCodes": ["gb", "ie"],
     "tags": {
       "brand": "Debenhams",
       "brand:wikidata": "Q1181484",
@@ -175,6 +186,7 @@
     }
   },
   "shop/department_store|HEMA": {
+    "countryCodes": ["be", "de", "nl"],
     "tags": {
       "brand": "HEMA",
       "brand:wikidata": "Q903805",
@@ -199,6 +211,17 @@
       "brand": "Havan",
       "brand:wikidata": "Q61968827",
       "name": "Havan",
+      "shop": "department_store"
+    }
+  },
+  "shop/department_store|Hudson's Bay": {
+    "countryCodes": ["ca", "nl"],
+    "tags": {
+      "alt_name": "The Bay",
+      "brand": "Hudson's Bay",
+      "brand:wikidata": "Q641129",
+      "brand:wikipedia": "en:Hudson's Bay (retailer)",
+      "name": "Hudson's Bay",
       "shop": "department_store"
     }
   },
@@ -312,7 +335,8 @@
     }
   },
   "shop/department_store|Marks & Spencer": {
-    "matchNames": ["marks and spencer"],
+    "countryCodes": ["gb", "gr", "ie"],
+    "matchNames": ["M & S", "marks and spencer"],
     "tags": {
       "brand": "Marks & Spencer",
       "brand:wikidata": "Q714491",
@@ -322,6 +346,7 @@
     }
   },
   "shop/department_store|Marshalls": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Marshalls",
       "brand:wikidata": "Q15903261",
@@ -331,15 +356,16 @@
     }
   },
   "shop/department_store|Muji": {
+    "countryCodes": ["it"],
     "tags": {
       "brand": "Muji",
       "brand:en": "Muji",
-      "brand:jp": "無印良品",
+      "brand:ja": "無印良品",
       "brand:wikidata": "Q708789",
       "brand:wikipedia": "en:Muji",
       "name": "Muji",
       "name:en": "Muji",
-      "name:jp": "無印良品",
+      "name:ja": "無印良品",
       "shop": "department_store"
     }
   },
@@ -390,13 +416,27 @@
       "brand:wikidata": "Q20812805",
       "brand:wikipedia": "en:París (retail store)",
       "name": "París",
-      "operator": "Cencosud",
-      "operator:wikidata": "Q1053372",
-      "operator:wikipedia": "en:Cencosud",
+      "shop": "department_store"
+    }
+  },
+  "shop/department_store|Printemps": {
+    "countryCodes": [
+      "ad",
+      "cn",
+      "fr",
+      "jp",
+      "sa"
+    ],
+    "tags": {
+      "brand": "Printemps",
+      "brand:wikidata": "Q1535260",
+      "brand:wikipedia": "fr:Printemps (grands magasins)",
+      "name": "Printemps",
       "shop": "department_store"
     }
   },
   "shop/department_store|Ripley": {
+    "countryCodes": ["cl", "pe"],
     "tags": {
       "brand": "Ripley",
       "brand:wikidata": "Q3433040",
@@ -406,6 +446,7 @@
     }
   },
   "shop/department_store|Saks Fifth Avenue": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Saks Fifth Avenue",
       "brand:wikidata": "Q2723882",
@@ -425,6 +466,7 @@
     }
   },
   "shop/department_store|Sears": {
+    "countryCodes": ["mx", "us"],
     "tags": {
       "brand": "Sears",
       "brand:wikidata": "Q6499202",
@@ -434,6 +476,7 @@
     }
   },
   "shop/department_store|Shopko": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Shopko",
       "brand:wikidata": "Q7501155",
@@ -443,6 +486,7 @@
     }
   },
   "shop/department_store|Stein Mart": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Stein Mart",
       "brand:wikidata": "Q7606770",
@@ -477,6 +521,7 @@
   },
   "shop/department_store|Target~(USA)": {
     "countryCodes": ["us"],
+    "matchNames": ["Super Target"],
     "matchTags": ["shop/supermarket"],
     "nomatch": [
       "shop/department_store|Target~(Australia)"
@@ -506,9 +551,6 @@
       "brand:wikidata": "Q483551",
       "brand:wikipedia": "en:Walmart",
       "name": "Walmart",
-      "operator": "Walmart",
-      "operator:wikidata": "Q483551",
-      "operator:wikipedia": "en:Walmart",
       "shop": "department_store"
     }
   },
@@ -573,12 +615,12 @@
     "tags": {
       "brand": "無印良品",
       "brand:en": "Muji",
-      "brand:jp": "無印良品",
+      "brand:ja": "無印良品",
       "brand:wikidata": "Q708789",
-      "brand:wikipedia": "jp:無印良品",
+      "brand:wikipedia": "ja:無印良品",
       "name": "無印良品",
       "name:en": "Muji",
-      "name:jp": "無印良品",
+      "name:ja": "無印良品",
       "shop": "department_store"
     }
   },

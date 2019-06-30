@@ -1,5 +1,12 @@
 {
   "shop/optician|Alain Afflelou": {
+    "countryCodes": [
+      "be",
+      "ch",
+      "es",
+      "fr",
+      "pt"
+    ],
     "tags": {
       "brand": "Alain Afflelou",
       "brand:wikidata": "Q2829511",
@@ -44,6 +51,7 @@
     }
   },
   "shop/optician|Boots Opticians": {
+    "countryCodes": ["gb"],
     "tags": {
       "brand": "Boots Opticians",
       "brand:wikidata": "Q4944037",
@@ -64,7 +72,21 @@
       "short_name": "Clarkson"
     }
   },
+  "shop/optician|Cohen's Fashion Optical": {
+    "countryCodes": ["us"],
+    "matchNames": ["cohen's optical"],
+    "tags": {
+      "brand": "Cohen's Fashion Optical",
+      "brand:wikidata": "Q5141313",
+      "brand:wikipedia": "en:Cohen's Fashion Optical",
+      "healthcare": "optometrist",
+      "name": "Cohen's Fashion Optical",
+      "shop": "optician",
+      "short_name": "Cohen's"
+    }
+  },
   "shop/optician|Die Brille": {
+    "countryCodes": ["de"],
     "tags": {
       "brand": "Die Brille",
       "name": "Die Brille",
@@ -77,9 +99,6 @@
       "brand": "Eye Wish",
       "brand:wikidata": "Q62391641",
       "name": "Eye Wish",
-      "operator": "GrandVision",
-      "operator:wikidata": "Q15812731",
-      "operator:wikipedia": "nl:GrandVision",
       "shop": "optician"
     }
   },
@@ -139,6 +158,7 @@
     }
   },
   "shop/optician|Hans Anders": {
+    "countryCodes": ["be", "fr", "nl"],
     "tags": {
       "brand": "Hans Anders",
       "brand:wikidata": "Q1884976",
@@ -168,6 +188,7 @@
     }
   },
   "shop/optician|LensCrafters": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "LensCrafters",
       "brand:wikidata": "Q6523209",
@@ -222,6 +243,7 @@
     }
   },
   "shop/optician|Oakley": {
+    "countryCodes": ["us"],
     "matchTags": ["shop/clothes", "shop/sports"],
     "tags": {
       "brand": "Oakley",
@@ -241,6 +263,7 @@
     }
   },
   "shop/optician|Optic 2000": {
+    "countryCodes": ["ch", "fr"],
     "tags": {
       "brand": "Optic 2000",
       "brand:wikidata": "Q3354445",
@@ -267,6 +290,7 @@
     }
   },
   "shop/optician|Pearle Vision": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Pearle Vision",
       "brand:wikidata": "Q2231148",
@@ -353,6 +377,7 @@
     }
   },
   "shop/optician|Visionworks": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Visionworks",
       "brand:wikidata": "Q5422607",

@@ -144,6 +144,7 @@
       "ie",
       "nl"
     ],
+    "matchNames": ["JD"],
     "tags": {
       "brand": "JD Sports",
       "brand:wikidata": "Q6108019",
@@ -171,19 +172,19 @@
       "shop": "sports"
     }
   },
-  "shop/sports|Modell’s Sporting Goods": {
+  "shop/sports|Modell's Sporting Goods": {
     "countryCodes": ["us"],
     "matchNames": ["modells"],
     "tags": {
-      "brand": "Modell’s Sporting Goods",
+      "brand": "Modell's Sporting Goods",
       "brand:wikidata": "Q3317844",
       "brand:wikipedia": "en:Modell's Sporting Goods",
-      "name": "Modell’s Sporting Goods",
+      "name": "Modell's Sporting Goods",
       "shop": "sports"
     }
   },
   "shop/sports|Peloton": {
-    "countryCodes": ["ca", "uk", "us"],
+    "countryCodes": ["ca", "gb", "us"],
     "tags": {
       "brand": "Peloton",
       "brand:wikidata": "Q56276186",
@@ -202,6 +203,16 @@
       "shop": "sports"
     }
   },
+  "shop/sports|Rebel": {
+    "countryCodes": ["au", "nz"],
+    "tags": {
+      "brand": "Rebel",
+      "brand:wikidata": "Q18636397",
+      "brand:wikipedia": "en:Rebel (company)",
+      "name": "Rebel",
+      "shop": "sports"
+    }
+  },
   "shop/sports|Sport 2000": {
     "countryCodes": ["at", "de", "fr", "nl"],
     "tags": {
@@ -216,6 +227,8 @@
     "countryCodes": ["ca"],
     "tags": {
       "brand": "Sport Chek",
+      "brand:wikidata": "Q3494037",
+      "brand:wikipedia": "en:Sport Chek",
       "name": "Sport Chek",
       "shop": "sports"
     }
@@ -249,6 +262,7 @@
     }
   },
   "shop/sports|Sports Direct": {
+    "matchNames": ["SportsDirect.com"],
     "tags": {
       "brand": "Sports Direct",
       "brand:wikidata": "Q2913554",

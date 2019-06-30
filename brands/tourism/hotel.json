@@ -1,5 +1,6 @@
 {
   "tourism/hotel|B&B Hôtel": {
+    "countryCodes": ["fr"],
     "tags": {
       "brand": "B&B Hôtel",
       "brand:wikidata": "Q794939",
@@ -21,6 +22,7 @@
     }
   },
   "tourism/hotel|Best Western Plus": {
+    "countryCodes": ["ca", "us"],
     "nomatch": ["tourism/hotel|Best Western"],
     "tags": {
       "brand": "Best Western",
@@ -41,6 +43,7 @@
     }
   },
   "tourism/hotel|Candlewood Suites": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Candlewood Suites",
       "brand:wikidata": "Q5032010",
@@ -61,6 +64,7 @@
     }
   },
   "tourism/hotel|Comfort Inn & Suites": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Comfort Inn & Suites",
       "brand:wikidata": "Q1075788",
@@ -80,6 +84,7 @@
     }
   },
   "tourism/hotel|Country Inn & Suites": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Country Inn & Suites",
       "brand:wikidata": "Q5177332",
@@ -89,6 +94,7 @@
     }
   },
   "tourism/hotel|Courtyard by Marriott": {
+    "countryCodes": ["ca", "us"],
     "matchNames": ["courtyard marriott"],
     "tags": {
       "brand": "Courtyard by Marriott",
@@ -114,13 +120,11 @@
       "brand:wikidata": "Q1047239",
       "brand:wikipedia": "en:Days Inn",
       "name": "Days Inn",
-      "operator": "Wyndham Hotels and Resorts",
-      "operator:wikidata": "Q8040120",
-      "operator:wikipedia": "en:Wyndham Hotels and Resorts",
       "tourism": "hotel"
     }
   },
   "tourism/hotel|Embassy Suites": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Embassy Suites",
       "brand:wikidata": "Q5369524",
@@ -130,6 +134,7 @@
     }
   },
   "tourism/hotel|Extended Stay America": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Extended Stay America",
       "brand:wikidata": "Q5421850",
@@ -139,6 +144,7 @@
     }
   },
   "tourism/hotel|Fairfield Inn": {
+    "countryCodes": ["ca", "us"],
     "matchNames": [
       "fairfield inn & suites",
       "fairfield inn and suites"
@@ -167,11 +173,11 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Grand Hyatt",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
   "tourism/hotel|Hampton": {
+    "countryCodes": ["us"],
     "matchNames": [
       "hampton inn & suites",
       "hampton inn and suites"
@@ -227,11 +233,24 @@
     }
   },
   "tourism/hotel|Holiday Inn Express & Suites": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Holiday Inn Express & Suites",
       "brand:wikidata": "Q5880423",
       "brand:wikipedia": "en:Holiday Inn Express",
       "name": "Holiday Inn Express & Suites",
+      "tourism": "hotel"
+    }
+  },
+  "tourism/hotel|Home2 Suites": {
+    "countryCodes": ["ca", "mx", "us"],
+    "matchNames": ["home2"],
+    "tags": {
+      "brand": "Home2 Suites",
+      "brand:wikidata": "Q5887912",
+      "brand:wikipedia": "en:Home2 Suites by Hilton",
+      "name": "Home2 Suites",
+      "official_name": "Home2 Suites by Hilton",
       "tourism": "hotel"
     }
   },
@@ -251,7 +270,6 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Hyatt",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
@@ -261,7 +279,6 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Hyatt Centric",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
@@ -272,11 +289,11 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Hyatt House",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
   "tourism/hotel|Hyatt Place": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Hyatt",
       "brand:wikidata": "Q1425063",
@@ -291,7 +308,6 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Hyatt Regency",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
@@ -334,6 +350,7 @@
     }
   },
   "tourism/hotel|La Quinta": {
+    "countryCodes": ["us"],
     "matchNames": [
       "la quinta inn & suites",
       "la quinta inn and suites",
@@ -345,9 +362,15 @@
       "brand:wikidata": "Q6464734",
       "brand:wikipedia": "en:La Quinta Inns & Suites",
       "name": "La Quinta",
-      "operator": "Wyndham Hotels and Resorts",
-      "operator:wikidata": "Q8040120",
-      "operator:wikipedia": "en:Wyndham Hotels and Resorts",
+      "tourism": "hotel"
+    }
+  },
+  "tourism/hotel|Le Méridien": {
+    "tags": {
+      "brand": "Le Méridien",
+      "brand:wikidata": "Q261077",
+      "brand:wikipedia": "en:Le Méridien",
+      "name": "Le Méridien",
       "tourism": "hotel"
     }
   },
@@ -384,7 +407,6 @@
       "brand:wikidata": "Q1425063",
       "brand:wikipedia": "en:Hyatt",
       "name": "Park Hyatt",
-      "operator": "Hyatt",
       "tourism": "hotel"
     }
   },
@@ -399,6 +421,7 @@
     }
   },
   "tourism/hotel|Première Classe": {
+    "countryCodes": ["fr"],
     "tags": {
       "brand": "Première Classe",
       "brand:wikidata": "Q5964551",
@@ -408,6 +431,7 @@
     }
   },
   "tourism/hotel|Quality Inn": {
+    "countryCodes": ["ca", "mx", "us"],
     "tags": {
       "brand": "Quality Inn",
       "brand:wikidata": "Q1075788",
@@ -417,6 +441,7 @@
     }
   },
   "tourism/hotel|Quality Inn & Suites": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Quality Inn & Suites",
       "brand:wikidata": "Q1075788",
@@ -431,9 +456,6 @@
       "brand:wikidata": "Q1502859",
       "brand:wikipedia": "en:Ramada",
       "name": "Ramada",
-      "operator": "Wyndham Hotels and Resorts",
-      "operator:wikidata": "Q8040120",
-      "operator:wikipedia": "en:Wyndham Hotels and Resorts",
       "tourism": "hotel"
     }
   },
@@ -448,14 +470,12 @@
     }
   },
   "tourism/hotel|Renaissance Hotel": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Renaissance Hotels",
       "brand:wikidata": "Q2143252",
       "brand:wikipedia": "en:Renaissance Hotels",
       "name": "Renaissance Hotel",
-      "operator": "Marriott International",
-      "operator:wikidata": "Q1141173",
-      "operator:wikipedia": "en:Marriott International",
       "tourism": "hotel"
     }
   },
@@ -478,6 +498,7 @@
     }
   },
   "tourism/hotel|Sleep Inn": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Sleep Inn",
       "brand:wikidata": "Q1075788",
@@ -502,9 +523,6 @@
       "brand:wikidata": "Q7836087",
       "brand:wikipedia": "en:Travelodge",
       "name": "Travelodge",
-      "operator": "Wyndham Hotels and Resorts",
-      "operator:wikidata": "Q8040120",
-      "operator:wikipedia": "en:Wyndham Hotels and Resorts",
       "tourism": "hotel"
     }
   },

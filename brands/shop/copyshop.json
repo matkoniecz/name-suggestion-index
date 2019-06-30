@@ -21,10 +21,29 @@
       "shop": "copyshop"
     }
   },
+  "shop/copyshop|Minuteman Press": {
+    "tags": {
+      "brand": "Minuteman Press",
+      "brand:wikidata": "Q64866081",
+      "name": "Minuteman Press",
+      "shop": "copyshop"
+    }
+  },
   "shop/copyshop|Photocopie": {
     "tags": {
       "brand": "Photocopie",
       "name": "Photocopie",
+      "shop": "copyshop"
+    }
+  },
+  "shop/copyshop|Sir Speedy": {
+    "countryCodes": ["us"],
+    "matchTags": ["amenity/post_office"],
+    "tags": {
+      "brand": "Sir Speedy",
+      "brand:wikidata": "Q17088225",
+      "brand:wikipedia": "en:Sir Speedy",
+      "name": "Sir Speedy",
       "shop": "copyshop"
     }
   }

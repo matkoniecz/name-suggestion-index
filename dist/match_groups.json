@@ -24,6 +24,7 @@
         "shop/cosmetics"
     ],
     "electronics": [
+        "office/telecommunication",
         "shop/computer",
         "shop/electronics",
         "shop/hifi",
@@ -41,6 +42,13 @@
         "shop/sports",
         "shop/shoes"
     ],
+    "financial": [
+        "office/accountant",
+        "office/financial",
+        "office/financial_advisor",
+        "office/tax_advisor",
+        "shop/tax"
+    ],
     "fitness": [
         "leisure/fitness_centre",
         "leisure/fitness_center",
@@ -52,6 +60,8 @@
         "amenity/fast_food",
         "amenity/ice_cream",
         "amenity/restaurant",
+        "shop/bakery",
+        "shop/pastry",
         "shop/tea",
         "shop/coffee"
     ],
@@ -60,6 +70,10 @@
         "shop/gas",
         "shop/convenience;gas",
         "shop/gas;convenience"
+    ],
+    "gift": [
+        "shop/gift",
+        "shop/stationery"
     ],
     "hardware": [
         "shop/doityourself",
@@ -87,10 +101,6 @@
         "shop/car_repair",
         "shop/tires",
         "shop/tyres"
-    ],
-    "tax": [
-        "office/tax_advisor",
-        "office/accountant"
     ],
     "vending": [
         "amenity/vending_machine",

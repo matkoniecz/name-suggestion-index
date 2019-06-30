@@ -52,6 +52,7 @@
     }
   },
   "amenity/fuel|ANP": {
+    "countryCodes": ["ru", "ua"],
     "tags": {
       "amenity": "fuel",
       "brand": "ANP",
@@ -78,6 +79,7 @@
     }
   },
   "amenity/fuel|Agil": {
+    "countryCodes": ["tn"],
     "tags": {
       "amenity": "fuel",
       "brand": "Agil",
@@ -94,6 +96,7 @@
     }
   },
   "amenity/fuel|Agrola": {
+    "countryCodes": ["ch"],
     "tags": {
       "amenity": "fuel",
       "brand": "Agrola",
@@ -143,6 +146,7 @@
     }
   },
   "amenity/fuel|Arco": {
+    "countryCodes": ["mx", "us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Arco",
@@ -278,6 +282,7 @@
     }
   },
   "amenity/fuel|Bangchak": {
+    "countryCodes": ["th"],
     "tags": {
       "amenity": "fuel",
       "brand": "Bangchak",
@@ -326,6 +331,7 @@
     }
   },
   "amenity/fuel|CEPSA": {
+    "countryCodes": ["es", "pt"],
     "tags": {
       "amenity": "fuel",
       "brand": "CEPSA",
@@ -360,9 +366,14 @@
     }
   },
   "amenity/fuel|Carrefour": {
+    "nomatch": [
+      "shop/convenience|Carrefour Express",
+      "shop/supermarket|Carrefour"
+    ],
     "tags": {
-      "amenity": "fuel",
       "brand": "Carrefour",
+      "brand:wikidata": "Q217599",
+      "brand:wikipedia": "fr:Carrefour (enseigne)",
       "name": "Carrefour"
     }
   },
@@ -450,6 +461,7 @@
     }
   },
   "amenity/fuel|Clark": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Clark",
@@ -615,6 +627,7 @@
     }
   },
   "amenity/fuel|Depot Tela": {
+    "countryCodes": ["kh"],
     "tags": {
       "amenity": "fuel",
       "brand": "Depot Tela",
@@ -716,6 +729,7 @@
     }
   },
   "amenity/fuel|Erg": {
+    "countryCodes": ["it"],
     "tags": {
       "amenity": "fuel",
       "brand": "Erg",
@@ -873,6 +887,7 @@
     }
   },
   "amenity/fuel|Goil": {
+    "countryCodes": ["gh"],
     "tags": {
       "amenity": "fuel",
       "brand": "Goil",
@@ -891,6 +906,7 @@
     }
   },
   "amenity/fuel|Gull": {
+    "countryCodes": ["au", "nz"],
     "tags": {
       "amenity": "fuel",
       "brand": "Gull",
@@ -900,6 +916,7 @@
     }
   },
   "amenity/fuel|H-E-B Fuel": {
+    "countryCodes": ["us"],
     "matchNames": ["h-e-b gas"],
     "nomatch": ["shop/supermarket|H-E-B"],
     "tags": {
@@ -921,6 +938,7 @@
     }
   },
   "amenity/fuel|HP": {
+    "countryCodes": ["in"],
     "matchNames": ["hp petrol pump"],
     "tags": {
       "amenity": "fuel",
@@ -941,6 +959,7 @@
     }
   },
   "amenity/fuel|Hess": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Hess",
@@ -973,10 +992,15 @@
   },
   "amenity/fuel|Husky": {
     "countryCodes": ["ca"],
-    "nomatch": ["shop/convenience|Husky"],
+    "nomatch": [
+      "amenity/restaurant|Husky House",
+      "shop/convenience|Husky"
+    ],
     "tags": {
       "amenity": "fuel",
       "brand": "Husky",
+      "brand:wikidata": "Q702049",
+      "brand:wikipedia": "en:Husky Energy",
       "name": "Husky"
     }
   },
@@ -1016,6 +1040,7 @@
     }
   },
   "amenity/fuel|Ingo": {
+    "countryCodes": ["dk", "se"],
     "tags": {
       "amenity": "fuel",
       "brand": "Ingo",
@@ -1086,15 +1111,29 @@
       "name": "Jetti"
     }
   },
-  "amenity/fuel|Kangaroo": {
-    "nomatch": ["shop/convenience|Kangaroo"],
+  "amenity/fuel|Kangaroo Express": {
+    "countryCodes": ["us"],
+    "nomatch": [
+      "shop/convenience|Kangaroo Express"
+    ],
     "tags": {
       "amenity": "fuel",
-      "brand": "Kangaroo",
-      "name": "Kangaroo"
+      "brand": "Kangaroo Express",
+      "brand:wikidata": "Q61747408",
+      "name": "Kangaroo Express",
+      "short_name": "Kangaroo"
     }
   },
   "amenity/fuel|Kobil": {
+    "countryCodes": [
+      "bi",
+      "et",
+      "ke",
+      "rw",
+      "tz",
+      "ug",
+      "zm"
+    ],
     "tags": {
       "amenity": "fuel",
       "brand": "Kobil",
@@ -1134,6 +1173,7 @@
     }
   },
   "amenity/fuel|Kwik Trip": {
+    "countryCodes": ["us"],
     "nomatch": ["shop/convenience|Kwik Trip"],
     "tags": {
       "amenity": "fuel",
@@ -1144,6 +1184,7 @@
     }
   },
   "amenity/fuel|Liberty": {
+    "countryCodes": ["au", "us"],
     "nomatch": ["amenity/bank|Liberty Bank"],
     "tags": {
       "amenity": "fuel",
@@ -1332,6 +1373,7 @@
     }
   },
   "amenity/fuel|Murphy USA": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Murphy USA",
@@ -1427,6 +1469,7 @@
     }
   },
   "amenity/fuel|Olerex": {
+    "countryCodes": ["ee"],
     "tags": {
       "amenity": "fuel",
       "brand": "Olerex",
@@ -1464,6 +1507,7 @@
     }
   },
   "amenity/fuel|PSO": {
+    "countryCodes": ["pk"],
     "matchNames": ["pso petrol pump"],
     "tags": {
       "amenity": "fuel",
@@ -1483,6 +1527,7 @@
     }
   },
   "amenity/fuel|PTT": {
+    "nomatch": ["amenity/post_office|PTT"],
     "tags": {
       "amenity": "fuel",
       "brand": "PTT",
@@ -1520,6 +1565,7 @@
     }
   },
   "amenity/fuel|Pemex": {
+    "countryCodes": ["mx"],
     "tags": {
       "amenity": "fuel",
       "brand": "Pemex",
@@ -1529,6 +1575,7 @@
     }
   },
   "amenity/fuel|Pertamina": {
+    "countryCodes": ["id"],
     "tags": {
       "amenity": "fuel",
       "brand": "Pertamina",
@@ -1560,6 +1607,7 @@
     }
   },
   "amenity/fuel|Petro-T": {
+    "countryCodes": ["ca"],
     "tags": {
       "amenity": "fuel",
       "brand": "Petro-T",
@@ -1664,6 +1712,7 @@
     }
   },
   "amenity/fuel|Phillips 66": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Phillips 66",
@@ -1703,6 +1752,7 @@
     }
   },
   "amenity/fuel|Preem": {
+    "countryCodes": ["pl", "se"],
     "tags": {
       "amenity": "fuel",
       "brand": "Preem",
@@ -1754,13 +1804,19 @@
       "amenity": "fuel",
       "brand": "Q1",
       "brand:wikidata": "Q62086498",
-      "name": "Q1",
-      "operator": "Q1 Energie AG",
-      "operator:wikidata": "Q2121146",
-      "operator:wikipedia": "de:Q1 Energie"
+      "name": "Q1"
     }
   },
   "amenity/fuel|Q8": {
+    "countryCodes": [
+      "be",
+      "dk",
+      "es",
+      "it",
+      "lu",
+      "nl",
+      "pt"
+    ],
     "tags": {
       "amenity": "fuel",
       "brand": "Q8",
@@ -1770,6 +1826,7 @@
     }
   },
   "amenity/fuel|Q8 Easy": {
+    "countryCodes": ["be", "it"],
     "tags": {
       "amenity": "fuel",
       "brand": "Q8 Easy",
@@ -1810,6 +1867,7 @@
     }
   },
   "amenity/fuel|Raiffeisen": {
+    "countryCodes": ["de"],
     "nomatch": ["amenity/bank|Raiffeisenbank"],
     "tags": {
       "amenity": "fuel",
@@ -1909,13 +1967,11 @@
       "brand": "Sam's Club",
       "brand:wikidata": "Q1972120",
       "brand:wikipedia": "en:Sam's Club",
-      "name": "Sam's Club",
-      "operator": "Walmart",
-      "operator:wikidata": "Q483551",
-      "operator:wikipedia": "en:Walmart"
+      "name": "Sam's Club"
     }
   },
   "amenity/fuel|Sasol": {
+    "countryCodes": ["za"],
     "tags": {
       "amenity": "fuel",
       "brand": "Sasol",
@@ -2095,6 +2151,14 @@
     }
   },
   "amenity/fuel|Statoil": {
+    "countryCodes": [
+      "dk",
+      "ee",
+      "ie",
+      "pl",
+      "ru",
+      "se"
+    ],
     "tags": {
       "amenity": "fuel",
       "brand": "Statoil",
@@ -2141,6 +2205,7 @@
     }
   },
   "amenity/fuel|Susco": {
+    "countryCodes": ["th"],
     "tags": {
       "amenity": "fuel",
       "brand": "Susco",
@@ -2158,6 +2223,14 @@
     }
   },
   "amenity/fuel|Tamoil": {
+    "countryCodes": [
+      "ch",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
     "tags": {
       "amenity": "fuel",
       "brand": "Tamoil",
@@ -2167,6 +2240,7 @@
     }
   },
   "amenity/fuel|Tango": {
+    "countryCodes": ["nl"],
     "tags": {
       "amenity": "fuel",
       "brand": "Tango",
@@ -2186,6 +2260,7 @@
     }
   },
   "amenity/fuel|Teboil": {
+    "countryCodes": ["fi"],
     "tags": {
       "amenity": "fuel",
       "brand": "Teboil",
@@ -2232,6 +2307,7 @@
     }
   },
   "amenity/fuel|Tesoro": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fuel",
       "brand": "Tesoro",
@@ -2280,6 +2356,7 @@
     }
   },
   "amenity/fuel|Total Access": {
+    "countryCodes": ["fr"],
     "tags": {
       "amenity": "fuel",
       "brand": "Total Access",
@@ -2310,6 +2387,7 @@
     }
   },
   "amenity/fuel|Turmöl": {
+    "countryCodes": ["at"],
     "tags": {
       "amenity": "fuel",
       "brand": "Turmöl",
@@ -2394,6 +2472,7 @@
     }
   },
   "amenity/fuel|Viada": {
+    "countryCodes": ["lt", "lv"],
     "tags": {
       "amenity": "fuel",
       "brand": "Viada",
@@ -2412,6 +2491,7 @@
     }
   },
   "amenity/fuel|WOG": {
+    "countryCodes": ["ua"],
     "tags": {
       "amenity": "fuel",
       "brand": "WOG",
@@ -2559,6 +2639,13 @@
     }
   },
   "amenity/fuel|Газпромнефть": {
+    "countryCodes": [
+      "by",
+      "kg",
+      "kz",
+      "ru",
+      "tj"
+    ],
     "matchNames": ["газпром"],
     "tags": {
       "amenity": "fuel",
@@ -2681,6 +2768,7 @@
     }
   },
   "amenity/fuel|ПТК": {
+    "countryCodes": ["ru"],
     "tags": {
       "amenity": "fuel",
       "brand": "ПТК",
@@ -2715,6 +2803,7 @@
     }
   },
   "amenity/fuel|Сургутнефтегаз": {
+    "countryCodes": ["ru"],
     "tags": {
       "amenity": "fuel",
       "brand": "Сургутнефтегаз",
@@ -2740,13 +2829,11 @@
     "tags": {
       "amenity": "fuel",
       "brand": "Татнефтепродукт",
-      "name": "Татнефтепродукт",
-      "operator": "ТАИФ",
-      "operator:wikidata": "Q4448860",
-      "operator:wikipedia": "en:ТАИФ"
+      "name": "Татнефтепродукт"
     }
   },
   "amenity/fuel|Татнефть": {
+    "countryCodes": ["ru", "ua"],
     "tags": {
       "amenity": "fuel",
       "brand": "Татнефть",
@@ -2758,6 +2845,7 @@
     }
   },
   "amenity/fuel|Укрнафта": {
+    "countryCodes": ["ua"],
     "tags": {
       "amenity": "fuel",
       "brand": "Укрнафта",
@@ -2960,7 +3048,15 @@
       "name:en": "Sinopec"
     }
   },
+  "amenity/fuel|中国石化加油站": {
+    "tags": {
+      "amenity": "fuel",
+      "brand": "中国石化加油站",
+      "name": "中国石化加油站"
+    }
+  },
   "amenity/fuel|中国石油": {
+    "countryCodes": ["cn"],
     "tags": {
       "amenity": "fuel",
       "brand": "中国石油",
@@ -2972,6 +3068,7 @@
     }
   },
   "amenity/fuel|全國加油站": {
+    "countryCodes": ["tw"],
     "tags": {
       "amenity": "fuel",
       "brand": "全國加油站",

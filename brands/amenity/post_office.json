@@ -21,6 +21,7 @@
   },
   "amenity/post_office|Canada Post": {
     "countryCodes": ["ca"],
+    "nomatch": ["amenity/post_box|Canada Post"],
     "tags": {
       "amenity": "post_office",
       "brand": "Canada Post",
@@ -78,9 +79,12 @@
     }
   },
   "amenity/post_office|Correos de México": {
+    "countryCodes": ["mx"],
     "tags": {
       "amenity": "post_office",
       "brand": "Correos de México",
+      "brand:wikidata": "Q5172898",
+      "brand:wikipedia": "en:Correos de México",
       "name": "Correos de México"
     }
   },
@@ -91,11 +95,11 @@
       "brand": "DHL",
       "brand:wikidata": "Q489815",
       "brand:wikipedia": "en:DHL Express",
-      "name": "DHL",
-      "operator": "DHL"
+      "name": "DHL"
     }
   },
   "amenity/post_office|DPD Paketshop": {
+    "countryCodes": ["at", "de", "pl"],
     "tags": {
       "amenity": "post_office",
       "brand": "DPD Paketshop",
@@ -129,6 +133,7 @@
     }
   },
   "amenity/post_office|FedEx": {
+    "nomatch": ["amenity/post_box|FedEx"],
     "tags": {
       "amenity": "post_office",
       "brand": "FedEx",
@@ -138,6 +143,7 @@
     }
   },
   "amenity/post_office|Hermes Paketshop": {
+    "countryCodes": ["de"],
     "matchNames": ["hermes"],
     "tags": {
       "amenity": "post_office",
@@ -177,6 +183,7 @@
     }
   },
   "amenity/post_office|OCA": {
+    "countryCodes": ["ar"],
     "tags": {
       "amenity": "post_office",
       "brand": "OCA",
@@ -194,6 +201,7 @@
     }
   },
   "amenity/post_office|PTT": {
+    "nomatch": ["amenity/fuel|PTT"],
     "tags": {
       "amenity": "post_office",
       "brand": "PTT",
@@ -260,14 +268,17 @@
     }
   },
   "amenity/post_office|The UPS Store": {
-    "matchNames": ["ups", "ups store"],
+    "countryCodes": ["ca", "us"],
+    "matchNames": ["ups store"],
     "matchTags": ["shop/copyshop"],
+    "nomatch": ["amenity/post_box|UPS"],
     "tags": {
       "amenity": "post_office",
       "brand": "The UPS Store",
       "brand:wikidata": "Q7771029",
       "brand:wikipedia": "en:The UPS Store",
-      "name": "The UPS Store"
+      "name": "The UPS Store",
+      "short_name": "UPS"
     }
   },
   "amenity/post_office|United States Post Office": {
@@ -283,9 +294,7 @@
       "brand": "United States Post Office",
       "brand:wikidata": "Q668687",
       "brand:wikipedia": "en:United States Postal Service",
-      "name": "United States Post Office",
-      "operator": "USPS",
-      "operator:wikidata": "Q668687"
+      "name": "United States Post Office"
     }
   },
   "amenity/post_office|ΕΛΤΑ": {
@@ -352,6 +361,7 @@
     }
   },
   "amenity/post_office|СДЭК": {
+    "countryCodes": ["ru", "ua"],
     "tags": {
       "amenity": "post_office",
       "brand": "СДЭК",

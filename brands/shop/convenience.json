@@ -92,8 +92,11 @@
     }
   },
   "shop/convenience|Alfamart": {
+    "countryCodes": ["id"],
     "tags": {
       "brand": "Alfamart",
+      "brand:wikidata": "Q23745600",
+      "brand:wikipedia": "id:Alfamart",
       "name": "Alfamart",
       "shop": "convenience"
     }
@@ -109,6 +112,13 @@
     }
   },
   "shop/convenience|Almacén": {
+    "countryCodes": [
+      "ar",
+      "bo",
+      "cl",
+      "pe",
+      "uy"
+    ],
     "tags": {
       "brand": "Almacén",
       "name": "Almacén",
@@ -212,12 +222,15 @@
     }
   },
   "shop/convenience|Carrefour Express": {
+    "matchTags": ["shop/supermarket"],
     "nomatch": [
       "amenity/fuel|Carrefour",
       "shop/supermarket|Carrefour"
     ],
     "tags": {
       "brand": "Carrefour Express",
+      "brand:wikidata": "Q2940190",
+      "brand:wikipedia": "fr:Carrefour Express",
       "name": "Carrefour Express",
       "shop": "convenience"
     }
@@ -228,6 +241,8 @@
     ],
     "tags": {
       "brand": "Casey's General Store",
+      "brand:wikidata": "Q2940968",
+      "brand:wikipedia": "en:Casey's General Stores",
       "name": "Casey's General Store",
       "shop": "convenience"
     }
@@ -248,8 +263,11 @@
     }
   },
   "shop/convenience|Centra": {
+    "countryCodes": ["gb", "ie"],
     "tags": {
       "brand": "Centra",
+      "brand:wikidata": "Q747678",
+      "brand:wikipedia": "en:Centra",
       "name": "Centra",
       "shop": "convenience"
     }
@@ -284,6 +302,8 @@
     "nomatch": ["amenity/fuel|Chevron"],
     "tags": {
       "brand": "Chevron",
+      "brand:wikidata": "Q319642",
+      "brand:wikipedia": "en:Chevron Corporation",
       "name": "Chevron",
       "shop": "convenience"
     }
@@ -303,6 +323,8 @@
     "nomatch": ["amenity/fuel|Citgo"],
     "tags": {
       "brand": "Citgo",
+      "brand:wikidata": "Q2974437",
+      "brand:wikipedia": "en:Citgo",
       "name": "Citgo",
       "shop": "convenience"
     }
@@ -330,9 +352,6 @@
     "tags": {
       "brand": "CocciMarket",
       "name": "CocciMarket",
-      "operator": "Codifrance",
-      "operator:wikidata": "Q2981692",
-      "operator:wikipedia": "fr:Codifrance",
       "shop": "convenience"
     }
   },
@@ -340,6 +359,8 @@
     "nomatch": ["amenity/fuel|Coles Express"],
     "tags": {
       "brand": "Coles Express",
+      "brand:wikidata": "Q5144653",
+      "brand:wikipedia": "en:Coles Express",
       "name": "Coles Express",
       "shop": "convenience"
     }
@@ -387,6 +408,8 @@
     "nomatch": ["amenity/fuel|Couche-Tard"],
     "tags": {
       "brand": "Couche-Tard",
+      "brand:wikidata": "Q2836957",
+      "brand:wikipedia": "en:Alimentation Couche-Tard",
       "name": "Couche-Tard",
       "shop": "convenience"
     }
@@ -395,6 +418,8 @@
     "nomatch": ["amenity/fuel|Cumberland Farms"],
     "tags": {
       "brand": "Cumberland Farms",
+      "brand:wikidata": "Q1143685",
+      "brand:wikipedia": "en:Cumberland Farms",
       "name": "Cumberland Farms",
       "shop": "convenience"
     }
@@ -493,8 +518,12 @@
     }
   },
   "shop/convenience|GS25": {
+    "countryCodes": ["kr"],
+    "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "GS25",
+      "brand:wikidata": "Q624041",
+      "brand:wikipedia": "ko:GS25",
       "name": "GS25",
       "shop": "convenience"
     }
@@ -535,15 +564,32 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|Hudson": {
+    "nomatch": ["shop/newsagent|Hudson News"],
+    "tags": {
+      "brand": "Hudson",
+      "brand:wikidata": "Q5928787",
+      "brand:wikipedia": "en:Hudson Group",
+      "name": "Hudson",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|Husky": {
-    "nomatch": ["amenity/fuel|Husky"],
+    "countryCodes": ["ca"],
+    "nomatch": [
+      "amenity/fuel|Husky",
+      "amenity/restaurant|Husky House"
+    ],
     "tags": {
       "brand": "Husky",
+      "brand:wikidata": "Q702049",
+      "brand:wikipedia": "en:Husky Energy",
       "name": "Husky",
       "shop": "convenience"
     }
   },
   "shop/convenience|Indomaret": {
+    "countryCodes": ["id"],
     "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "Indomaret",
@@ -584,8 +630,7 @@
     "countryCodes": ["us"],
     "tags": {
       "brand": "Jacksons",
-      "brand:wikidata": "Q6117880",
-      "brand:wikipedia": "en:Jacksons Stores",
+      "brand:wikidata": "Q64617393",
       "name": "Jacksons",
       "shop": "convenience"
     }
@@ -598,8 +643,12 @@
     }
   },
   "shop/convenience|Joker": {
+    "countryCodes": ["no"],
+    "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "Joker",
+      "brand:wikidata": "Q716328",
+      "brand:wikipedia": "en:Joker (store)",
       "name": "Joker",
       "shop": "convenience"
     }
@@ -615,23 +664,39 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Kangaroo": {
-    "nomatch": ["amenity/fuel|Kangaroo"],
-    "tags": {
-      "brand": "Kangaroo",
-      "name": "Kangaroo",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Kangaroo Express": {
     "countryCodes": ["us"],
+    "nomatch": ["amenity/fuel|Kangaroo Express"],
     "tags": {
       "brand": "Kangaroo Express",
+      "brand:wikidata": "Q61747408",
       "name": "Kangaroo Express",
+      "shop": "convenience",
+      "short_name": "Kangaroo"
+    }
+  },
+  "shop/convenience|Konzum~(Balkans)": {
+    "countryCodes": ["ba", "hr", "rs"],
+    "nomatch": [
+      "shop/convenience|Konzum~(Czechia)",
+      "shop/supermarket|Konzum~(Balkans)",
+      "shop/supermarket|Konzum~(Czechia)"
+    ],
+    "tags": {
+      "brand": "Konzum",
+      "brand:wikidata": "Q518563",
+      "brand:wikipedia": "hr:Konzum",
+      "name": "Konzum",
       "shop": "convenience"
     }
   },
-  "shop/convenience|Konzum": {
+  "shop/convenience|Konzum~(Czechia)": {
+    "countryCodes": ["cz", "sk"],
+    "nomatch": [
+      "shop/convenience|Konzum~(Balkans)",
+      "shop/supermarket|Konzum~(Balkans)",
+      "shop/supermarket|Konzum~(Czechia)"
+    ],
     "tags": {
       "brand": "Konzum",
       "name": "Konzum",
@@ -642,6 +707,8 @@
     "nomatch": ["amenity/fuel|Kum & Go"],
     "tags": {
       "brand": "Kum & Go",
+      "brand:wikidata": "Q6443340",
+      "brand:wikipedia": "en:Kum & Go",
       "name": "Kum & Go",
       "shop": "convenience"
     }
@@ -657,6 +724,7 @@
     }
   },
   "shop/convenience|Kwik Trip": {
+    "countryCodes": ["us"],
     "nomatch": ["amenity/fuel|Kwik Trip"],
     "tags": {
       "brand": "Kwik Trip",
@@ -1079,6 +1147,7 @@
     }
   },
   "shop/convenience|Select": {
+    "nomatch": ["shop/clothes|Select"],
     "tags": {
       "brand": "Select",
       "name": "Select",
@@ -1850,6 +1919,13 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|Мини маркет": {
+    "tags": {
+      "brand": "Мини маркет",
+      "name": "Мини маркет",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|Монетка": {
     "tags": {
       "brand": "Монетка",
@@ -1957,6 +2033,13 @@
     "tags": {
       "brand": "У Палыча",
       "name": "У Палыча",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Удача": {
+    "tags": {
+      "brand": "Удача",
+      "name": "Удача",
       "shop": "convenience"
     }
   },
@@ -2092,10 +2175,6 @@
       "name:en": "7-Eleven",
       "name:ja": "セブン-イレブン",
       "official_name:en": "Seven-Eleven",
-      "operator": "株式会社セブン&アイ・ホールディングス",
-      "operator:en": "Seven & I Holdings Co., Ltd.",
-      "operator:wikidata": "Q639447",
-      "operator:wikipedia": "en:Seven & I Holdings Co.",
       "shop": "convenience"
     }
   },
@@ -2237,8 +2316,6 @@
       "name": "ローソン・スリーエフ",
       "name:en": "Lawson･Three F",
       "name:ja": "ローソン・スリーエフ",
-      "operator": "株式会社エル・ティーエフ",
-      "operator:en": "L･TF Co., Ltd.",
       "shop": "convenience"
     }
   },

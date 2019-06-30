@@ -175,7 +175,6 @@
   },
   "shop/bakery|Ditsch": {
     "countryCodes": ["de"],
-    "matchTags": ["amenity/fast_food"],
     "tags": {
       "brand": "Ditsch",
       "brand:wikidata": "Q911573",
@@ -229,7 +228,6 @@
   },
   "shop/bakery|Greggs": {
     "countryCodes": ["gb"],
-    "matchTags": ["amenity/fast_food"],
     "tags": {
       "brand": "Greggs",
       "brand:wikidata": "Q3403981",
@@ -523,6 +521,14 @@
       "shop": "bakery"
     }
   },
+  "shop/bakery|Woops!": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Woops!",
+      "name": "Woops!",
+      "shop": "bakery"
+    }
+  },
   "shop/bakery|von Allwörden": {
     "countryCodes": ["de"],
     "tags": {
@@ -561,6 +567,34 @@
     "tags": {
       "brand": "Кулиничі",
       "name": "Кулиничі",
+      "shop": "bakery"
+    }
+  },
+  "shop/bakery|サンジェルマン": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "サンジェルマン",
+      "brand:en": "Saint-Germain",
+      "brand:ja": "サンジェルマン",
+      "brand:wikidata": "Q11305612",
+      "brand:wikipedia": "ja:サンジェルマン (製パン)",
+      "name": "サンジェルマン",
+      "name:en": "Saint-Germain",
+      "name:ja": "サンジェルマン",
+      "shop": "bakery"
+    }
+  },
+  "shop/bakery|ヴィ・ド・フランス": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "ヴィ・ド・フランス",
+      "brand:en": "Vie de France",
+      "brand:ja": "ヴィ・ド・フランス",
+      "brand:wikidata": "Q7928249",
+      "brand:wikipedia": "ja:ヴィ・ド・フランス",
+      "name": "ヴィ・ド・フランス",
+      "name:en": "Vie de France",
+      "name:ja": "ヴィ・ド・フランス",
       "shop": "bakery"
     }
   },

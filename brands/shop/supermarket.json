@@ -485,25 +485,19 @@
       "brand": "Cargills Food City",
       "brand:wikidata": "Q58353955",
       "name": "Cargills Food City",
-      "operator:wikidata": "Q5039260",
-      "operator:wikipedia": "en:Cargills (Ceylon)",
       "shop": "supermarket"
     }
   },
   "shop/supermarket|Carrefour": {
     "nomatch": [
       "amenity/fuel|Carrefour",
-      "shop/convenience|Carrefour Express",
-      "shop/supermarket|Carrefour Express"
+      "shop/convenience|Carrefour Express"
     ],
     "tags": {
       "brand": "Carrefour",
       "brand:wikidata": "Q217599",
       "brand:wikipedia": "fr:Carrefour (enseigne)",
       "name": "Carrefour",
-      "operator": "Groupe Carrefour",
-      "operator:wikidata": "Q3117359",
-      "operator:wikipedia": "fr:Groupe Carrefour",
       "shop": "supermarket"
     }
   },
@@ -515,9 +509,6 @@
       "brand:wikidata": "Q2940187",
       "brand:wikipedia": "fr:Carrefour City",
       "name": "Carrefour City",
-      "operator": "Groupe Carrefour",
-      "operator:wikidata": "Q3117359",
-      "operator:wikipedia": "fr:Groupe Carrefour",
       "shop": "supermarket"
     }
   },
@@ -528,34 +519,16 @@
       "brand:wikidata": "Q2940188",
       "brand:wikipedia": "fr:Carrefour Contact",
       "name": "Carrefour Contact",
-      "operator": "Groupe Carrefour",
-      "operator:wikidata": "Q3117359",
-      "operator:wikipedia": "fr:Groupe Carrefour",
-      "shop": "supermarket"
-    }
-  },
-  "shop/supermarket|Carrefour Express": {
-    "tags": {
-      "brand": "Carrefour Express",
-      "brand:wikidata": "Q2940190",
-      "brand:wikipedia": "fr:Carrefour Express",
-      "name": "Carrefour Express",
-      "operator": "Groupe Carrefour",
-      "operator:wikidata": "Q3117359",
-      "operator:wikipedia": "fr:Groupe Carrefour",
       "shop": "supermarket"
     }
   },
   "shop/supermarket|Carrefour Market": {
-    "nomatch": ["shop/fuel|Carrefour Market"],
+    "nomatch": ["amenity/fuel|Carrefour Market"],
     "tags": {
       "brand": "Carrefour Market",
       "brand:wikidata": "Q2689639",
       "brand:wikipedia": "fr:Carrefour Market",
       "name": "Carrefour Market",
-      "operator": "Groupe Carrefour",
-      "operator:wikidata": "Q3117359",
-      "operator:wikipedia": "fr:Groupe Carrefour",
       "shop": "supermarket"
     }
   },
@@ -1006,9 +979,6 @@
       "brand": "Diska",
       "brand:wikidata": "Q62390177",
       "name": "Diska",
-      "operator": "Edeka",
-      "operator:wikidata": "Q701755",
-      "operator:wikipedia": "en:Edeka",
       "shop": "supermarket"
     }
   },
@@ -1049,9 +1019,6 @@
       "brand:wikidata": "Q1273376",
       "brand:wikipedia": "fr:E.Leclerc",
       "name": "E. Leclerc Drive",
-      "operator": "E.Leclerc",
-      "operator:wikidata": "Q1273376",
-      "operator:wikipedia": "en:E.Leclerc",
       "shop": "supermarket"
     }
   },
@@ -1282,8 +1249,6 @@
       "brand": "FoodMaxx",
       "brand:wikidata": "Q61894844",
       "name": "FoodMaxx",
-      "operator:wikidata": "Q7428009",
-      "operator:wikipedia": "en:Save Mart Supermarkets",
       "shop": "supermarket"
     }
   },
@@ -1369,13 +1334,6 @@
       "shop": "supermarket"
     }
   },
-  "shop/supermarket|Fresh Market": {
-    "tags": {
-      "brand": "Fresh Market",
-      "name": "Fresh Market",
-      "shop": "supermarket"
-    }
-  },
   "shop/supermarket|Fresh Thyme": {
     "countryCodes": ["us"],
     "matchNames": ["fresh thyme farmers market"],
@@ -1430,17 +1388,9 @@
     "countryCodes": ["br"],
     "tags": {
       "brand": "GBarbosa",
-      "brand:website": "http://www.gbarbosa.com.br",
       "brand:wikidata": "Q10287817",
       "brand:wikipedia": "pt:GBarbosa",
       "name": "GBarbosa",
-      "shop": "supermarket"
-    }
-  },
-  "shop/supermarket|GS25": {
-    "tags": {
-      "brand": "GS25",
-      "name": "GS25",
       "shop": "supermarket"
     }
   },
@@ -1454,14 +1404,6 @@
       "shop": "supermarket"
     }
   },
-  "shop/supermarket|Giant": {
-    "nomatch": ["shop/bicycle|Giant"],
-    "tags": {
-      "brand": "Giant",
-      "name": "Giant",
-      "shop": "supermarket"
-    }
-  },
   "shop/supermarket|Giant Eagle": {
     "countryCodes": ["us"],
     "tags": {
@@ -1469,6 +1411,28 @@
       "brand:wikidata": "Q1522721",
       "brand:wikipedia": "en:Giant Eagle",
       "name": "Giant Eagle",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|Giant~(Carlisle)": {
+    "countryCodes": ["us"],
+    "nomatch": ["shop/bicycle|Giant"],
+    "tags": {
+      "brand": "Giant",
+      "brand:wikidata": "Q5558332",
+      "brand:wikipedia": "en:Giant Food Stores",
+      "name": "Giant",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|Giant~(Landover)": {
+    "countryCodes": ["us"],
+    "nomatch": ["shop/bicycle|Giant"],
+    "tags": {
+      "brand": "Giant",
+      "brand:wikidata": "Q5558336",
+      "brand:wikipedia": "en:Giant Food (Landover)",
+      "name": "Giant",
       "shop": "supermarket"
     }
   },
@@ -1815,16 +1779,6 @@
       "shop": "supermarket"
     }
   },
-  "shop/supermarket|Joker": {
-    "countryCodes": ["no"],
-    "tags": {
-      "brand": "Joker",
-      "brand:wikidata": "Q716328",
-      "brand:wikipedia": "en:Joker (store)",
-      "name": "Joker",
-      "shop": "supermarket"
-    }
-  },
   "shop/supermarket|Jumbo": {
     "tags": {
       "brand": "Jumbo",
@@ -1920,7 +1874,28 @@
       "shop": "supermarket"
     }
   },
-  "shop/supermarket|Konzum": {
+  "shop/supermarket|Konzum~(Balkans)": {
+    "countryCodes": ["ba", "hr", "rs"],
+    "nomatch": [
+      "shop/convenience|Konzum~(Balkans)",
+      "shop/convenience|Konzum~(Czechia)",
+      "shop/supermarket|Konzum~(Czechia)"
+    ],
+    "tags": {
+      "brand": "Konzum",
+      "brand:wikidata": "Q518563",
+      "brand:wikipedia": "hr:Konzum",
+      "name": "Konzum",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|Konzum~(Czechia)": {
+    "countryCodes": ["cz", "sk"],
+    "nomatch": [
+      "shop/convenience|Konzum~(Balkans)",
+      "shop/convenience|Konzum~(Czechia)",
+      "shop/supermarket|Konzum~(Balkans)"
+    ],
     "tags": {
       "brand": "Konzum",
       "name": "Konzum",
@@ -1928,6 +1903,7 @@
     }
   },
   "shop/supermarket|Kroger": {
+    "matchNames": ["krogers"],
     "nomatch": ["amenity/fuel|Kroger"],
     "tags": {
       "brand": "Kroger",
@@ -1989,8 +1965,6 @@
       "brand": "La Plaza de DIA",
       "brand:wikidata": "Q58904673",
       "name": "La Plaza de DIA",
-      "operator:wikidata": "Q925132",
-      "operator:wikipedia": "es:Supermercados DIA",
       "shop": "supermarket"
     }
   },
@@ -2123,6 +2097,11 @@
   },
   "shop/supermarket|Lowe's Market": {
     "countryCodes": ["us"],
+    "nomatch": [
+      "shop/clothes|Lowes",
+      "shop/doityourself|Lowe's",
+      "shop/supermarket|Lowes Foods"
+    ],
     "tags": {
       "brand": "Lowe's Market",
       "brand:wikidata": "Q6693107",
@@ -2133,6 +2112,11 @@
   },
   "shop/supermarket|Lowes Foods": {
     "countryCodes": ["us"],
+    "nomatch": [
+      "shop/clothes|Lowes",
+      "shop/doityourself|Lowe's",
+      "shop/supermarket|Lowe's Market"
+    ],
     "tags": {
       "brand": "Lowes Foods",
       "brand:wikidata": "Q6693991",
@@ -2149,8 +2133,6 @@
       "brand:wikidata": "Q6698032",
       "brand:wikipedia": "en:Lucky Stores",
       "name": "Lucky",
-      "operator:wikidata": "Q7428009",
-      "operator:wikipedia": "en:Save Mart Supermarkets",
       "shop": "supermarket"
     }
   },
@@ -2425,9 +2407,6 @@
       "brand:wikidata": "Q16640217",
       "brand:wikipedia": "en:Tiendas Metro",
       "name": "Metro",
-      "operator": "Cencosud",
-      "operator:wikidata": "Q1053372",
-      "operator:wikipedia": "en:Cencosud",
       "shop": "supermarket"
     }
   },
@@ -3300,8 +3279,6 @@
     "tags": {
       "brand": "Super 1 Foods",
       "name": "Super 1 Foods",
-      "operator:wikidata": "Q4975085",
-      "operator:wikipedia": "en:Brookshire Grocery Company",
       "shop": "supermarket"
     }
   },
@@ -3496,6 +3473,7 @@
   },
   "shop/supermarket|The Fresh Market": {
     "countryCodes": ["us"],
+    "matchNames": ["fresh market"],
     "tags": {
       "brand": "The Fresh Market",
       "brand:wikidata": "Q7735265",
@@ -3690,9 +3668,6 @@
       "brand:wikidata": "Q483551",
       "brand:wikipedia": "en:Walmart",
       "name": "Walmart Neighborhood Market",
-      "operator": "Walmart",
-      "operator:wikidata": "Q483551",
-      "operator:wikipedia": "en:Walmart",
       "shop": "supermarket"
     }
   },
@@ -3704,9 +3679,6 @@
       "brand:wikidata": "Q483551",
       "brand:wikipedia": "en:Walmart",
       "name": "Walmart Supercenter",
-      "operator": "Walmart",
-      "operator:wikidata": "Q483551",
-      "operator:wikipedia": "en:Walmart",
       "shop": "supermarket"
     }
   },
@@ -4418,6 +4390,20 @@
       "shop": "supermarket"
     }
   },
+  "shop/supermarket|Ярче": {
+    "tags": {
+      "brand": "Ярче",
+      "name": "Ярче",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|سوبر ماركت": {
+    "tags": {
+      "brand": "سوبر ماركت",
+      "name": "سوبر ماركت",
+      "shop": "supermarket"
+    }
+  },
   "shop/supermarket|いなげや": {
     "countryCodes": ["jp"],
     "tags": {
@@ -4443,6 +4429,16 @@
       "name": "まいばすけっと",
       "name:en": "My Basket",
       "name:ja": "まいばすけっと",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|アコレ": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "アコレ",
+      "brand:ja": "アコレ",
+      "name": "アコレ",
+      "name:ja": "アコレ",
       "shop": "supermarket"
     }
   },
@@ -4496,6 +4492,16 @@
       "brand:ja": "コープ",
       "name": "コープ",
       "name:ja": "コープ",
+      "shop": "supermarket"
+    }
+  },
+  "shop/supermarket|サミット": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "サミット",
+      "brand:ja": "サミット",
+      "name": "サミット",
+      "name:ja": "サミット",
       "shop": "supermarket"
     }
   },
@@ -4580,10 +4586,6 @@
       "name": "ヨークマート",
       "name:en": "YorkMart",
       "name:ja": "ヨークマート",
-      "operator": "株式会社セブン&アイ・ホールディングス",
-      "operator:en": "Seven & I Holdings Co., Ltd.",
-      "operator:wikidata": "Q639447",
-      "operator:wikipedia": "ja:セブン&アイ・ホールディングス",
       "shop": "supermarket"
     }
   },

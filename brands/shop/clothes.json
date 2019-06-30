@@ -8,8 +8,6 @@
       "clothes": "men",
       "name": "AOKI",
       "name:ja": "アオキ",
-      "operator": "株式会社AOKIホールディングス",
-      "operator:en": "AOKI Holdings Inc.",
       "shop": "clothes"
     }
   },
@@ -81,14 +79,14 @@
   },
   "shop/clothes|American Eagle Outfitters": {
     "countryCodes": ["ca", "us"],
-    "matchNames": ["american eagle"],
     "tags": {
       "brand": "American Eagle Outfitters",
       "brand:wikidata": "Q2842931",
       "brand:wikipedia": "en:American Eagle Outfitters",
       "clothes": "men;women",
       "name": "American Eagle Outfitters",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "American Eagle"
     }
   },
   "shop/clothes|Ann Taylor": {
@@ -161,8 +159,16 @@
       "brand:wikidata": "Q56045740",
       "clothes": "men;women",
       "name": "Armani Exchange",
-      "operator:wikidata": "Q2861975",
-      "operator:wikipedia": "en:Armani",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Baby Gap": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Gap",
+      "brand:wikidata": "Q420822",
+      "brand:wikipedia": "en:Gap Inc.",
+      "name": "Baby Gap",
       "shop": "clothes"
     }
   },
@@ -458,6 +464,7 @@
       "brand": "Carter's",
       "brand:wikidata": "Q5047083",
       "brand:wikipedia": "en:Carter's",
+      "clothes": "children",
       "name": "Carter's",
       "shop": "clothes"
     }
@@ -519,13 +526,13 @@
       "hu",
       "nl"
     ],
-    "matchNames": ["vögele"],
     "tags": {
       "brand": "Charles Vögele",
       "brand:wikidata": "Q1066326",
       "brand:wikipedia": "de:Charles Vögele Holding",
       "name": "Charles Vögele",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "Vögele"
     }
   },
   "shop/clothes|Charlotte Russe": {
@@ -641,17 +648,23 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|DTLR": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "DTLR",
+      "name": "DTLR",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|DXL Men's Apparel": {
     "countryCodes": ["us"],
-    "matchNames": ["DXL"],
     "tags": {
       "brand": "DXL Men's Apparel",
       "brand:wikidata": "Q61981830",
       "clothes": "oversize;men",
       "name": "DXL Men's Apparel",
-      "operator:wikidata": "Q5050852",
-      "operator:wikipedia": "en:Destination XL Group",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "DXL"
     }
   },
   "shop/clothes|Damart": {
@@ -782,6 +795,23 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Dynamite": {
+    "countryCodes": [
+      "ca",
+      "jo",
+      "ku",
+      "sa",
+      "us"
+    ],
+    "tags": {
+      "brand": "Dynamite",
+      "brand:wikidata": "Q3117385",
+      "brand:wikipedia": "en:Groupe Dynamite",
+      "clothes": "women",
+      "name": "Dynamite",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Eddie Bauer": {
     "countryCodes": ["ca", "jp", "us"],
     "tags": {
@@ -796,9 +826,6 @@
     "tags": {
       "brand": "Edgars",
       "name": "Edgars",
-      "operator": "Edcon",
-      "operator:wikidata": "Q5335743",
-      "operator:wikipedia": "en:Edcon",
       "shop": "clothes"
     }
   },
@@ -813,14 +840,15 @@
     }
   },
   "shop/clothes|Ermenegildo Zegna": {
-    "matchNames": ["zegna"],
+    "countryCodes": ["ch", "it"],
     "tags": {
       "brand": "Ermenegildo Zegna",
       "brand:wikidata": "Q1355904",
       "brand:wikipedia": "en:Ermenegildo Zegna",
       "clothes": "men",
       "name": "Ermenegildo Zegna",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "Zegna"
     }
   },
   "shop/clothes|Ernsting's family": {
@@ -852,6 +880,7 @@
     }
   },
   "shop/clothes|Everything But Water": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Everything But Water",
       "clothes": "swimwear",
@@ -869,6 +898,16 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Fairweather": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "brand": "Fairweather",
+      "brand:wikidata": "Q64861806",
+      "clothes": "women",
+      "name": "Fairweather",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Fat Face": {
     "countryCodes": ["gb", "gg", "ie"],
     "tags": {
@@ -880,6 +919,7 @@
     }
   },
   "shop/clothes|Fendi": {
+    "countryCodes": ["fr", "it"],
     "tags": {
       "brand": "Fendi",
       "brand:wikidata": "Q926575",
@@ -940,6 +980,34 @@
       "brand:wikidata": "Q420822",
       "brand:wikipedia": "en:Gap Inc.",
       "name": "Gap",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Gap Kids": {
+    "tags": {
+      "brand": "Gap",
+      "brand:wikidata": "Q420822",
+      "brand:wikipedia": "en:Gap Inc.",
+      "name": "Gap Kids",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Garage": {
+    "countryCodes": [
+      "am",
+      "ca",
+      "jo",
+      "om",
+      "qa",
+      "sa",
+      "us"
+    ],
+    "tags": {
+      "brand": "Garage",
+      "brand:wikidata": "Q5521860",
+      "brand:wikipedia": "en:Garage (clothing retailer)",
+      "clothes": "women",
+      "name": "Garage",
       "shop": "clothes"
     }
   },
@@ -1049,6 +1117,7 @@
   },
   "shop/clothes|Hanna Andersson": {
     "countryCodes": ["us"],
+    "matchNames": ["hanna anderssen"],
     "tags": {
       "brand": "Hanna Andersson",
       "brand:wikidata": "Q17460802",
@@ -1059,6 +1128,7 @@
     }
   },
   "shop/clothes|Hermès": {
+    "countryCodes": ["ch", "fr"],
     "nomatch": [
       "amenity/post_office|Hermes Paketshop"
     ],
@@ -1098,13 +1168,13 @@
     }
   },
   "shop/clothes|Hugo Boss": {
-    "matchNames": ["boss"],
     "tags": {
       "brand": "Hugo Boss",
       "brand:wikidata": "Q491627",
       "brand:wikipedia": "en:Hugo Boss",
       "name": "Hugo Boss",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "Boss"
     }
   },
   "shop/clothes|Humana": {
@@ -1165,6 +1235,7 @@
     }
   },
   "shop/clothes|J.Jill": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "J.Jill",
       "brand:wikidata": "Q64448268",
@@ -1281,10 +1352,12 @@
       "brand:wikidata": "Q6204078",
       "brand:wikipedia": "en:JoS. A. Bank Clothiers",
       "name": "JoS. A. Bank",
+      "official_name": "Jos. A. Bank Clothiers",
       "shop": "clothes"
     }
   },
   "shop/clothes|Johnny Was": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Johnny Was",
       "clothes": "women",
@@ -1335,13 +1408,14 @@
   },
   "shop/clothes|Kate Spade New York": {
     "countryCodes": ["ca", "us"],
-    "matchNames": ["kate spade", "kate spade ny"],
+    "matchNames": ["kate spade ny"],
     "tags": {
       "brand": "Kate Spade New York",
       "brand:wikidata": "Q6375797",
       "brand:wikipedia": "en:Kate Spade New York",
       "name": "Kate Spade New York",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "Kate Spade"
     }
   },
   "shop/clothes|Kendra Scott": {
@@ -1366,6 +1440,13 @@
       "brand:wikidata": "Q3196299",
       "brand:wikipedia": "fr:Kiabi",
       "name": "Kiabi",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Koton": {
+    "tags": {
+      "brand": "Koton",
+      "name": "Koton",
       "shop": "clothes"
     }
   },
@@ -1416,6 +1497,17 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Laura": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "brand": "Laura",
+      "brand:wikidata": "Q6498590",
+      "brand:wikipedia": "en:Laura (clothing retailer)",
+      "clothes": "women",
+      "name": "Laura",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Levi's": {
     "tags": {
       "brand": "Levi's",
@@ -1461,13 +1553,11 @@
       "brand:wikidata": "Q62075137",
       "clothes": "women",
       "name": "Loft",
-      "operator": "Ann Inc.",
-      "operator:wikidata": "Q4766699",
-      "operator:wikipedia": "en:Ann Inc.",
       "shop": "clothes"
     }
   },
   "shop/clothes|Loro Piana": {
+    "countryCodes": ["fr", "it"],
     "tags": {
       "brand": "Loro Piana",
       "brand:wikidata": "Q1686544",
@@ -1487,6 +1577,11 @@
   },
   "shop/clothes|Lowes": {
     "countryCodes": ["au"],
+    "nomatch": [
+      "shop/doityourself|Lowe's",
+      "shop/supermarket|Lowe's Market",
+      "shop/supermarket|Lowes Foods"
+    ],
     "tags": {
       "brand": "Lowes",
       "brand:wikidata": "Q6693996",
@@ -1496,6 +1591,7 @@
     }
   },
   "shop/clothes|Lucky Brand": {
+    "countryCodes": ["ca", "us"],
     "matchNames": ["lucky brand jeans"],
     "tags": {
       "brand": "Lucky Brand",
@@ -1555,8 +1651,6 @@
       "brand:wikidata": "Q64026213",
       "clothes": "men;women",
       "name": "Madewell",
-      "operator:wikidata": "Q5370765",
-      "operator:wikipedia": "en:J.Crew",
       "shop": "clothes"
     }
   },
@@ -1593,6 +1687,13 @@
       "brand:wikidata": "Q534903",
       "brand:wikipedia": "fi:Marimekko",
       "name": "Marimekko",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Marisa": {
+    "tags": {
+      "brand": "Marisa",
+      "name": "Marisa",
       "shop": "clothes"
     }
   },
@@ -1649,6 +1750,16 @@
       "brand:wikidata": "Q1151774",
       "brand:wikipedia": "en:Max Mara",
       "name": "Max Mara",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Melanie Lyne": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "brand": "Melanie Lyne",
+      "brand:wikidata": "Q64861470",
+      "clothes": "women",
+      "name": "Melanie Lyne",
       "shop": "clothes"
     }
   },
@@ -1723,14 +1834,23 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Moores": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "brand": "Moores",
+      "brand:wikidata": "Q6908309",
+      "brand:wikipedia": "en:Moores",
+      "clothes": "men",
+      "name": "Moores",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Motherhood Maternity": {
     "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Motherhood Maternity",
       "clothes": "maternity",
       "name": "Motherhood Maternity",
-      "operator": "Destination Maternity",
-      "operator:wikipedia": "en:Destination Maternity",
       "shop": "clothes"
     }
   },
@@ -1770,6 +1890,13 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Napapijri": {
+    "tags": {
+      "brand": "Napapijri",
+      "name": "Napapijri",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Nautica": {
     "tags": {
       "brand": "Nautica",
@@ -1793,6 +1920,16 @@
       "brand:wikidata": "Q12063852",
       "brand:wikipedia": "en:New Look (company)",
       "name": "New Look",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|New York & Company": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "New York & Company",
+      "brand:wikidata": "Q7012977",
+      "brand:wikipedia": "en:New York & Company",
+      "name": "New York & Company",
       "shop": "clothes"
     }
   },
@@ -1853,6 +1990,7 @@
     "countryCodes": ["es", "gb", "ie"],
     "tags": {
       "brand": "Oasis",
+      "brand:wikidata": "Q64532852",
       "name": "Oasis",
       "shop": "clothes"
     }
@@ -1888,8 +2026,6 @@
       "brand": "Only",
       "brand:wikidata": "Q61799370",
       "name": "Only",
-      "operator:wikidata": "Q28172489",
-      "operator:wikipedia": "en:Bestseller (company)",
       "shop": "clothes"
     }
   },
@@ -2048,6 +2184,7 @@
   "shop/clothes|Pierre Cardin": {
     "tags": {
       "brand": "Pierre Cardin",
+      "brand:wikidata": "Q22921009",
       "name": "Pierre Cardin",
       "shop": "clothes"
     }
@@ -2069,15 +2206,22 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Pink": {
+    "tags": {
+      "brand": "Pink",
+      "brand:wikidata": "Q20716793",
+      "brand:wikipedia": "en:Pink (Victoria's Secret)",
+      "clothes": "underwear;women",
+      "name": "Pink",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Plato's Closet": {
     "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Plato's Closet",
       "brand:wikidata": "Q61779112",
       "name": "Plato's Closet",
-      "operator": "Winmark",
-      "operator:wikidata": "Q28048853",
-      "operator:wikipedia": "en:Winmark",
       "second_hand": "only",
       "shop": "clothes"
     }
@@ -2200,6 +2344,13 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Roots": {
+    "tags": {
+      "brand": "Roots",
+      "name": "Roots",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Ross": {
     "countryCodes": ["us"],
     "tags": {
@@ -2246,6 +2397,7 @@
     }
   },
   "shop/clothes|Select": {
+    "nomatch": ["shop/convenience|Select"],
     "tags": {
       "brand": "Select",
       "name": "Select",
@@ -2300,9 +2452,16 @@
       "brand:wikidata": "Q12054325",
       "brand:wikipedia": "cs:Sisley",
       "name": "Sisley",
-      "operator": "Benetton Group",
-      "operator:wikidata": "Q817139",
-      "operator:wikipedia": "en:Benetton Group",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Slaters": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Slaters",
+      "brand:wikidata": "Q7538912",
+      "clothes": "suits",
+      "name": "Slaters",
       "shop": "clothes"
     }
   },
@@ -2341,9 +2500,6 @@
     "tags": {
       "brand": "Steps",
       "name": "Steps",
-      "operator": "FNG Group",
-      "operator:wikidata": "Q15875120",
-      "operator:wikipedia": "nl:FNG Group",
       "shop": "clothes"
     }
   },
@@ -2387,9 +2543,6 @@
       "brand": "Street One",
       "brand:wikidata": "Q61997265",
       "name": "Street One",
-      "operator": "CBR Fashion Holding",
-      "operator:wikidata": "Q1022989",
-      "operator:wikipedia": "de:CBR Fashion Holding",
       "shop": "clothes"
     }
   },
@@ -2495,6 +2648,7 @@
   "shop/clothes|The Children's Place": {
     "countryCodes": ["ca", "us"],
     "tags": {
+      "alt_name": "Children's Place",
       "brand": "The Children's Place",
       "brand:wikidata": "Q3520257",
       "brand:wikipedia": "en:The Children's Place",
@@ -2504,6 +2658,7 @@
   },
   "shop/clothes|The North Face": {
     "tags": {
+      "alt_name": "North Face",
       "brand": "The North Face",
       "brand:wikidata": "Q152784",
       "brand:wikipedia": "en:The North Face",
@@ -2523,6 +2678,7 @@
   },
   "shop/clothes|The Walking Company": {
     "tags": {
+      "alt_name": "Walking Company",
       "brand": "The Walking Company",
       "brand:wikidata": "Q30716262",
       "brand:wikipedia": "en:The Walking Company",
@@ -2547,6 +2703,17 @@
       "brand:wikidata": "Q1539185",
       "brand:wikipedia": "en:The Timberland Company",
       "name": "Timberland",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Tip Top Tailors": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "brand": "Tip Top Tailors",
+      "brand:wikidata": "Q7808781",
+      "brand:wikipedia": "en:Tip Top Tailors",
+      "clothes": "men",
+      "name": "Tip Top Tailors",
       "shop": "clothes"
     }
   },
@@ -2606,6 +2773,7 @@
     }
   },
   "shop/clothes|Tory Burch": {
+    "countryCodes": ["us"],
     "tags": {
       "brand": "Tory Burch",
       "brand:wikidata": "Q19988222",
@@ -2640,6 +2808,16 @@
       "brand:wikidata": "Q28207006",
       "brand:wikipedia": "en:Untuckit",
       "name": "UNTUCKit",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|USC": {
+    "countryCodes": ["gb", "ie"],
+    "tags": {
+      "brand": "USC",
+      "brand:wikidata": "Q7866331",
+      "brand:wikipedia": "en:USC (clothing retailer)",
+      "name": "USC",
       "shop": "clothes"
     }
   },
@@ -2680,13 +2858,13 @@
     }
   },
   "shop/clothes|United Colors of Benetton": {
-    "matchNames": ["benetton"],
     "tags": {
       "brand": "United Colors of Benetton",
       "brand:wikidata": "Q817139",
       "brand:wikipedia": "en:Benetton Group",
       "name": "United Colors of Benetton",
-      "shop": "clothes"
+      "shop": "clothes",
+      "short_name": "Benetton"
     }
   },
   "shop/clothes|Urban Outfitters": {
@@ -2717,6 +2895,27 @@
       "shop": "clothes"
     }
   },
+  "shop/clothes|Vilebrequin": {
+    "countryCodes": ["fr", "it"],
+    "tags": {
+      "brand": "Vilebrequin",
+      "brand:wikidata": "Q3558391",
+      "brand:wikipedia": "en:Vilebrequin",
+      "clothes": "swimwear",
+      "name": "Vilebrequin",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Vineyard Vines": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Vineyard Vines",
+      "brand:wikidata": "Q7932495",
+      "brand:wikipedia": "en:Vineyard Vines",
+      "name": "Vineyard Vines",
+      "shop": "clothes"
+    }
+  },
   "shop/clothes|Volcom": {
     "tags": {
       "brand": "Volcom",
@@ -2733,6 +2932,16 @@
       "brand:wikidata": "Q1987861",
       "brand:wikipedia": "en:WE (clothing)",
       "name": "WE",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|Wacoal": {
+    "tags": {
+      "brand": "Wacoal",
+      "brand:wikidata": "Q909522",
+      "brand:wikipedia": "en:Wacoal",
+      "clothes": "underwear",
+      "name": "Wacoal",
       "shop": "clothes"
     }
   },
@@ -2798,6 +3007,8 @@
     ],
     "tags": {
       "brand": "Wolford",
+      "brand:wikidata": "Q431607",
+      "brand:wikipedia": "en:Wolford",
       "name": "Wolford",
       "shop": "clothes"
     }
@@ -2810,6 +3021,16 @@
       "brand:wikidata": "Q8033997",
       "brand:wikipedia": "en:Woolworths Holdings Limited",
       "name": "Woolworths",
+      "shop": "clothes"
+    }
+  },
+  "shop/clothes|XXI Forever": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Forever 21",
+      "brand:wikidata": "Q1060537",
+      "brand:wikipedia": "en:Forever 21",
+      "name": "XXI Forever",
       "shop": "clothes"
     }
   },

@@ -22,6 +22,7 @@
     }
   },
   "amenity/vending_machine|BKK-automata": {
+    "countryCodes": ["hu"],
     "tags": {
       "amenity": "vending_machine",
       "brand": "BKK-automata",
@@ -32,6 +33,7 @@
     }
   },
   "amenity/vending_machine|DHL Packstation": {
+    "countryCodes": ["de"],
     "matchTags": ["amenity/post_box"],
     "tags": {
       "amenity": "vending_machine",
@@ -39,9 +41,6 @@
       "brand:wikidata": "Q1766703",
       "brand:wikipedia": "en:Packstation",
       "name": "DHL Packstation",
-      "operator": "DHL",
-      "operator:wikidata": "Q489815",
-      "operator:wikipedia": "en:DHL Express",
       "vending": "parcel_pickup;parcel_mail_in"
     }
   },
@@ -53,9 +52,6 @@
       "brand:wikidata": "Q2046604",
       "brand:wikipedia": "de:Paketbox",
       "name": "DHL Paketbox",
-      "operator": "DHL",
-      "operator:wikidata": "Q489815",
-      "operator:wikipedia": "de:DHL",
       "vending": "parcel_mail_in"
     }
   },
@@ -91,6 +87,7 @@
     }
   },
   "amenity/vending_machine|ParkPlus~(Calgary)": {
+    "countryCodes": ["ca"],
     "tags": {
       "amenity": "vending_machine",
       "brand": "ParkPlus",
@@ -100,6 +97,7 @@
     }
   },
   "amenity/vending_machine|Redbox": {
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "vending_machine",
       "brand": "Redbox",
@@ -121,13 +119,16 @@
     }
   },
   "amenity/vending_machine|Schlauchomat": {
+    "countryCodes": ["at", "de", "it"],
     "tags": {
       "amenity": "vending_machine",
       "brand": "Schlauchomat",
-      "name": "Schlauchomat"
+      "name": "Schlauchomat",
+      "vending": "bicycle_tube"
     }
   },
   "amenity/vending_machine|Smartpost": {
+    "countryCodes": ["fi"],
     "matchTags": ["amenity/post_box"],
     "tags": {
       "amenity": "vending_machine",
@@ -135,9 +136,6 @@
       "brand:wikidata": "Q7543889",
       "brand:wikipedia": "fi:SmartPOST",
       "name": "Smartpost",
-      "operator": "Posti Group",
-      "operator:wikidata": "Q843453",
-      "operator:wikipedia": "fi:Posti Group",
       "vending": "parcel_pickup;parcel_mail_in"
     }
   },
@@ -158,9 +156,6 @@
       "amenity": "vending_machine",
       "brand": "VVO Fahrausweise",
       "name": "VVO Fahrausweise",
-      "operator": "Verkehrsverbund Oberelbe",
-      "operator:wikidata": "Q1426445",
-      "operator:wikipedia": "en:Verkehrsverbund Oberelbe",
       "vending": "public_transport_tickets"
     }
   },
@@ -187,9 +182,6 @@
       "name": "コカ・コーラ",
       "name:en": "Coca-Cola",
       "name:ja": "コカ・コーラ",
-      "operator": "Coca Cola Japan Co., Ltd.",
-      "operator:wikidata": "Q11506438",
-      "operator:wikipedia": "ja:日本コカ・コーラ",
       "vending": "drinks"
     }
   },

@@ -1,7 +1,10 @@
 {
   "shop/variety_store|99 Cents Only Stores": {
     "countryCodes": ["us"],
-    "matchNames": ["99 cents only"],
+    "matchNames": [
+      "99 cent only stores",
+      "99 cents only"
+    ],
     "matchTags": [
       "shop/convenience",
       "shop/department_store",
@@ -16,6 +19,14 @@
     }
   },
   "shop/variety_store|Action": {
+    "countryCodes": [
+      "at",
+      "be",
+      "de",
+      "fr",
+      "nl",
+      "pl"
+    ],
     "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "Action",
@@ -36,6 +47,7 @@
     }
   },
   "shop/variety_store|Big Bazar": {
+    "countryCodes": ["be", "nl"],
     "tags": {
       "brand": "Big Bazar",
       "brand:wikidata": "Q15873104",
@@ -44,11 +56,36 @@
       "shop": "variety_store"
     }
   },
+  "shop/variety_store|D10150": {
+    "tags": {
+      "brand": "D10150",
+      "name": "D10150",
+      "shop": "variety_store"
+    }
+  },
+  "shop/variety_store|D9150": {
+    "tags": {
+      "brand": "D9150",
+      "name": "D9150",
+      "shop": "variety_store"
+    }
+  },
   "shop/variety_store|D9300": {
+    "countryCodes": ["br"],
     "tags": {
       "brand": "D9300",
       "name": "D9300",
       "shop": "variety_store"
+    }
+  },
+  "shop/variety_store|Daiso Japan": {
+    "countryCodes": ["au", "us"],
+    "tags": {
+      "brand": "Daiso",
+      "brand:wikidata": "Q866991",
+      "name": "Daiso Japan",
+      "shop": "variety_store",
+      "short_name": "Daiso"
     }
   },
   "shop/variety_store|Dollar General": {
@@ -57,6 +94,13 @@
       "shop/convenience",
       "shop/department_store",
       "shop/supermarket"
+    ],
+    "nomatch": [
+      "amenity/bank|Dollar Bank",
+      "amenity/car_rental|Dollar",
+      "shop/variety_store|Dollar Tree",
+      "shop/variety_store|Dollarama",
+      "shop/variety_store|Family Dollar"
     ],
     "tags": {
       "brand": "Dollar General",
@@ -73,6 +117,13 @@
       "shop/department_store",
       "shop/supermarket"
     ],
+    "nomatch": [
+      "amenity/bank|Dollar Bank",
+      "amenity/car_rental|Dollar",
+      "shop/variety_store|Dollar General",
+      "shop/variety_store|Dollarama",
+      "shop/variety_store|Family Dollar"
+    ],
     "tags": {
       "brand": "Dollar Tree",
       "brand:wikidata": "Q5289230",
@@ -88,6 +139,13 @@
       "shop/department_store",
       "shop/supermarket"
     ],
+    "nomatch": [
+      "amenity/bank|Dollar Bank",
+      "amenity/car_rental|Dollar",
+      "shop/variety_store|Dollar General",
+      "shop/variety_store|Dollar Tree",
+      "shop/variety_store|Family Dollar"
+    ],
     "tags": {
       "brand": "Dollarama",
       "brand:wikidata": "Q3033947",
@@ -97,6 +155,7 @@
     }
   },
   "shop/variety_store|EuroShop": {
+    "countryCodes": ["de"],
     "tags": {
       "brand": "EuroShop",
       "brand:wikidata": "Q15846763",
@@ -111,6 +170,13 @@
       "shop/convenience",
       "shop/department_store",
       "shop/supermarket"
+    ],
+    "nomatch": [
+      "amenity/bank|Dollar Bank",
+      "amenity/car_rental|Dollar",
+      "shop/variety_store|Dollar General",
+      "shop/variety_store|Dollar Tree",
+      "shop/variety_store|Dollarama"
     ],
     "tags": {
       "brand": "Family Dollar",
@@ -140,7 +206,19 @@
       "shop": "variety_store"
     }
   },
+  "shop/variety_store|Flying Tiger Copenhagen": {
+    "matchNames": ["tgr", "tiger"],
+    "tags": {
+      "brand": "Flying Tiger Copenhagen",
+      "brand:wikidata": "Q2786319",
+      "brand:wikipedia": "en:Flying Tiger Copenhagen",
+      "name": "Flying Tiger Copenhagen",
+      "shop": "variety_store",
+      "short_name": "Flying Tiger"
+    }
+  },
   "shop/variety_store|GiFi": {
+    "countryCodes": ["fr"],
     "tags": {
       "brand": "GiFi",
       "brand:wikidata": "Q3105439",

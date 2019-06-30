@@ -16,7 +16,7 @@ in OpenStreetMap.
 ### Browse the index
 
 You can browse the index at
-http://osmlab.github.io/name-suggestion-index/brands/index.html
+http://osmlab.github.io/name-suggestion-index
 to see which brands are missing Wikidata links, or have incomplete Wikipedia pages.
 
 
@@ -105,7 +105,6 @@ Name lists:
 ### Other commands
 
 * `npm run wikidata` - Fetch useful data from Wikidata - labels, descriptions, logos, etc.
-* `npm run docs` - Updates the index summary pages
 * `npm run` - Lists other available tools
 
 ### Updating `dist/names_all.json` from planet
@@ -113,9 +112,9 @@ Name lists:
 This takes a long time and a lot of disk space. It can be done occasionally by project maintainers.
 You do not need to do these steps in order to contribute to the index.
 
-- Install `osmium` commandline tool and node package globally (may only work on some environments)
+- Install `osmium` commandline tool and node package (may only be available on some environments)
   - `apt-get install osmium-tool` or `brew install osmium-tool` or similar
-  - `npm install -g osmium`
+  - `npm install --no-save osmium`
 - [Download the planet](http://planet.osm.org/pbf/)
   - `curl -L -o planet-latest.osm.pbf https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf`
 - Prefilter the planet file to only include named items with keys we are looking for:

@@ -89,13 +89,6 @@
       "shop": "electronics"
     }
   },
-  "shop/electronics|DNS": {
-    "tags": {
-      "brand": "DNS",
-      "name": "DNS",
-      "shop": "electronics"
-    }
-  },
   "shop/electronics|Darty": {
     "countryCodes": ["fr"],
     "tags": {
@@ -190,6 +183,16 @@
       "shop": "electronics"
     }
   },
+  "shop/electronics|Jaycar": {
+    "countryCodes": ["au", "nz"],
+    "tags": {
+      "brand": "Jaycar",
+      "brand:wikidata": "Q6167713",
+      "brand:wikipedia": "en:Jaycar",
+      "name": "Jaycar",
+      "shop": "electronics"
+    }
+  },
   "shop/electronics|Kjell & Company": {
     "countryCodes": ["no", "se"],
     "matchNames": ["kjell och company"],
@@ -255,9 +258,6 @@
       "brand": "Medimax",
       "brand:wikidata": "Q62872450",
       "name": "Medimax",
-      "operator": "ElectronicPartner",
-      "operator:wikidata": "Q1326008",
-      "operator:wikipedia": "de:ElectronicPartner",
       "shop": "electronics"
     }
   },
@@ -526,6 +526,20 @@
       "name": "ヤマダ電機",
       "name:en": "Yamada Denki",
       "name:ja": "ヤマダ電機",
+      "shop": "electronics"
+    }
+  },
+  "shop/electronics|ヨドバシカメラ": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "ヨドバシカメラ",
+      "brand:en": "Yodobashi Camera",
+      "brand:ja": "ヨドバシカメラ",
+      "brand:wikidata": "Q168467",
+      "brand:wikipedia": "ja:ヨドバシカメラ",
+      "name": "ヨドバシカメラ",
+      "name:en": "Yodobashi Camera",
+      "name:ja": "ヨドバシカメラ",
       "shop": "electronics"
     }
   },

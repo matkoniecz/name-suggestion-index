@@ -11,13 +11,6 @@
       "shop": "beauty"
     }
   },
-  "shop/beauty|Coiffure Dame": {
-    "tags": {
-      "brand": "Coiffure Dame",
-      "name": "Coiffure Dame",
-      "shop": "beauty"
-    }
-  },
   "shop/beauty|European Wax Center": {
     "countryCodes": ["us"],
     "tags": {
@@ -56,6 +49,13 @@
       "brand": "Sola Salons",
       "brand:wikidata": "Q64337426",
       "name": "Sola Salons",
+      "shop": "beauty"
+    }
+  },
+  "shop/beauty|Star Nails": {
+    "tags": {
+      "brand": "Star Nails",
+      "name": "Star Nails",
       "shop": "beauty"
     }
   },

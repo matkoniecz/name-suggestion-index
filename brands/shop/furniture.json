@@ -30,15 +30,13 @@
   },
   "shop/furniture|Ashley HomeStore": {
     "countryCodes": ["ca", "us"],
-    "matchNames": [
-      "ashley furniture",
-      "ashley furniture homestore"
-    ],
+    "matchNames": ["ashley furniture homestore"],
     "tags": {
+      "alt_name": "Ashley Furniture",
       "brand": "Ashley HomeStore",
       "brand:wikidata": "Q4805437",
       "brand:wikipedia": "en:Ashley HomeStore",
-      "name": "Ashley Furniture",
+      "name": "Ashley HomeStore",
       "shop": "furniture"
     }
   },
@@ -53,8 +51,11 @@
     }
   },
   "shop/furniture|Askona": {
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Askona",
+      "brand:wikidata": "Q4071319",
+      "brand:wikipedia": "ru:Аскона (компания)",
       "name": "Askona",
       "shop": "furniture"
     }
@@ -77,13 +78,13 @@
       "shop": "furniture"
     }
   },
-  "shop/furniture|Bob’s Discount Furniture": {
+  "shop/furniture|Bob's Discount Furniture": {
     "countryCodes": ["us"],
     "tags": {
-      "brand": "Bob’s Discount Furniture",
+      "brand": "Bob's Discount Furniture",
       "brand:wikidata": "Q4931582",
       "brand:wikipedia": "en:Bob's Discount Furniture",
-      "name": "Bob’s Discount Furniture",
+      "name": "Bob's Discount Furniture",
       "shop": "furniture"
     }
   },
@@ -118,6 +119,14 @@
     }
   },
   "shop/furniture|Casa": {
+    "countryCodes": [
+      "be",
+      "ch",
+      "es",
+      "fr",
+      "it",
+      "pt"
+    ],
     "matchTags": ["shop/interior_decoration"],
     "tags": {
       "brand": "Casa",
@@ -147,6 +156,7 @@
     }
   },
   "shop/furniture|DFS": {
+    "countryCodes": ["gb"],
     "tags": {
       "brand": "DFS",
       "brand:wikidata": "Q5204927",
@@ -167,6 +177,7 @@
     }
   },
   "shop/furniture|Ethan Allen": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Ethan Allen",
       "brand:wikidata": "Q5402870",
@@ -176,6 +187,7 @@
     }
   },
   "shop/furniture|Fly": {
+    "countryCodes": ["fr"],
     "tags": {
       "brand": "Fly",
       "brand:wikidata": "Q1389184",
@@ -258,6 +270,8 @@
     "countryCodes": ["nl"],
     "tags": {
       "brand": "Kwantum",
+      "brand:wikidata": "Q2262591",
+      "brand:wikipedia": "nl:Kwantum (winkelketen)",
       "name": "Kwantum",
       "shop": "furniture"
     }
@@ -273,8 +287,11 @@
     }
   },
   "shop/furniture|Leen Bakker": {
+    "countryCodes": ["nl"],
     "tags": {
       "brand": "Leen Bakker",
+      "brand:wikidata": "Q3333662",
+      "brand:wikipedia": "nl:Leen Bakker",
       "name": "Leen Bakker",
       "shop": "furniture"
     }
@@ -290,15 +307,30 @@
     }
   },
   "shop/furniture|Maisons du Monde": {
+    "countryCodes": [
+      "be",
+      "ch",
+      "de",
+      "es",
+      "fr",
+      "gb",
+      "it",
+      "lu"
+    ],
     "tags": {
       "brand": "Maisons du Monde",
+      "brand:wikidata": "Q3280364",
+      "brand:wikipedia": "fr:Maisons du Monde",
       "name": "Maisons du Monde",
       "shop": "furniture"
     }
   },
   "shop/furniture|Möbelix": {
+    "countryCodes": ["at", "cz", "hu", "sk"],
     "tags": {
       "brand": "Möbelix",
+      "brand:wikidata": "Q877547",
+      "brand:wikipedia": "hu:Möbelix",
       "name": "Möbelix",
       "shop": "furniture"
     }
@@ -330,6 +362,7 @@
     }
   },
   "shop/furniture|Rent-A-Center": {
+    "countryCodes": ["mx", "us"],
     "tags": {
       "brand": "Rent-A-Center",
       "brand:wikidata": "Q7313497",
@@ -339,6 +372,7 @@
     }
   },
   "shop/furniture|Restoration Hardware": {
+    "countryCodes": ["ca", "us"],
     "tags": {
       "brand": "Restoration Hardware",
       "brand:wikidata": "Q7316207",
@@ -412,10 +446,19 @@
       "shop": "furniture"
     }
   },
+  "shop/furniture|XXXLutz": {
+    "tags": {
+      "brand": "XXXLutz",
+      "name": "XXXLutz",
+      "shop": "furniture"
+    }
+  },
   "shop/furniture|İstikbal": {
     "countryCodes": ["tr"],
     "tags": {
       "brand": "İstikbal",
+      "brand:wikidata": "Q6031999",
+      "brand:wikipedia": "tr:İstikbal",
       "name": "İstikbal",
       "shop": "furniture"
     }

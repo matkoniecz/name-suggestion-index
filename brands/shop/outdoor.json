@@ -9,6 +9,15 @@
       "shop": "outdoor"
     }
   },
+  "shop/outdoor|Blacks": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Blacks",
+      "brand:wikidata": "Q64822933",
+      "name": "Blacks",
+      "shop": "outdoor"
+    }
+  },
   "shop/outdoor|Cabela's": {
     "countryCodes": ["ca", "us"],
     "tags": {
@@ -48,6 +57,15 @@
       "brand:wikidata": "Q1736294",
       "brand:wikipedia": "en:Kathmandu (company)",
       "name": "Kathmandu",
+      "shop": "outdoor"
+    }
+  },
+  "shop/outdoor|Millets": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Millets",
+      "brand:wikidata": "Q64822903",
+      "name": "Millets",
       "shop": "outdoor"
     }
   },

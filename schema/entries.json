@@ -53,9 +53,11 @@
                         "countryCodes": { "not" : {} },
                         "matchNames":   { "not" : {} },
                         "matchTags":    { "not" : {} },
+                        "operator":     { "not" : {} },
                         "nomatch":      { "not" : {} },
                         "tags":         { "not" : {} }
-                    }
+                    },
+                    "required": ["name", "brand"]
                 }
             }
         }
